@@ -87,6 +87,9 @@
       img.alt = it.cap || '';
       img.loading = 'lazy';
       img.decoding = 'async';
+      /* Intrinsic size reserves the right box before load, so a page of
+         natural-ratio images does not reflow as they stream in. */
+      if (it.w && it.h) { img.width = it.w; img.height = it.h; }
       fig.appendChild(img);
       if (it.cap) fig.appendChild(el('figcaption', null, it.cap));
       g.appendChild(fig);
@@ -108,6 +111,7 @@
       img.alt = p.title;
       img.loading = 'lazy';
       img.decoding = 'async';
+      if (p.cardSize) { img.width = p.cardSize[0]; img.height = p.cardSize[1]; }
       a.appendChild(img);
 
       var body = el('div', 'card__body');

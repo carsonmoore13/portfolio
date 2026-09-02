@@ -48,10 +48,16 @@
       "gallery": [
         {
           "src": "images/spacex-team.jpg",
-          "cap": "Starbase, Texas"
+          "cap": "Starbase, Texas",
+          "w": 1600,
+          "h": 1200
         }
       ],
-      "note": "Design work performed at SpaceX is proprietary — no CAD, drawings, part numbers, or hardware imagery are shown."
+      "note": "Design work performed at SpaceX is proprietary — no CAD, drawings, part numbers, or hardware imagery are shown.",
+      "cardSize": [
+        1600,
+        1200
+      ]
     },
     {
       "id": "ship-structures",
@@ -101,10 +107,16 @@
       "gallery": [
         {
           "src": "images/spacex-starbase.jpg",
-          "cap": "Starbase, Texas"
+          "cap": "Starbase, Texas",
+          "w": 1600,
+          "h": 2132
         }
       ],
-      "note": "Design work performed at SpaceX is proprietary — no CAD, drawings, part numbers, or hardware imagery are shown."
+      "note": "Design work performed at SpaceX is proprietary — no CAD, drawings, part numbers, or hardware imagery are shown.",
+      "cardSize": [
+        1600,
+        2132
+      ]
     },
     {
       "id": "brake-rotors",
@@ -154,20 +166,32 @@
       "gallery": [
         {
           "src": "images/rotor-slotted-cad.jpg",
-          "cap": "Slotted rotor — CAD"
+          "cap": "Slotted rotor — CAD",
+          "w": 556,
+          "h": 597
         },
         {
           "src": "images/rotor-fea.jpg",
-          "cap": "FEA of rotor and mount"
+          "cap": "FEA of rotor and mount",
+          "w": 951,
+          "h": 817
         },
         {
           "src": "images/rotor-vehicle-cad.jpg",
-          "cap": "Rear rotor assembly in vehicle"
+          "cap": "Rear rotor assembly in vehicle",
+          "w": 1306,
+          "h": 497
         },
         {
           "src": "images/lhre-parts-bench.jpg",
-          "cap": "Machined dynamics hardware"
+          "cap": "Machined dynamics hardware",
+          "w": 1675,
+          "h": 853
         }
+      ],
+      "cardSize": [
+        556,
+        597
       ]
     },
     {
@@ -206,20 +230,32 @@
       "gallery": [
         {
           "src": "images/hub-cad-render.jpg",
-          "cap": "Hub & bearing assembly — CAD"
+          "cap": "Hub & bearing assembly — CAD",
+          "w": 1247,
+          "h": 933
         },
         {
           "src": "images/hub-fea.jpg",
-          "cap": "Ansys FEA of wheel hub"
+          "cap": "Ansys FEA of wheel hub",
+          "w": 1400,
+          "h": 1161
         },
         {
           "src": "images/hub-thread-calcs.jpg",
-          "cap": "Thread engagement calculations"
+          "cap": "Thread engagement calculations",
+          "w": 1109,
+          "h": 1033
         },
         {
           "src": "images/hub-thread-formulas.jpg",
-          "cap": "Thread engagement basis"
+          "cap": "Thread engagement basis",
+          "w": 1200,
+          "h": 832
         }
+      ],
+      "cardSize": [
+        1247,
+        933
       ]
     },
     {
@@ -258,20 +294,32 @@
       "gallery": [
         {
           "src": "images/arms-cad.jpg",
-          "cap": "Wishbone assembly — CAD"
+          "cap": "Wishbone assembly — CAD",
+          "w": 1400,
+          "h": 940
         },
         {
           "src": "images/arms-apex-fea.jpg",
-          "cap": "Upper apex von Mises — 38.6 ksi max"
+          "cap": "Upper apex von Mises — 38.6 ksi max",
+          "w": 1400,
+          "h": 982
         },
         {
           "src": "images/arms-fabricated.jpg",
-          "cap": "Fabricated and painted wishbone"
+          "cap": "Fabricated and painted wishbone",
+          "w": 992,
+          "h": 1055
         },
         {
           "src": "images/lhre-suspension-callout.jpg",
-          "cap": "Corner assembly in vehicle"
+          "cap": "Corner assembly in vehicle",
+          "w": 1600,
+          "h": 899
         }
+      ],
+      "cardSize": [
+        1400,
+        940
       ]
     },
     {
@@ -317,12 +365,20 @@
       "gallery": [
         {
           "src": "images/ridehgt-assembly.jpg",
-          "cap": "Adjuster with shims unconstrained"
+          "cap": "Adjuster with shims unconstrained",
+          "w": 1107,
+          "h": 1193
         },
         {
           "src": "images/ridehgt-shim.jpg",
-          "cap": "Stand-alone shim"
+          "cap": "Stand-alone shim",
+          "w": 1140,
+          "h": 771
         }
+      ],
+      "cardSize": [
+        1107,
+        1193
       ]
     },
     {
@@ -363,12 +419,20 @@
       "gallery": [
         {
           "src": "images/bearing-sim-setup.jpg",
-          "cap": "Bearing simulation setup"
+          "cap": "Bearing simulation setup",
+          "w": 1200,
+          "h": 816
         },
         {
           "src": "images/bearing-power-loss.jpg",
-          "cap": "Net power loss vs. speed"
+          "cap": "Net power loss vs. speed",
+          "w": 1200,
+          "h": 720
         }
+      ],
+      "cardSize": [
+        1200,
+        816
       ]
     },
     {
@@ -398,7 +462,11 @@
           "text": "Presented findings in front of UT research faculty."
         }
       ],
-      "gallery": []
+      "gallery": [],
+      "cardSize": [
+        1675,
+        853
+      ]
     },
     {
       "id": "hose-carrier",
@@ -434,16 +502,26 @@
       "gallery": [
         {
           "src": "images/hose-assembly.jpg",
-          "cap": "Hose-carrying assembly"
+          "cap": "Hose-carrying assembly",
+          "w": 1384,
+          "h": 961
         },
         {
           "src": "images/hose-chain-linkage.jpg",
-          "cap": "Chain linkage part"
+          "cap": "Chain linkage part",
+          "w": 1400,
+          "h": 610
         },
         {
           "src": "images/hose-sketch-path.jpg",
-          "cap": "Sketch path"
+          "cap": "Sketch path",
+          "w": 1400,
+          "h": 272
         }
+      ],
+      "cardSize": [
+        1384,
+        961
       ]
     }
   ],
