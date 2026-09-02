@@ -26,13 +26,14 @@
 <header class="nav">
   <div class="nav__inner">
     <a class="nav__brand" href="/">
-      <b>CARSON MOORE</b><span class="mono">/ ME</span>
+      CARSON MOORE
     </a>
     <button class="nav__toggle mono" aria-expanded="false" aria-controls="navlinks">Menu</button>
     <nav class="nav__links mono" id="navlinks">
       <a href="#about">About</a>
       <a href="#experience">Experience</a>
       <a href="/projects">Projects</a>
+      <a href="#code">Code</a>
       <a href="/resume">Résumé</a>
       <a href="#contact">Contact</a>
     </nav>
@@ -42,7 +43,7 @@
 <main>
 
   <!-- ── hero ─────────────────────────────────────────── -->
-  <section class="hero gridbg">
+  <section class="hero">
     <div class="wrap hero__inner">
       <div>
         <p class="hero__kicker mono">Mechanical Engineering, B.S. · UT Austin · Dec 2027</p>
@@ -52,21 +53,13 @@
           I stand on the floor while it gets built. Two SpaceX internships at Starbase, four
           seasons on a Formula SAE electric car.
         </p>
-        <div class="hero__meta">
-          <span class="tag tag--accent">SpaceX · Booster Integration</span>
-          <span class="tag">SpaceX · Structures Build</span>
-          <span class="tag">Longhorn Racing Electric</span>
-          <span class="tag">SolidWorks · Ansys · GD&amp;T</span>
-        </div>
         <div class="hero__cta">
           <a class="btn btn--solid" href="/projects">View projects</a>
           <a class="btn" href="/resume">Résumé</a>
         </div>
       </div>
 
-      <div class="hero__card">
-        <h2>At a glance</h2>
-        <dl>
+      <dl class="facts">
           <div>
             <dt>Degree</dt>
             <dd>B.S. Mechanical Engineering<small>Minor in Computer Science</small></dd>
@@ -76,18 +69,9 @@
           <div><dt>GPA</dt><dd>3.78</dd></div>
           <div><dt>Honors</dt><dd>Tau Beta Pi<small>Gilkey Endowed Scholarship</small></dd></div>
           <div><dt>Based in</dt><dd>Austin, Texas</dd></div>
-        </dl>
-      </div>
+      </dl>
     </div>
   </section>
-
-  <!-- ── stats ────────────────────────────────────────── -->
-  <div class="stats">
-    <div class="stat"><b>13,000+</b><span class="mono">Component assembly owned</span></div>
-    <div class="stat"><b>$800K</b><span class="mono">Procurement directed</span></div>
-    <div class="stat"><b>1,100+</b><span class="mono">Production hours saved / vehicle</span></div>
-    <div class="stat"><b>1,000+</b><span class="mono">Hours of SolidWorks CAD</span></div>
-  </div>
 
   <!-- ── about ────────────────────────────────────────── -->
   <section class="section" id="about">
@@ -150,7 +134,7 @@
   </section>
 
   <!-- ── experience ───────────────────────────────────── -->
-  <section class="section section--alt" id="experience">
+  <section class="section" id="experience">
     <div class="wrap">
       <p class="rule-label mono">02 / Experience</p>
       <h2 style="margin-bottom:2.5rem">Where the work happened</h2>
@@ -270,10 +254,26 @@
     </div>
   </section>
 
-  <!-- ── beyond engineering ───────────────────────────── -->
-  <section class="section section--alt" id="community">
+  <!-- ── code ─────────────────────────────────────────── -->
+  <section class="section" id="code">
     <div class="wrap">
-      <p class="rule-label mono">04 / Beyond the shop</p>
+      <p class="rule-label mono">04 / Code</p>
+      <h2 style="margin-bottom:1.25rem">On GitHub</h2>
+      <p style="color:var(--fg-muted);max-width:56ch;margin-bottom:3rem">
+        Software I write outside the machine shop — simulation, civic data, and
+        coursework for my computer science minor.
+      </p>
+      <div class="repos" data-repos></div>
+      <p style="margin-top:2.75rem">
+        <a class="btn" href="https://github.com/carsonmoore13" target="_blank" rel="noopener">All repositories ↗</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ── beyond engineering ───────────────────────────── -->
+  <section class="section" id="community">
+    <div class="wrap">
+      <p class="rule-label mono">05 / Beyond the shop</p>
       <div class="about">
         <div data-reveal>
           <h2>Community</h2>
@@ -330,7 +330,7 @@
   <!-- ── contact ──────────────────────────────────────── -->
   <section class="section contact" id="contact">
     <div class="wrap">
-      <p class="rule-label mono" style="justify-content:center">05 / Contact</p>
+      <p class="rule-label mono">06 / Contact</p>
       <h2>Let's build something that has to work.</h2>
       <p>
         I am looking for mechanical design and build engineering roles for summer 2027

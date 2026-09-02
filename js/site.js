@@ -71,9 +71,10 @@
     return n;
   }
 
-  function tagRow(tags, cls) {
-    var row = el('div', cls);
-    (tags || []).forEach(function (t) { row.appendChild(el('span', 'tag', t)); });
+  /* A quiet middot-separated line of facts. No chips, no borders. */
+  function metaLine(items, cls) {
+    var row = el('p', 'meta' + (cls ? ' ' + cls : ''));
+    (items || []).forEach(function (t) { row.appendChild(el('span', null, t)); });
     return row;
   }
 
@@ -113,11 +114,32 @@
       body.appendChild(el('p', 'card__org mono', p.org.split('—')[0].trim()));
       body.appendChild(el('h3', 'card__title', p.title));
       body.appendChild(el('p', 'card__desc', p.summary));
-      body.appendChild(tagRow((p.tags || []).slice(0, 3), 'card__tags'));
-
-      body.appendChild(el('p', 'card__go mono', 'View project →'));
 
       a.appendChild(body);
+      frag.appendChild(a);
+    });
+    host.appendChild(frag);
+    observeReveals(host);
+  }
+
+  /* ── index: github repositories ────────────────────────── */
+  function renderRepos(host, repos) {
+    var frag = document.createDocumentFragment();
+    repos.forEach(function (r) {
+      var a = el('a', 'repos__item');
+      a.href = r.url;
+      a.target = '_blank';
+      a.rel = 'noopener';
+      a.setAttribute('data-reveal', '');
+
+      a.appendChild(el('h3', 'repos__name', r.name));
+
+      var body = el('div', 'repos__desc');
+      body.appendChild(document.createTextNode(r.desc));
+      if (r.meta && r.meta.length) body.appendChild(metaLine(r.meta));
+      a.appendChild(body);
+
+      a.appendChild(el('span', 'repos__go mono', 'GitHub ↗'));
       frag.appendChild(a);
     });
     host.appendChild(frag);
@@ -139,7 +161,7 @@
       head.appendChild(el('p', 'proj__org mono', p.org + (p.when ? '  ·  ' + p.when : '')));
       head.appendChild(el('h2', 'proj__title', p.title));
       head.appendChild(el('p', 'proj__sub', p.summary));
-      head.appendChild(tagRow(p.tags, 'proj__tags'));
+      head.appendChild(metaLine(p.tags, 'proj__tags'));
       wrap.appendChild(head);
 
       var grid = el('div', 'proj__grid');
@@ -155,25 +177,7 @@
       });
       left.appendChild(pts);
 
-      if (p.specs && p.specs.length) {
-        var dl = el('dl', 'specs');
-        p.specs.forEach(function (row) {
-          var d = el('div');
-          d.appendChild(el('dt', null, row[0]));
-          d.appendChild(el('dd', null, row[1]));
-          dl.appendChild(d);
-        });
-        left.appendChild(dl);
-      }
-
-      if (p.note) {
-        var note = el('p', 'mono');
-        note.style.marginTop = '1.5rem';
-        note.style.color = 'var(--fg-dim)';
-        note.style.letterSpacing = '0.06em';
-        note.textContent = p.note;
-        left.appendChild(note);
-      }
+      if (p.note) left.appendChild(el('p', 'proj__note mono', p.note));
 
       grid.appendChild(left);
 
@@ -211,8 +215,9 @@
 
   var cardHost = document.querySelector('[data-project-cards]');
   var projHost = document.querySelector('[data-project-sections]');
+  var repoHost = document.querySelector('[data-repos]');
 
-  if (cardHost || projHost) {
+  if (cardHost || projHost || repoHost) {
     fetch('projects.json', { cache: 'no-cache' })
       .then(function (r) {
         if (!r.ok) throw new Error('HTTP ' + r.status);
@@ -222,10 +227,11 @@
         var projects = data.projects || [];
         if (cardHost) renderCards(cardHost, projects);
         if (projHost) renderProjects(projHost, projects);
+        if (repoHost) renderRepos(repoHost, data.code || []);
       })
       .catch(function (err) {
         console.error('[site] could not load projects.json', err);
-        var host = projHost || cardHost;
+        var host = projHost || cardHost || repoHost;
         if (!host) return;
         var msg = el('p', 'mono');
         msg.style.color = 'var(--fg-dim)';
