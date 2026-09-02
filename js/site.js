@@ -91,7 +91,16 @@
          natural-ratio images does not reflow as they stream in. */
       if (it.w && it.h) { img.width = it.w; img.height = it.h; }
       fig.appendChild(img);
-      if (it.cap) fig.appendChild(el('figcaption', null, it.cap));
+      if (it.cap || it.credit) {
+        var cap = el('figcaption', null, it.cap || '');
+        /* CC-licensed photos carry their attribution with them. */
+        if (it.credit) {
+          var c = el(it.creditUrl ? 'a' : 'span', 'gallery__credit', it.credit);
+          if (it.creditUrl) { c.href = it.creditUrl; c.target = '_blank'; c.rel = 'noopener'; }
+          cap.appendChild(c);
+        }
+        fig.appendChild(cap);
+      }
       g.appendChild(fig);
     });
     return g;

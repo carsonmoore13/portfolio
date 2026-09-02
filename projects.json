@@ -65,7 +65,7 @@
       "title": "Starship Weld Cell, Lift Tooling & Flight Retrofits",
       "when": "January – August 2025",
       "featured": true,
-      "card": "images/spacex-starbase.jpg",
+      "card": "images/starship-ift5-liftoff.jpg",
       "summary": "Built a new weld-focused subassembly cell for a high-pressure propulsion manifold, designed the lift and access tooling around it, and owned five retrofitted flight parts modelled from as-built CAD.",
       "tags": [
         "Weld cell",
@@ -106,16 +106,18 @@
       ],
       "gallery": [
         {
-          "src": "images/spacex-starbase.jpg",
-          "cap": "Starbase, Texas",
-          "w": 1600,
-          "h": 2132
+          "src": "images/starship-ift5-liftoff.jpg",
+          "cap": "Starship IFT-5 liftoff, Starbase",
+          "credit": "Steve Jurvetson, CC BY 2.0",
+          "creditUrl": "https://commons.wikimedia.org/wiki/File:Liftoff_of_SpaceX_IFT-5_(54064037095).jpg",
+          "w": 1400,
+          "h": 1604
         }
       ],
       "note": "Design work performed at SpaceX is proprietary — no CAD, drawings, part numbers, or hardware imagery are shown.",
       "cardSize": [
-        1600,
-        2132
+        1400,
+        1604
       ]
     },
     {
