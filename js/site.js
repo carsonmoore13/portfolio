@@ -98,7 +98,7 @@
     var frag = document.createDocumentFragment();
     projects.filter(function (p) { return p.featured; }).forEach(function (p, i) {
       var a = el('a', 'card');
-      a.href = 'projects.html#' + p.id;
+      a.href = '/projects#' + p.id;
       a.setAttribute('data-reveal', '');
       a.style.setProperty('--reveal-delay', (i * 60) + 'ms');
 
