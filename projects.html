@@ -27,9 +27,9 @@
       <a href="/#about">About</a>
       <a href="/#experience">Experience</a>
       <a href="/projects" aria-current="page">Projects</a>
-      <a href="/#code">Code</a>
+      <a href="#code">Code</a>
       <a href="/resume">Résumé</a>
-      <a href="/#contact">Contact</a>
+      <a href="#contact">Contact</a>
     </nav>
   </div>
 </header>
@@ -49,16 +49,51 @@
 
   <div data-project-sections></div>
 
-  <section class="section contact">
+  <a class="divider" href="#code">
+    <span class="divider__rule" aria-hidden="true"></span>
+    <span class="divider__label mono">Keep scrolling · Code</span>
+    <span class="divider__chev" aria-hidden="true"></span>
+  </a>
+
+  <!-- ── code ───────────────────── -->
+  <section class="section" id="code">
     <div class="wrap">
+      <p class="rule-label mono">Portfolio / Code</p>
+      <h2 style="margin-bottom:1.25rem">On GitHub</h2>
+      <p style="color:var(--fg-muted);max-width:56ch;margin-bottom:3rem">
+        Software I write outside the machine shop — simulation, civic data, and
+        coursework for my computer science minor.
+      </p>
+      <div class="repos" data-repos></div>
+      <p style="margin-top:2.75rem">
+        <a class="btn" href="https://github.com/carsonmoore13" target="_blank" rel="noopener">All repositories ↗</a>
+      </p>
+    </div>
+  </section>
+
+  <a class="divider" href="#contact">
+    <span class="divider__rule" aria-hidden="true"></span>
+    <span class="divider__label mono">Keep scrolling · Contact</span>
+    <span class="divider__chev" aria-hidden="true"></span>
+  </a>
+
+  <!-- ── contact ─────────────────── -->
+  <section class="section contact" id="contact">
+    <div class="wrap">
+      <p class="rule-label mono">Portfolio / Contact</p>
       <h2>Want the drawings behind any of these?</h2>
-      <p>Happy to walk through the analysis, the trade studies, or what broke first.</p>
+      <p>
+        Happy to walk through the analysis, the trade studies, or what broke first —
+        on the hardware or the code.
+      </p>
       <div class="contact__links">
-        <a class="btn btn--solid" href="mailto:carsonmoore715@gmail.com">Get in touch</a>
+        <a class="btn btn--solid" href="mailto:carsonmoore715@gmail.com">carsonmoore715@gmail.com</a>
+        <a class="btn" href="https://www.linkedin.com/in/carsonm13" target="_blank" rel="noopener">LinkedIn</a>
         <a class="btn" href="/">Back to overview</a>
       </div>
     </div>
   </section>
+
 </main>
 
 <footer class="footer wrap mono">

@@ -138,21 +138,40 @@
   /* ── index: github repositories ────────────────────────── */
   function renderRepos(host, repos) {
     var frag = document.createDocumentFragment();
-    repos.forEach(function (r) {
-      var a = el('a', 'repos__item');
+    repos.forEach(function (r, i) {
+      var a = el('a', 'repos__item' + (r.shot ? ' repos__item--shot' : ''));
       a.href = r.url;
       a.target = '_blank';
       a.rel = 'noopener';
       a.setAttribute('data-reveal', '');
+      a.style.setProperty('--reveal-delay', (i * 60) + 'ms');
 
-      a.appendChild(el('h3', 'repos__name', r.name));
+      var text = el('div', 'repos__text');
+      text.appendChild(el('h3', 'repos__name', r.name));
 
       var body = el('div', 'repos__desc');
       body.appendChild(document.createTextNode(r.desc));
       if (r.meta && r.meta.length) body.appendChild(metaLine(r.meta));
-      a.appendChild(body);
+      text.appendChild(body);
 
-      a.appendChild(el('span', 'repos__go mono', 'GitHub ↗'));
+      text.appendChild(el('span', 'repos__go mono', 'GitHub \u2197'));
+      a.appendChild(text);
+
+      /* Where a repo produces something you can look at, show it. Repos
+         without a shot (coursework) simply run the text full width. */
+      if (r.shot) {
+        var fig = el('figure', 'repos__shot');
+        var img = el('img');
+        img.src = r.shot;
+        img.alt = r.name + ' \u2014 output from the running project';
+        img.loading = 'lazy';
+        img.decoding = 'async';
+        if (r.shotSize) { img.width = r.shotSize[0]; img.height = r.shotSize[1]; }
+        fig.appendChild(img);
+        if (r.shotCap) fig.appendChild(el('figcaption', null, r.shotCap));
+        a.appendChild(fig);
+      }
+
       frag.appendChild(a);
     });
     host.appendChild(frag);

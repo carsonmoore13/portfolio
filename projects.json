@@ -6,7 +6,7 @@
       "title": "Starship Booster Cryo Proof Tooling",
       "when": "May – August 2026",
       "featured": true,
-      "card": "images/spacex-team.jpg",
+      "card": "images/superheavy-pad.jpg",
       "summary": "Responsible Engineer for the 13,000+ component assembly that seals Starship Booster's 33 engine feedlines during Cryo Proof — the last full-vehicle test before engines go on.",
       "tags": [
         "Responsible Engineer",
@@ -47,16 +47,16 @@
       ],
       "gallery": [
         {
-          "src": "images/spacex-team.jpg",
-          "cap": "Starbase, Texas",
-          "w": 1600,
-          "h": 1200
+          "src": "images/superheavy-pad.jpg",
+          "cap": "Super Heavy at the pad, Starbase",
+          "w": 293,
+          "h": 220
         }
       ],
       "note": "Design work performed at SpaceX is proprietary — no CAD, drawings, part numbers, or hardware imagery are shown.",
       "cardSize": [
-        1600,
-        1200
+        293,
+        220
       ]
     },
     {
@@ -536,7 +536,13 @@
         "React + Vite",
         "Express + MongoDB",
         "Leaflet"
-      ]
+      ],
+      "shot": "images/code-policymarket.jpg",
+      "shotSize": [
+        1396,
+        636
+      ],
+      "shotCap": "State-level races for a resolved address — HD-15 boundary overlaid, candidates in the panel."
     },
     {
       "name": "march-madness",
@@ -546,7 +552,13 @@
         "JavaScript",
         "Monte Carlo",
         "2025 + 2026 fields"
-      ]
+      ],
+      "shot": "images/code-march-madness.jpg",
+      "shotSize": [
+        1600,
+        1067
+      ],
+      "shotCap": "Full bracket from a 10,000-run simulation, with per-matchup advance probabilities."
     },
     {
       "name": "Runtime-Terror",
@@ -556,7 +568,13 @@
         "React",
         "Python",
         "Geospatial data"
-      ]
+      ],
+      "shot": "images/code-runtime-terror.jpg",
+      "shotSize": [
+        1600,
+        1003
+      ],
+      "shotCap": "Heat-flow density over North America with the top-ranked geothermal sites called out."
     },
     {
       "name": "CS313E",
