@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projects — Carson Moore</title>
+<meta name="description" content="Detailed mechanical design projects: Superheavy cryo proof tooling, Starship fixtures, FSAE brake rotors, wheel hubs, control arms, and drill-rig hose carriers.">
+<meta name="theme-color" content="#BF5700">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav__inner">
+    <a class="nav__brand" href="index.html">
+      <b>CARSON MOORE</b><span class="mono">/ ME</span>
+    </a>
+    <button class="nav__toggle mono" aria-expanded="false" aria-controls="navlinks">Menu</button>
+    <nav class="nav__links mono" id="navlinks">
+      <a href="index.html#about">About</a>
+      <a href="index.html#experience">Experience</a>
+      <a href="projects.html" aria-current="page">Projects</a>
+      <a href="index.html#contact">Contact</a>
+      <a href="resume.html">Résumé</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="section gridbg" style="padding-bottom:2rem">
+    <div class="wrap">
+      <p class="rule-label mono">Portfolio / Detail</p>
+      <h1 style="font-size:var(--step-3)">Projects</h1>
+      <p class="proj__sub">
+        Nine projects across launch vehicle tooling, Formula SAE vehicle dynamics,
+        robotics research, and geotechnical drilling equipment — the design intent, the
+        analysis behind it, and what it actually saved.
+      </p>
+    </div>
+  </section>
+
+  <div data-project-sections></div>
+
+  <section class="section section--alt contact">
+    <div class="wrap">
+      <h2>Want the drawings behind any of these?</h2>
+      <p>Happy to walk through the analysis, the trade studies, or what broke first.</p>
+      <div class="contact__links">
+        <a class="btn btn--solid" href="mailto:carsonmoore715@gmail.com">Get in touch</a>
+        <a class="btn" href="index.html">Back to overview</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer wrap mono">
+  <span>© <span data-year></span> Carson Moore</span>
+  <span>The University of Texas at Austin · Cockrell School of Engineering</span>
+</footer>
+
+<script src="js/site.js" defer></script>
+</body>
+</html>

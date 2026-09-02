@@ -1,0 +1,52 @@
+/* ──────────────────────────────────────────────────────────
+   tokens.css — UT Austin / Cockrell School palette + scale
+   Official UT primary: Burnt Orange #BF5700, Charcoal #333F48
+   Official UT secondary accents used sparingly for data/tags.
+────────────────────────────────────────────────────────── */
+:root {
+  /* Brand */
+  --ut-orange:        #BF5700;
+  --ut-orange-bright: #F8971F;
+  --ut-orange-glow:   rgba(248, 151, 31, 0.16);
+  --ut-charcoal:      #333F48;
+  --ut-yellow:        #FFD600;
+  --ut-green:         #A6CD57;
+  --ut-teal:          #00A9B7;
+  --ut-blue:          #005F86;
+  --ut-tan:           #D6D2C4;
+  --ut-gray:          #9CADB7;
+
+  /* Surfaces (dark shop-floor theme) */
+  --bg:            #0D1113;
+  --bg-alt:        #12181B;
+  --surface:       #182024;
+  --surface-hi:    #1F292E;
+  --line:          rgba(156, 173, 183, 0.16);
+  --line-strong:   rgba(156, 173, 183, 0.30);
+
+  /* Type */
+  --fg:            #E9EDEF;
+  --fg-muted:      #A3B0B7;
+  --fg-dim:        #6F7D85;
+
+  --font-sans: "Inter", "Helvetica Neue", Arial, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+
+  --step--1: clamp(0.78rem, 0.75rem + 0.15vw, 0.86rem);
+  --step-0:  clamp(0.95rem, 0.9rem + 0.25vw, 1.05rem);
+  --step-1:  clamp(1.15rem, 1.05rem + 0.5vw, 1.4rem);
+  --step-2:  clamp(1.5rem, 1.3rem + 1vw, 2.1rem);
+  --step-3:  clamp(2rem, 1.5rem + 2.4vw, 3.4rem);
+  --step-4:  clamp(2.6rem, 1.6rem + 4.6vw, 5.6rem);
+
+  /* Layout */
+  --maxw: 1240px;
+  --gut: clamp(1.25rem, 4vw, 3.5rem);
+  --radius: 3px;
+  --nav-h: 68px;
+
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+/* The site is intentionally single-theme (dark). Light-mode users still get
+   the same deliberate palette rather than a washed-out inversion. */

@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Résumé — Carson Moore</title>
+<meta name="description" content="Résumé of Carson Spencer Moore — B.S. Mechanical Engineering, UT Austin, December 2027. SpaceX, Longhorn Racing Electric, SiDi Lab.">
+<meta name="theme-color" content="#BF5700">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav__inner">
+    <a class="nav__brand" href="index.html">
+      <b>CARSON MOORE</b><span class="mono">/ ME</span>
+    </a>
+    <button class="nav__toggle mono" aria-expanded="false" aria-controls="navlinks">Menu</button>
+    <nav class="nav__links mono" id="navlinks">
+      <a href="index.html#about">About</a>
+      <a href="index.html#experience">Experience</a>
+      <a href="projects.html">Projects</a>
+      <a href="resume.html" aria-current="page">Résumé</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="section gridbg">
+  <div class="wrap cv">
+
+    <header class="cv__head">
+      <p class="rule-label mono">Résumé</p>
+      <h1 style="font-size:var(--step-3)">Carson Spencer Moore</h1>
+      <div class="cv__contact mono">
+        <a href="mailto:carsonmoore715@gmail.com">carsonmoore715@gmail.com</a>
+        <a href="tel:+12814755900">(281) 475-5900</a>
+        <a href="https://www.linkedin.com/in/carsonm13" target="_blank" rel="noopener">linkedin.com/in/carsonm13</a>
+      </div>
+      <div class="cv__actions hero__cta" style="margin-top:2rem">
+        <a class="btn btn--solid" href="resume.pdf" target="_blank" rel="noopener">Download PDF</a>
+        <a class="btn" href="projects.html">See the work</a>
+      </div>
+    </header>
+
+    <!-- ── education ─────────────────────────────────── -->
+    <section class="cv__block" data-reveal>
+      <h2>Education</h2>
+      <article class="cv__entry">
+        <header>
+          <h3>The University of Texas at Austin <span>— Austin, Texas</span></h3>
+          <p class="cv__when mono">December 2027</p>
+        </header>
+        <ul>
+          <li>B.S. in Mechanical Engineering; Minor in Computer Science</li>
+          <li>GPA: 3.78</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- ── experience ────────────────────────────────── -->
+    <section class="cv__block" data-reveal>
+      <h2>Experience</h2>
+
+      <article class="cv__entry">
+        <header>
+          <h3>SpaceX <span>— Booster Integration Engineering Intern · Starbase, Texas</span></h3>
+          <p class="cv__when mono">May 2026 – August 2026</p>
+        </header>
+        <ul>
+          <li>Responsible Engineer for 13,000+ component assembly sealing Starship Booster's 33 engine feedlines during Cryo Proof</li>
+          <li>Re-designed tooling to seal properly with a high-flow Gaseous Oxygen test assembly, a drain manifold for post-test cryo removal, and gas systems ports enabling decay checks and transducer testing with the Checkouts team</li>
+          <li>Directed $800,000 in machined part procurement, running daily vendor calls to ensure timely, print-conforming delivery</li>
+          <li>Ran a daily stand-up and authored a daily status email to 80+ stakeholders, driving alignment across organizations</li>
+          <li>Ran FEA on max-pressure blow-off load cases to validate structural and sealing performance under Cryo Proof loading</li>
+          <li>Oversaw up to 25 technicians during subassembly build and vehicle integration, dispositioning issues on the floor while designing lineside parts storage solutions and physically integrating tooling on-vehicle to resolve fit issues firsthand</li>
+          <li>Saved over 1,100 production hours per vehicle through design rate improvements, streamlining planning and storage</li>
+        </ul>
+      </article>
+
+      <article class="cv__entry">
+        <header>
+          <h3>Longhorn Racing Electric FSAE <span>— Dynamics Engineer · Austin, Texas</span></h3>
+          <p class="cv__when mono">August 2023 – Present</p>
+        </header>
+        <ul>
+          <li>Designed aluminum rear wheel hub assembly for manufacturing and validated the hub with Ansys Finite Element Analysis</li>
+          <li>Designed brake rotors and mounts for maximal air clearing and validated rotor structure/temperature tolerance</li>
+          <li>Over 1,000 hours of CAD experience in SolidWorks and 200 hours of manufacturing experience at UT's machine shop</li>
+          <li>Lectured 20 new and returning members, covering tension, compression, and bending fundamentals for structural design</li>
+          <li>Simulated dynamic load cases in SKF SimPro Quick to select rear wheel bearings optimized for fatigue life and load capacity</li>
+          <li>Utilized SolidWorks Finite Element Analysis on discrete adjustment attachment to validate its structural integrity</li>
+          <li>Engineered a carbon fiber push rod and swept control arm assembly to minimize mass, cutting suspension weight by 5 lbs</li>
+        </ul>
+      </article>
+
+      <article class="cv__entry">
+        <header>
+          <h3>SpaceX <span>— Structures Build Engineering Intern · Starbase, Texas</span></h3>
+          <p class="cv__when mono">January 2025 – August 2025</p>
+        </header>
+        <ul>
+          <li>Supported over 5,000 hours of technician labor, resolving issues on the floor and managing up to 16 technicians at once</li>
+          <li>Designed and built a new weld-focused subassembly build cell for a high-pressure propulsion manifold on the Starship vehicle</li>
+          <li>Designed fixture tooling to fit up endpoint flanges on tubes using GD&amp;T to hold tolerance across the 9-meter-long weld cell</li>
+          <li>Worked with suppliers to coordinate over $50,000 in purchases to punctually deliver tools lineside on a tight schedule</li>
+          <li>Designed a lift tool rated to 1,100 lbs and proof-tested to 2× Working Load Limit for safe handling of propulsion assemblies</li>
+          <li>Designed a tool improving work access and integration for aft flap torque frames on the rocket, saving 50 labor hours per vehicle</li>
+          <li>Owned 5 retrofitted flight parts through modeling precise as-built CAD assemblies to manufacture off-nominal parts on assembly</li>
+        </ul>
+      </article>
+
+      <article class="cv__entry">
+        <header>
+          <h3>SiDi Lab, UT Austin <span>— Undergraduate Robotics Researcher · Austin, Texas</span></h3>
+          <p class="cv__when mono">January 2024 – April 2024</p>
+        </header>
+        <ul>
+          <li>Integrated an infrared motion-capture camera system with a robotic arm and driver software using Python and the NatNet SDK, enabling real-time position tracking for swarm manufacturing research; presented findings in front of UT research faculty</li>
+        </ul>
+      </article>
+
+      <article class="cv__entry">
+        <header>
+          <h3>Housing Scout <span>— Real Estate Agent · Austin, Texas</span></h3>
+          <p class="cv__when mono">April 2024 – April 2026</p>
+        </header>
+        <ul>
+          <li>Licensed Texas agent specializing in leasing, matching students to suitable housing accommodations near the UT campus</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- ── community ─────────────────────────────────── -->
+    <section class="cv__block" data-reveal>
+      <h2>Community Involvement</h2>
+
+      <article class="cv__entry">
+        <header>
+          <h3>Neighborhood Longhorns <span>— Math Tutor · Austin, Texas</span></h3>
+          <p class="cv__when mono">August 2024 – Present</p>
+        </header>
+        <ul>
+          <li>Tutored four 6th-grade students weekly for an hour in mathematics, supporting a Title I middle school near the UT Austin campus</li>
+          <li>Contributed to a 23.7% increase in students' STAAR math testing results between the 2025 and 2026 school years</li>
+        </ul>
+      </article>
+
+      <article class="cv__entry">
+        <header>
+          <h3>Texas Wranglers <span>— Alumni Liaison · Austin, Texas</span></h3>
+          <p class="cv__when mono">September 2023 – Present</p>
+        </header>
+        <ul>
+          <li>Coordinate member events with alumni and support backend development/outreach for the organization's alumni database</li>
+          <li>Appointed by the Vice President of the organization to serve anonymously on the Texas Wranglers Disciplinary Board</li>
+        </ul>
+      </article>
+
+      <article class="cv__entry">
+        <header>
+          <h3>Volunteer service</h3>
+        </header>
+        <ul>
+          <li>Assisted disabled veterans at an Easterseals gym for 100+ hours by cleaning equipment and helping gymgoers access machines</li>
+          <li>50+ hours of caretaking with the On the Moov Student Accessibility Initiative, helping care for a disabled UT Austin student</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- ── additional ────────────────────────────────── -->
+    <section class="cv__block" data-reveal>
+      <h2>Additional</h2>
+      <dl class="cv__kv">
+        <div>
+          <dt>Honors</dt>
+          <dd>Glenn and Nancy Gilkey Endowed Scholarship in Mechanical Engineering recipient · Selected for Tau Beta Pi Engineering Honors Fraternity · Eagle Scout with Bronze Palms</dd>
+        </div>
+        <div>
+          <dt>Computer skills</dt>
+          <dd>SOLIDWORKS CAD · SOLIDWORKS CAM · Python · Microsoft Office · Fusion 360 · SKF SimPro Quick · MATLAB</dd>
+        </div>
+        <div>
+          <dt>Certifications</dt>
+          <dd>Machine shop · 3D printing · Laser cutting</dd>
+        </div>
+        <div>
+          <dt>Interests</dt>
+          <dd>Tennis · Endurance running · College football · Alto saxophone</dd>
+        </div>
+      </dl>
+    </section>
+
+  </div>
+</main>
+
+<footer class="footer wrap mono">
+  <span>© <span data-year></span> Carson Moore</span>
+  <span>The University of Texas at Austin · Cockrell School of Engineering</span>
+</footer>
+
+<script src="js/site.js" defer></script>
+</body>
+</html>

@@ -1,18 +1,356 @@
 <!doctype html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description"
-    content="Carson Moore — Mechanical Engineering student at UT Austin, SpaceX intern, and developer. Portfolio of engineering and software projects." />
-  <title>Carson Moore | Engineer & Developer</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Carson Moore — Mechanical Engineering Portfolio</title>
+<meta name="description" content="Carson Moore — B.S. Mechanical Engineering, UT Austin (Dec 2027). SpaceX Booster Integration and Structures Build Engineering intern; Longhorn Racing Electric dynamics engineer.">
+<meta name="theme-color" content="#BF5700">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Carson Moore — Mechanical Engineering Portfolio">
+<meta property="og:description" content="SpaceX Booster Integration &amp; Structures Build Engineering · Longhorn Racing Electric · UT Austin Cockrell School of Engineering.">
+<meta property="og:image" content="images/lhre-car-2024.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/animations.css">
 </head>
-
 <body>
-  <div id="root"></div>
-  <script type="module" src="/src/main.jsx"></script>
-</body>
 
+<header class="nav">
+  <div class="nav__inner">
+    <a class="nav__brand" href="index.html">
+      <b>CARSON MOORE</b><span class="mono">/ ME</span>
+    </a>
+    <button class="nav__toggle mono" aria-expanded="false" aria-controls="navlinks">Menu</button>
+    <nav class="nav__links mono" id="navlinks">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="projects.html">Projects</a>
+      <a href="resume.html">Résumé</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- ── hero ─────────────────────────────────────────── -->
+  <section class="hero gridbg">
+    <div class="wrap hero__inner">
+      <div>
+        <p class="hero__kicker mono">Mechanical Engineering, B.S. · UT Austin · Dec 2027</p>
+        <h1 class="hero__name">Carson<br><em>Moore</em></h1>
+        <p class="hero__lede">
+          I design tooling and vehicle hardware that has to work the first time — and then
+          I stand on the floor while it gets built. Two SpaceX internships at Starbase, four
+          seasons on a Formula SAE electric car.
+        </p>
+        <div class="hero__meta">
+          <span class="tag tag--accent">SpaceX · Booster Integration</span>
+          <span class="tag">SpaceX · Structures Build</span>
+          <span class="tag">Longhorn Racing Electric</span>
+          <span class="tag">SolidWorks · Ansys · GD&amp;T</span>
+        </div>
+        <div class="hero__cta">
+          <a class="btn btn--solid" href="projects.html">View projects</a>
+          <a class="btn" href="resume.html">Résumé</a>
+        </div>
+      </div>
+
+      <div class="hero__card">
+        <h2>At a glance</h2>
+        <dl>
+          <div>
+            <dt>Degree</dt>
+            <dd>B.S. Mechanical Engineering<small>Minor in Computer Science</small></dd>
+          </div>
+          <div><dt>University</dt><dd>UT Austin<small>Cockrell School of Engineering</small></dd></div>
+          <div><dt>Graduating</dt><dd>December 2027</dd></div>
+          <div><dt>GPA</dt><dd>3.78</dd></div>
+          <div><dt>Honors</dt><dd>Tau Beta Pi<small>Gilkey Endowed Scholarship</small></dd></div>
+          <div><dt>Based in</dt><dd>Austin, Texas</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── stats ────────────────────────────────────────── -->
+  <div class="stats">
+    <div class="stat"><b>13,000+</b><span class="mono">Component assembly owned</span></div>
+    <div class="stat"><b>$800K</b><span class="mono">Procurement directed</span></div>
+    <div class="stat"><b>1,100+</b><span class="mono">Production hours saved / vehicle</span></div>
+    <div class="stat"><b>1,000+</b><span class="mono">Hours of SolidWorks CAD</span></div>
+  </div>
+
+  <!-- ── about ────────────────────────────────────────── -->
+  <section class="section" id="about">
+    <div class="wrap">
+      <p class="rule-label mono">01 / About</p>
+      <div class="about">
+        <figure class="about__portrait" data-reveal>
+          <img src="images/spacex-starbase.jpg" alt="Carson Moore at Starbase, Texas">
+        </figure>
+        <div data-reveal style="--reveal-delay:80ms">
+          <h2>Design engineer, production first.</h2>
+          <p style="margin-top:1.5rem">
+            I am a mechanical engineering student at the University of Texas at Austin's
+            Cockrell School, graduating in December 2027 with a minor in computer science.
+            Two internships at SpaceX put me on the factory floor at Starbase — first designing
+            weld cells, lift tooling, and flight-part retrofits for Starship, then serving as
+            Responsible Engineer for the 13,000+ component assembly that seals the Booster's
+            33 engine feedlines during Cryo Proof.
+          </p>
+          <p>
+            The through-line in my work is designing hardware that survives contact with the
+            people who have to build it. That means GD&amp;T a machinist can actually hold,
+            tooling that is ergonomic on a real production line, and adjustment mechanisms a
+            trackside engineer can service in seconds. I would rather disposition an issue
+            standing next to the part than argue about it in a review.
+          </p>
+          <p>
+            On Longhorn Racing Electric I have worked every corner of vehicle dynamics —
+            suspension, unsprung, brakes — and now lecture new members on the structural
+            fundamentals behind it.
+          </p>
+
+          <div class="skills">
+            <div>
+              <h4>Design &amp; analysis</h4>
+              <ul>
+                <li>SolidWorks — CAD, CAM, FEA</li>
+                <li>Ansys Mechanical</li>
+                <li>GD&amp;T and tolerance stack-ups</li>
+                <li>Fusion 360</li>
+                <li>SKF SimPro Quick</li>
+                <li>Python, MATLAB</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Build &amp; fabrication</h4>
+              <ul>
+                <li>Manual and CNC mill, lathe</li>
+                <li>Weld fixturing and weld cell design</li>
+                <li>Composites layup</li>
+                <li>3D printing, laser cutting (certified)</li>
+                <li>Production build planning</li>
+                <li>Vendor and procurement management</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── experience ───────────────────────────────────── -->
+  <section class="section section--alt" id="experience">
+    <div class="wrap">
+      <p class="rule-label mono">02 / Experience</p>
+      <h2 style="margin-bottom:2.5rem">Where the work happened</h2>
+
+      <div class="xp">
+        <article class="xp__item" data-reveal>
+          <div>
+            <p class="xp__when mono">May – Aug 2026</p>
+            <p class="xp__org mono">SpaceX · Starbase, TX</p>
+          </div>
+          <div class="xp__body">
+            <h3 class="xp__role">Booster Integration Engineering Intern</h3>
+            <p>
+              Responsible Engineer for the 13,000+ component assembly sealing Starship Booster's
+              33 engine feedlines during Cryo Proof.
+            </p>
+            <ul>
+              <li>Re-designed tooling to seal with a high-flow gaseous oxygen test assembly, a post-test cryo drain manifold, and gas system ports for decay checks and transducer testing.</li>
+              <li>Directed $800,000 in machined part procurement with daily vendor calls for print-conforming delivery.</li>
+              <li>Ran FEA on max-pressure blow-off load cases to validate structural and sealing performance.</li>
+              <li>Oversaw up to 25 technicians through subassembly build and vehicle integration.</li>
+              <li>Saved 1,100+ production hours per vehicle through design rate improvements.</li>
+            </ul>
+            <a class="btn" style="margin-top:1.5rem" href="projects.html#booster-cryo-proof">Read more</a>
+          </div>
+        </article>
+
+        <article class="xp__item" data-reveal>
+          <div>
+            <p class="xp__when mono">Aug 2023 – Present</p>
+            <p class="xp__org mono">Longhorn Racing Electric · UT Austin</p>
+          </div>
+          <div class="xp__body">
+            <h3 class="xp__role">Dynamics Engineer</h3>
+            <p>
+              Mechanical design, analysis, and manufacturing of critical vehicle dynamics parts
+              across four seasons of a Formula SAE electric car.
+            </p>
+            <ul>
+              <li>Designed the aluminium rear wheel hub assembly for manufacturing and validated it with Ansys FEA.</li>
+              <li>Designed brake rotors and mounts for maximal air clearing, validating structure and temperature tolerance.</li>
+              <li>Engineered a carbon fiber pushrod and swept control arm assembly, cutting suspension weight by 5 lbs.</li>
+              <li>Simulated dynamic load cases in SKF SimPro Quick to select rear wheel bearings for fatigue life and load capacity.</li>
+              <li>1,000+ hours of SolidWorks CAD and 200 hours in UT's machine shop; lectured 20 members on tension, compression, and bending.</li>
+            </ul>
+            <div class="xp__media">
+              <img src="images/lhre-car-2024.jpg" alt="Longhorn Racing Electric car on track" loading="lazy">
+              <img src="images/lhre-parts-bench.jpg" alt="Machined dynamics hardware laid out on a bench" loading="lazy">
+            </div>
+          </div>
+        </article>
+
+        <article class="xp__item" data-reveal>
+          <div>
+            <p class="xp__when mono">Jan – Aug 2025</p>
+            <p class="xp__org mono">SpaceX · Starbase, TX</p>
+          </div>
+          <div class="xp__body">
+            <h3 class="xp__role">Structures Build Engineering Intern</h3>
+            <p>
+              Designed and built a new weld-focused subassembly build cell for a high-pressure
+              propulsion manifold on Starship, and supported over 5,000 hours of technician labor.
+            </p>
+            <ul>
+              <li>Used GD&amp;T to hold flange fit-up tolerance across a 9-meter-long weld cell.</li>
+              <li>Designed a lift tool rated to 1,100 lbs, proof-tested to 2× working load limit.</li>
+              <li>Designed an access tool for aft flap torque frames, saving 50 labor hours per vehicle.</li>
+              <li>Owned 5 retrofitted flight parts through precise as-built CAD modeling.</li>
+              <li>Coordinated $50,000+ in supplier purchases on a tight schedule.</li>
+            </ul>
+            <a class="btn" style="margin-top:1.5rem" href="projects.html#ship-structures">Read more</a>
+          </div>
+        </article>
+
+        <article class="xp__item" data-reveal>
+          <div>
+            <p class="xp__when mono">Jan – Apr 2024</p>
+            <p class="xp__org mono">SiDi Lab · UT Austin</p>
+          </div>
+          <div class="xp__body">
+            <h3 class="xp__role">Undergraduate Robotics Researcher</h3>
+            <p>
+              Integrated an infrared motion-capture camera system with a robotic arm and driver
+              software using Python and the NatNet SDK, enabling real-time position tracking for
+              swarm manufacturing research. Presented findings to UT research faculty.
+            </p>
+            <a class="btn" style="margin-top:1.5rem" href="projects.html#motion-capture">Read more</a>
+          </div>
+        </article>
+
+        <article class="xp__item" data-reveal>
+          <div>
+            <p class="xp__when mono">Apr 2024 – Apr 2026</p>
+            <p class="xp__org mono">Housing Scout · Austin, TX</p>
+          </div>
+          <div class="xp__body">
+            <h3 class="xp__role">Real Estate Agent</h3>
+            <p>
+              Licensed Texas agent specializing in leasing, matching students to suitable housing
+              accommodations near the UT campus.
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── projects ─────────────────────────────────────── -->
+  <section class="section" id="projects">
+    <div class="wrap">
+      <p class="rule-label mono">03 / Selected work</p>
+      <h2 style="margin-bottom:2.5rem">Projects</h2>
+      <div class="cards" data-project-cards></div>
+      <p style="margin-top:2.5rem">
+        <a class="btn" href="projects.html">All projects, in detail →</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ── beyond engineering ───────────────────────────── -->
+  <section class="section section--alt" id="community">
+    <div class="wrap">
+      <p class="rule-label mono">04 / Beyond the shop</p>
+      <div class="about">
+        <div data-reveal>
+          <h2>Community</h2>
+          <p style="margin-top:1.5rem">
+            <strong style="color:var(--fg)">Neighborhood Longhorns</strong> — Math tutor since
+            August 2024. I tutor four 6th-grade students weekly at a Title I middle school near
+            campus. Between the 2025 and 2026 school years, our students' STAAR math results rose
+            23.7%.
+          </p>
+          <p>
+            <strong style="color:var(--fg)">Texas Wranglers</strong> — Alumni Liaison since
+            September 2023. I coordinate member events with alumni and support backend
+            development and outreach for the organization's alumni database. Appointed by the
+            Vice President to serve anonymously on the Disciplinary Board.
+          </p>
+          <p>
+            <strong style="color:var(--fg)">Easterseals &amp; On the Moov</strong> — 100+ hours
+            assisting disabled veterans at an Easterseals gym, and 50+ hours of caretaking with
+            the On the Moov Student Accessibility Initiative supporting a disabled UT student.
+          </p>
+        </div>
+        <div data-reveal style="--reveal-delay:80ms">
+          <h2>Honors &amp; interests</h2>
+          <div class="skills" style="margin-top:1.5rem">
+            <div>
+              <h4>Honors</h4>
+              <ul>
+                <li>Tau Beta Pi Engineering Honors Fraternity</li>
+                <li>Glenn and Nancy Gilkey Endowed Scholarship in Mechanical Engineering</li>
+                <li>Eagle Scout with Bronze Palms</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Certifications</h4>
+              <ul>
+                <li>Machine shop</li>
+                <li>3D printing</li>
+                <li>Laser cutting</li>
+              </ul>
+              <h4 style="margin-top:1.5rem">Interests</h4>
+              <ul>
+                <li>Tennis</li>
+                <li>Endurance running</li>
+                <li>College football</li>
+                <li>Alto saxophone</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── contact ──────────────────────────────────────── -->
+  <section class="section contact" id="contact">
+    <div class="wrap">
+      <p class="rule-label mono" style="justify-content:center">05 / Contact</p>
+      <h2>Let's build something that has to work.</h2>
+      <p>
+        I am looking for mechanical design and build engineering roles for summer 2027
+        and full-time after I graduate in December 2027.
+      </p>
+      <div class="contact__links">
+        <a class="btn btn--solid" href="mailto:carsonmoore715@gmail.com">carsonmoore715@gmail.com</a>
+        <a class="btn" href="https://www.linkedin.com/in/carsonm13" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="resume.pdf" target="_blank" rel="noopener">Résumé (PDF)</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer wrap mono">
+  <span>© <span data-year></span> Carson Moore</span>
+  <span>The University of Texas at Austin · Cockrell School of Engineering</span>
+</footer>
+
+<script src="js/site.js" defer></script>
+</body>
 </html>
