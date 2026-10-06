@@ -1,0 +1,1 @@
+Supporting files for the engineering portfolio. The brake sizing export is a design revision record. The SKF report documents a separate team bearing configuration and retains its original author and date.
