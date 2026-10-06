@@ -2,12 +2,12 @@
   "projects": [
     {
       "id": "booster-cryo-proof",
-      "org": "SpaceX — Booster Integration Engineering",
+      "org": "SpaceX: Booster Integration Engineering",
       "title": "Starship Booster Cryo Proof Tooling",
       "when": "May – August 2026",
       "featured": true,
-      "card": "images/superheavy-pad.jpg",
-      "summary": "Responsible Engineer for the 13,000+ component assembly that seals Starship Booster's 33 engine feedlines during Cryo Proof — the last full-vehicle test before engines go on.",
+      "card": "images/spacex-starbase.jpg",
+      "summary": "I redesigned cryo-proof test tooling to simplify assembly, reduce unnecessary leak paths, and improve test repeatability on Super Heavy.",
       "tags": [
         "Responsible Engineer",
         "13,000+ components",
@@ -17,56 +17,68 @@
       ],
       "points": [
         {
-          "lead": "Ownership",
-          "text": "Responsible Engineer for the 13,000+ component assembly sealing Starship Booster's 33 engine feedlines during Cryo Proof."
+          "lead": "A repeatable test setup",
+          "text": "The inherited assembly had unnecessary leak paths, a complicated bolted stackup, and no reliable CAD reference. I rebuilt the assembly model as the design reference and used it to coordinate the tooling changes."
         },
         {
-          "lead": "Tooling redesign",
-          "text": "Re-designed the tooling to seal properly with a high-flow gaseous oxygen test assembly, a drain manifold for post-test cryo removal, and gas system ports enabling decay checks and transducer testing with the Checkouts team."
+          "lead": "Simpler interfaces",
+          "text": "I replaced the plate-to-drain bolted stackup with a custom welded elbow fitting that located its own orientation for welding. I also worked with the propulsion responsible engineer to revise the plate interfaces for high-flow gaseous-oxygen test tooling."
         },
         {
-          "lead": "Procurement",
-          "text": "Directed $800,000 in machined part procurement, running daily vendor calls to ensure timely, print-conforming delivery."
+          "lead": "Hardware and load checks",
+          "text": "I replaced specialized bolts with standard factory hardware and designed the tooling around the maximum pressure-induced separation loads from the vehicle tanks."
         },
         {
-          "lead": "Analysis",
-          "text": "Ran FEA on max-pressure blow-off load cases to validate structural and sealing performance under Cryo Proof loading."
-        },
-        {
-          "lead": "Floor leadership",
-          "text": "Oversaw up to 25 technicians during subassembly build and vehicle integration, dispositioning issues on the floor, designing lineside parts storage, and physically integrating tooling on-vehicle to resolve fit issues firsthand."
-        },
-        {
-          "lead": "Communication",
-          "text": "Ran a daily stand-up and authored a daily status email to 80+ stakeholders, driving alignment across organizations."
-        },
-        {
-          "lead": "Result",
-          "text": "Saved over 1,100 production hours per vehicle through design rate improvements, streamlined planning, and better storage."
+          "lead": "Build and integration",
+          "text": "My responsibility extended through procurement, fabrication, and installation. The overall tooling program saved more than 1,100 production hours per vehicle."
         }
       ],
-      "gallery": [
-        {
-          "src": "images/superheavy-pad.jpg",
-          "cap": "Super Heavy at the pad, Starbase",
-          "w": 293,
-          "h": 220
-        }
-      ],
-      "note": "Design work performed at SpaceX is proprietary — no CAD, drawings, part numbers, or hardware imagery are shown.",
+      "gallery": [],
+      "note": "Design work performed at SpaceX is proprietary. No CAD, drawings, part numbers, or hardware imagery are shown.",
       "cardSize": [
-        293,
-        220
-      ]
+        1600,
+        2132
+      ],
+      "category": "spacex",
+      "short": "Booster cryo-proof tooling",
+      "headline": "Starship Booster Cryo-Proof Tooling",
+      "result": "1,100+",
+      "unit": "production hours saved per vehicle",
+      "challenge": "Seal 33 engine feedlines while accommodating test equipment, drainage, and gas-system checks.",
+      "decision": "Redesign the interfaces as a complete tooling system, with structural analysis, vendor coordination, and a build plan that worked on the floor.",
+      "proof": "Responsible Engineer for 13,000+ components. Directed $800,000 in procurement and oversaw up to 25 technicians through build and integration.",
+      "takeaway": "The job extended well past the drawing release: delivery, storage, and installation all affected production rate.",
+      "discipline": "Tooling design / Production integration",
+      "showResult": true,
+      "sections": [
+        {
+          "title": "A repeatable test setup",
+          "text": "The inherited assembly had unnecessary leak paths, a complicated bolted stackup, and no reliable CAD reference. I rebuilt the assembly model as the design reference and used it to coordinate the tooling changes."
+        },
+        {
+          "title": "Simpler interfaces",
+          "text": "I replaced the plate-to-drain bolted stackup with a custom welded elbow fitting that located its own orientation for welding. I also worked with the propulsion responsible engineer to revise the plate interfaces for high-flow gaseous-oxygen test tooling."
+        },
+        {
+          "title": "Hardware and load checks",
+          "text": "I replaced specialized bolts with standard factory hardware and designed the tooling around the maximum pressure-induced separation loads from the vehicle tanks."
+        },
+        {
+          "title": "Build and integration",
+          "text": "My responsibility extended through procurement, fabrication, and installation. The overall tooling program saved more than 1,100 production hours per vehicle."
+        }
+      ],
+      "cardAlt": "Carson at Starbase with Starship and the launch tower",
+      "mediaKind": "photo"
     },
     {
       "id": "ship-structures",
-      "org": "SpaceX — Structures Build Engineering",
-      "title": "Starship Weld Cell, Lift Tooling & Flight Retrofits",
+      "org": "SpaceX: Structures Build Engineering",
+      "title": "Starship Production Tooling",
       "when": "January – August 2025",
       "featured": true,
-      "card": "images/starship-ift5-liftoff.jpg",
-      "summary": "Built a new weld-focused subassembly cell for a high-pressure propulsion manifold, designed the lift and access tooling around it, and owned five retrofitted flight parts modelled from as-built CAD.",
+      "card": "images/spacex-team.jpg",
+      "summary": "I designed the fixtures and handling tools that supported a Starship manifold build, from locating weld interfaces to lifting hardware and setting up repeatable assembly work.",
       "tags": [
         "Weld cell",
         "GD&T",
@@ -76,99 +88,106 @@
       ],
       "points": [
         {
-          "lead": "Build cell",
-          "text": "Designed and built a new weld-focused subassembly build cell for a high-pressure propulsion manifold on the Starship vehicle."
+          "lead": "Weld-cell layout and locating",
+          "text": "I explored station layouts in CAD, selected welding tables, and designed precision fixtures for the manifold’s endpoint flanges. Dowel pins, toggle clamps, and machined blocks established flange position and orientation using 3-2-1 locating principles and GD&T."
         },
         {
-          "lead": "Tolerance",
-          "text": "Designed fixture tooling to fit up endpoint flanges on tubes, using GD&T to hold tolerance across the 9-meter-long weld cell."
+          "lead": "Manifold lift tooling",
+          "text": "I designed a lift tool to position the manifold on the vehicle for integration. The work included bending and weld calculations, locating strategy, and critical-lift requirements. The tool was proof-tested at twice its working load."
         },
         {
-          "lead": "Lift tool",
-          "text": "Designed a lift tool rated to 1,100 lbs and proof-tested to 2× working load limit for safe handling of propulsion assemblies."
+          "lead": "Torque-frame integration jig",
+          "text": "A new welded structure needed a repeatable place to receive its bolted components. I developed the assembly sequence and an integration jig at a comfortable working height, designed for repeated production use."
         },
         {
-          "lead": "Access tooling",
-          "text": "Designed a tool improving work access and integration for aft flap torque frames on the rocket, saving 50 labor hours per vehicle."
-        },
-        {
-          "lead": "Flight retrofits",
-          "text": "Owned five retrofitted flight parts, modeling precise as-built CAD assemblies to manufacture off-nominal parts on assembly."
-        },
-        {
-          "lead": "Supply chain",
-          "text": "Worked with suppliers to coordinate over $50,000 in purchases, delivering tools lineside on a tight schedule."
-        },
-        {
-          "lead": "Production support",
-          "text": "Supported over 5,000 hours of technician labor, resolving issues on the floor and managing up to 16 technicians at once."
+          "lead": "Sizing the jig",
+          "text": "I used maximum integration loads in two-plane bending and torsion to size the base, integration plates, and welds."
         }
       ],
-      "gallery": [
-        {
-          "src": "images/starship-ift5-liftoff.jpg",
-          "cap": "Starship IFT-5 liftoff, Starbase",
-          "credit": "Steve Jurvetson, CC BY 2.0",
-          "creditUrl": "https://commons.wikimedia.org/wiki/File:Liftoff_of_SpaceX_IFT-5_(54064037095).jpg",
-          "w": 1400,
-          "h": 1604
-        }
-      ],
-      "note": "Design work performed at SpaceX is proprietary — no CAD, drawings, part numbers, or hardware imagery are shown.",
+      "gallery": [],
+      "note": "Design work performed at SpaceX is proprietary. No CAD, drawings, part numbers, or hardware imagery are shown.",
       "cardSize": [
-        1400,
-        1604
-      ]
+        1600,
+        1200
+      ],
+      "category": "spacex",
+      "short": "Starship production tooling",
+      "headline": "Starship Production Tooling",
+      "result": "50",
+      "unit": "labor hours saved per vehicle with access tooling",
+      "challenge": "Hold tube and flange alignment across a nine-meter weld cell, then safely move and integrate the assembly.",
+      "decision": "Design the weld fixtures and handling tools together. Use as-built CAD when flight hardware needed a retrofit.",
+      "proof": "A 1,100 lb lift tool, proof-tested at 2× working load. Five owned flight-part retrofits. An access tool that saved 50 labor hours per vehicle.",
+      "takeaway": "A fixture has to locate the part accurately and give the person building it room to work.",
+      "discipline": "Fixture design / Manufacturing",
+      "showResult": true,
+      "sections": [
+        {
+          "title": "Weld-cell layout and locating",
+          "text": "I explored station layouts in CAD, selected welding tables, and designed precision fixtures for the manifold’s endpoint flanges. Dowel pins, toggle clamps, and machined blocks established flange position and orientation using 3-2-1 locating principles and GD&T."
+        },
+        {
+          "title": "Manifold lift tooling",
+          "text": "I designed a lift tool to position the manifold on the vehicle for integration. The work included bending and weld calculations, locating strategy, and critical-lift requirements. The tool was proof-tested at twice its working load."
+        },
+        {
+          "title": "Torque-frame integration jig",
+          "text": "A new welded structure needed a repeatable place to receive its bolted components. I developed the assembly sequence and an integration jig at a comfortable working height, designed for repeated production use."
+        },
+        {
+          "title": "Sizing the jig",
+          "text": "I used maximum integration loads in two-plane bending and torsion to size the base, integration plates, and welds."
+        }
+      ],
+      "mediaKind": "photo",
+      "cardAlt": "Carson at SpaceX"
     },
     {
       "id": "brake-rotors",
-      "org": "Longhorn Racing Electric — Brakes",
+      "org": "Longhorn Racing Electric: Brakes",
       "title": "Brake Rotors & Mounts",
       "when": "2025 – 2026",
       "featured": true,
       "card": "images/rotor-slotted-cad.jpg",
-      "summary": "Designed the most reliable brake rotor possible within FSAE regulations — trading a little pad wear for de-gassing and debris clearing, and keeping a weight-optimised aluminium mount thermally isolated from the steel disc.",
+      "summary": "I designed the rotor and mount for reliable braking within the drivetrain package, combining material tradeoffs, thermal analysis, structural FEA, and temperature testing.",
       "tags": [
         "4140 steel",
-        "Ti brake buttons",
-        "7075 Al mount",
-        "FEA",
-        "Hand calcs"
+        "Titanium buttons",
+        "7075 mount",
+        "Transient heat transfer",
+        "Ansys FEA",
+        "Temperature testing"
       ],
       "points": [
         {
-          "lead": "Design goal",
-          "text": "The most reliable brake rotor possible per FSAE regulations and driver safety — not the lightest one."
+          "lead": "Packaging & requirements",
+          "text": "I coordinated space claims with the powertrain team so the rotor would fit the drivetrain assembly. Long-term reliability was the main goal, with a design requirement to tolerate temperatures up to 500°C with a safety margin."
         },
         {
-          "lead": "Material selection",
-          "text": "4140 steel rotors, titanium brake buttons, and a 7075 aluminium rotor mount."
+          "lead": "Rotor material selection",
+          "text": "I compared cast iron and 4140 steel in a material decision matrix. The study weighed cast iron’s density and thermal-conductivity advantages against fatigue performance, and I selected steel for its endurance-limit advantage in that comparison."
         },
         {
-          "lead": "Slotted geometry",
-          "text": "Slots de-gas the pad interface and clear debris, at the cost of slightly increased pad wear."
+          "lead": "Buttons & mount",
+          "text": "I chose titanium buttons for their low thermal conductivity, strength-to-weight ratio, and corrosion resistance. They act as a thermal choke between the steel disc and the lightweight 7075 aluminum mount, which interfaces with the differential bolts."
         },
         {
-          "lead": "Thickness sizing",
-          "text": "Structural hand calculations from maximum kinetic energy absorption per FSAE rules and brake bias set the minimum thickness for the fully restrained temperature-delta case."
+          "lead": "Thermal sizing",
+          "text": "I first sized rotor thickness using a conservative case in which maximum braking energy became heat with no heat escaping. I then refined the sizing through transient heat-transfer analysis, considering conduction, forced convection, and radiation."
         },
         {
-          "lead": "Thermal choke",
-          "text": "Titanium brake buttons act as the thermal choke point between the steel rotor and the weight-optimised aluminium mount."
+          "lead": "Slot geometry & structural FEA",
+          "text": "I used curved face slots for pad debris removal, de-gassing, and water clearance, accepting additional pad wear. In Ansys, I fixed the pad contact regions and distributed the maximum rules-based braking moment through the mount’s bolted connections to check stress states."
         },
         {
-          "lead": "Packaging",
-          "text": "The mount interfaces directly with the differential bolts; caliper selection came out of the same brake-bias study."
-        },
-        {
-          "lead": "Validation",
-          "text": "FEA validated the structural integrity and temperature tolerance of both the rotor and its mount."
+          "lead": "Temperature testing & manufacturing",
+          "text": "I tested the rotors with temperature crayons to assess their operating temperatures. Manufacturing was outsourced for three-axis CNC machining."
         }
       ],
       "gallery": [
         {
           "src": "images/rotor-slotted-cad.jpg",
-          "cap": "Slotted rotor — CAD",
+          "cap": "Slotted rotor: CAD",
           "w": 556,
           "h": 597
         },
@@ -194,45 +213,97 @@
       "cardSize": [
         556,
         597
-      ]
+      ],
+      "category": "racing",
+      "short": "Brake rotors & mounts",
+      "headline": "Brake Rotors & Mounts",
+      "result": "",
+      "unit": "",
+      "challenge": "Coordinate the rotor packaging with the powertrain team and design for long-term reliability, with a 500°C temperature requirement and a safety margin.",
+      "decision": "Compare cast iron with 4140 steel, use titanium buttons to limit heat flow into an aluminum mount, and refine rotor thickness through transient thermal analysis.",
+      "proof": "Checked the rotor in Ansys with supports at the pad contact regions and braking moment applied through the mount bolt locations. Used temperature crayons to assess operating temperatures and outsourced manufacturing to a three-axis CNC supplier.",
+      "takeaway": "Long-term reliability guided the material choices, thermal sizing, and structural checks.",
+      "discipline": "Thermal analysis / Mechanical design",
+      "showResult": false,
+      "caliperSelection": {
+        "selected": "Brembo P2.34",
+        "rationale": "Sponsorship availability was the deciding factor. The Brembo had the largest listed pad area, tied the ISR for the largest listed piston area, and weighed less than the ISR. The AP Racing option was lighter and the Wilwood was less expensive; the comparison did not identify a clear winner across all criteria."
+      },
+      "sections": [
+        {
+          "title": "Packaging & requirements",
+          "text": "I coordinated space claims with the powertrain team so the rotor would fit the drivetrain assembly. Long-term reliability was the main goal, with a design requirement to tolerate temperatures up to 500°C with a safety margin."
+        },
+        {
+          "title": "Rotor material selection",
+          "text": "I compared cast iron and 4140 steel in a material decision matrix. The study weighed cast iron’s density and thermal-conductivity advantages against fatigue performance, and I selected steel for its endurance-limit advantage in that comparison."
+        },
+        {
+          "title": "Buttons & mount",
+          "text": "I chose titanium buttons for their low thermal conductivity, strength-to-weight ratio, and corrosion resistance. They act as a thermal choke between the steel disc and the lightweight 7075 aluminum mount, which interfaces with the differential bolts."
+        },
+        {
+          "title": "Thermal sizing",
+          "text": "I first sized rotor thickness using a conservative case in which maximum braking energy became heat with no heat escaping. I then refined the sizing through transient heat-transfer analysis, considering conduction, forced convection, and radiation."
+        },
+        {
+          "title": "Slot geometry & structural FEA",
+          "text": "I used curved face slots for pad debris removal, de-gassing, and water clearance, accepting additional pad wear. In Ansys, I fixed the pad contact regions and distributed the maximum rules-based braking moment through the mount’s bolted connections to check stress states."
+        },
+        {
+          "title": "Temperature testing & manufacturing",
+          "text": "I tested the rotors with temperature crayons to assess their operating temperatures. Manufacturing was outsourced for three-axis CNC machining."
+        }
+      ],
+      "cardAlt": "Slotted steel rotor and mounting geometry"
     },
     {
       "id": "wheel-hub",
-      "org": "Longhorn Racing Electric — Unsprung",
-      "title": "Rear Wheel Hub Assembly",
+      "org": "Longhorn Racing Electric: Unsprung",
+      "title": "Rear Wheel Hub & Bearing Assembly",
       "when": "2024 – 2025",
       "featured": true,
       "card": "images/hub-cad-render.jpg",
-      "summary": "Designed the lightest reliable rear wheel hub allowed by FSAE regulations — designed for manufacturing, with thread engagement sized analytically and the final geometry validated in Ansys.",
+      "summary": "I designed a rear hub and bearing assembly that brought the drivetrain, wheel, and electronics interfaces together in a lightweight, manufacturable package.",
       "tags": [
         "7075-T6",
         "Ansys FEA",
         "Thread engagement",
         "DFM",
-        "Unsprung mass"
+        "Unsprung mass",
+        "SKF SimPro Quick",
+        "Fatigue life",
+        "Trade study",
+        "Power loss",
+        "System integration",
+        "CNC manufacturing"
       ],
       "points": [
         {
-          "lead": "Design goal",
-          "text": "The lightest reliable wheel hub possible per FSAE regulations, designed for manufacturing from the start."
+          "lead": "System interfaces",
+          "text": "I collaborated with the drivetrain and electronics teams to define the assembly’s interfaces. The hub needed to accommodate the drivetrain’s tripod bearing and integrate the electronics team’s Hall effect sensors."
         },
         {
-          "lead": "Material selection",
-          "text": "7075-T6 aluminium — the added cost is worth the reliability gained in yield strength over 6061-T6."
+          "lead": "Bearing selection and material",
+          "text": "I evaluated bearings in SKF SimPro Quick within an 80–85 mm inner-diameter and 110–120 mm outer-diameter envelope. The selection informed hub thickness and packaging. I compared titanium, 6061, and 7075 aluminum, selecting 7075-T6."
         },
         {
-          "lead": "Thread sizing",
-          "text": "Hub nut thread length calculated from bolt tensile stress area and nut thread shear area, prioritising reliability alongside weight savings."
+          "lead": "Load model and thread sizing",
+          "text": "I applied wheel loads from the team’s truss solver to the wheel flange, modeled the tensile load from the center-lock nut, and included bearing forces and drivetrain torque at the tripod interface. I sized hub-nut engagement using bolt tensile and nut thread-shear areas."
         },
         {
-          "lead": "Validation",
-          "text": "Hub geometry validated with Ansys finite element analysis against maximum cornering and braking load cases."
+          "lead": "Geometry and pocketing",
+          "text": "I started with geometry that satisfied the system interfaces and bearing constraints, then removed excess material through pocketing and checked the revised hub in Ansys."
+        },
+        {
+          "lead": "Manufacturing sequence",
+          "text": "The rotational features were turned on a lathe first. CNC milling then produced the tripod cutout, dowel-pin holes, brake-button holes, and wheel-flange pockets."
         }
       ],
       "gallery": [
         {
           "src": "images/hub-cad-render.jpg",
-          "cap": "Hub & bearing assembly — CAD",
+          "cap": "Hub & bearing assembly: CAD",
           "w": 1247,
           "h": 933
         },
@@ -253,56 +324,116 @@
           "cap": "Thread engagement basis",
           "w": 1200,
           "h": 832
+        },
+        {
+          "src": "images/bearing-sim-setup.jpg",
+          "cap": "Bearing simulation setup",
+          "w": 1200,
+          "h": 816
+        },
+        {
+          "src": "images/bearing-power-loss.jpg",
+          "cap": "Net power loss vs. speed",
+          "w": 1200,
+          "h": 720
         }
       ],
       "cardSize": [
         1247,
         933
-      ]
+      ],
+      "category": "racing",
+      "short": "Rear hub & bearing assembly",
+      "headline": "Rear Wheel Hub & Bearing Assembly",
+      "result": "",
+      "unit": "",
+      "challenge": "Define a rear hub assembly around the drivetrain’s tripod bearing and the electronics team’s Hall effect sensors, while meeting structural and manufacturing requirements.",
+      "decision": "Use the system interfaces and bearing selection to establish the hub geometry and thickness, compare titanium with 6061 and 7075 aluminum, then size the threaded hub nut connection and optimize pocketing with FEA.",
+      "proof": "Checked cornering and braking loads, bearing performance in SKF SimPro Quick, and hub behavior in Ansys. Manufacturing included lathe operations on several features and tooling the part for a three-axis CNC mill.",
+      "takeaway": "The drivetrain and electronics interfaces set the requirements. Bearing selection, structural analysis, and machining constraints then shaped the hub.",
+      "discipline": "System integration / Bearing selection / Mechanical design",
+      "showResult": false,
+      "bearingTradeStudy": {
+        "scope": "Preliminary comparison of 50 mm and 60 mm bearing bores, hub mass, and inboard/outboard bearing mass.",
+        "source": "images/hub-bearing-mass-study.png",
+        "limitation": "The source lists different weights for bearing 61912 in its upper comparison and lower reference list. Its totals are not treated as verified final mass results."
+      },
+      "bearingSelection": {
+        "model": "SKF 71817 ACDGB/VQ253",
+        "weightSaved": "0.8 lb",
+        "method": "Build the assembly in SKF SimPro Quick and sweep the candidate bearings. Work with Powertrain to set the allowable inner diameter.",
+        "validation": "Selected the SKF 71817 ACDGB/VQ253 angular-contact bearing after reviewing fatigue life, load capacity, and power loss across wheel speeds."
+      },
+      "legacyAnchors": [
+        "wheel-bearings"
+      ],
+      "sections": [
+        {
+          "title": "System interfaces",
+          "text": "I collaborated with the drivetrain and electronics teams to define the assembly’s interfaces. The hub needed to accommodate the drivetrain’s tripod bearing and integrate the electronics team’s Hall effect sensors."
+        },
+        {
+          "title": "Bearing selection and material",
+          "text": "I evaluated bearings in SKF SimPro Quick within an 80–85 mm inner-diameter and 110–120 mm outer-diameter envelope. The selection informed hub thickness and packaging. I compared titanium, 6061, and 7075 aluminum, selecting 7075-T6."
+        },
+        {
+          "title": "Load model and thread sizing",
+          "text": "I applied wheel loads from the team’s truss solver to the wheel flange, modeled the tensile load from the center-lock nut, and included bearing forces and drivetrain torque at the tripod interface. I sized hub-nut engagement using bolt tensile and nut thread-shear areas."
+        },
+        {
+          "title": "Geometry and pocketing",
+          "text": "I started with geometry that satisfied the system interfaces and bearing constraints, then removed excess material through pocketing and checked the revised hub in Ansys."
+        },
+        {
+          "title": "Manufacturing sequence",
+          "text": "The rotational features were turned on a lathe first. CNC milling then produced the tripod cutout, dowel-pin holes, brake-button holes, and wheel-flange pockets."
+        }
+      ],
+      "cardAlt": "Rear wheel hub and bearing assembly CAD model"
     },
     {
       "id": "control-arms",
-      "org": "Longhorn Racing Electric — Suspension",
+      "org": "Longhorn Racing Electric: Suspension",
       "title": "Carbon Pushrod & Swept Control Arms",
       "when": "2023 – 2024",
       "featured": true,
       "card": "images/arms-cad.jpg",
-      "summary": "Re-engineered the wishbone and pushrod assembly to minimise mass and packaging volume while eliminating clearance conflicts at maximum heave and roll — cutting 5 lbs of suspension weight — then fabricated the set by hand.",
+      "summary": "I developed and fabricated a lighter suspension assembly, pairing carbon-fiber pushrods with steel control arms and checking both the bonded joints and on-car clearance.",
       "tags": [
         "Carbon fiber pushrods",
         "SolidWorks FEA",
         "Fatigue",
         "Lathe / mill",
-        "5 lb saved"
+        "4.6 lb saved"
       ],
       "points": [
         {
-          "lead": "Design goal",
-          "text": "Reduce weight, decrease packaging size, and minimise clearance issues with the other wheel pickup points at maximum heave or roll."
+          "lead": "Interfaces and material choices",
+          "text": "The control arms had to connect the upright, chassis tabs, and pushrods. I kept steel for the control arms, where the team had greater confidence in the manufacturing process, and used carbon fiber for the pushrods to reduce mass."
         },
         {
-          "lead": "Weight",
-          "text": "Cut suspension weight by 5 lbs by placing the pushrod mounting gussets directly on the apex and switching the pushrod material from steel to carbon fiber."
+          "lead": "Pushrod testing and bonding",
+          "text": "I tested the carbon-fiber pushrods in tension and compression on an Instron. For fabrication, I cut the tubes to length and turned aluminum end plugs, controlling the bonding-surface diameter to within half a thousandth of an inch."
         },
         {
-          "lead": "Fatigue validation",
-          "text": "Validated apex fatigue strength in SolidWorks FEA so pushrod and wheel forces would not cause failures after repeated load cycles — 38.6 ksi peak von Mises at the upper apex."
+          "lead": "Control-arm fabrication",
+          "text": "I replaced a heavy mounting plate with gussets at the apex. I cut steel tubing, turned and milled end plugs, bored and reamed bearing seats in laser-cut plates, and welded and tapped the plugs for rod ends."
         },
         {
-          "lead": "Fabrication",
-          "text": "Lathed steel tube stock to length and diameter, manually milled steel plugs, hand-tapped the control arms to accept rod ends, and hand-painted each wishbone."
+          "lead": "Integration and steering clearance",
+          "text": "During freshman-year integration, a missed tolerance stackup caused the apex to interfere at maximum steer. We checked the required material removal in Ansys and ground the existing apex to recover clearance. The combined suspension redesign saved 4.6 lb."
         }
       ],
       "gallery": [
         {
           "src": "images/arms-cad.jpg",
-          "cap": "Wishbone assembly — CAD",
+          "cap": "Wishbone assembly: CAD",
           "w": 1400,
           "h": 940
         },
         {
           "src": "images/arms-apex-fea.jpg",
-          "cap": "Upper apex von Mises — 38.6 ksi max",
+          "cap": "Upper apex von Mises: 38.6 ksi max",
           "w": 1400,
           "h": 982
         },
@@ -322,46 +453,68 @@
       "cardSize": [
         1400,
         940
-      ]
+      ],
+      "category": "racing",
+      "short": "Pushrods & control arms",
+      "headline": "Pushrods & Control Arms",
+      "result": "4.6 lb",
+      "unit": "less suspension mass than the prior design",
+      "challenge": "At integration, the control-arm apex interfered before the car reached maximum steer. A tolerance stackup we had missed in the design caused the clearance problem.",
+      "decision": "Model the exact material removal needed at the apex, check the revised geometry in Ansys, then use an angle grinder to remove that material from the existing part.",
+      "proof": "The revised apex made maximum steer possible. The original suspension redesign saved 4.6 lb through the apex-mounted gussets and carbon-fiber pushrods.",
+      "takeaway": "That experience taught me how much engineering is working through the problem in front of you, one constraint at a time.",
+      "discipline": "Suspension design / Fabrication",
+      "showResult": true,
+      "sections": [
+        {
+          "title": "Interfaces and material choices",
+          "text": "The control arms had to connect the upright, chassis tabs, and pushrods. I kept steel for the control arms, where the team had greater confidence in the manufacturing process, and used carbon fiber for the pushrods to reduce mass."
+        },
+        {
+          "title": "Pushrod testing and bonding",
+          "text": "I tested the carbon-fiber pushrods in tension and compression on an Instron. For fabrication, I cut the tubes to length and turned aluminum end plugs, controlling the bonding-surface diameter to within half a thousandth of an inch."
+        },
+        {
+          "title": "Control-arm fabrication",
+          "text": "I replaced a heavy mounting plate with gussets at the apex. I cut steel tubing, turned and milled end plugs, bored and reamed bearing seats in laser-cut plates, and welded and tapped the plugs for rod ends."
+        },
+        {
+          "title": "Integration and steering clearance",
+          "text": "During freshman-year integration, a missed tolerance stackup caused the apex to interfere at maximum steer. We checked the required material removal in Ansys and ground the existing apex to recover clearance. The combined suspension redesign saved 4.6 lb."
+        }
+      ],
+      "cardAlt": "Control-arm and pushrod CAD assembly"
     },
     {
       "id": "ride-height",
-      "org": "Longhorn Racing Electric — Suspension",
+      "org": "Longhorn Racing Electric: Suspension",
       "title": "Discrete Ride Height Adjustment",
       "when": "2023 – 2024",
       "featured": true,
       "card": "images/ridehgt-assembly.jpg",
-      "summary": "A shim-based pushrod adjuster, inspired by Formula 1 practice and not previously seen in FSAE, letting trackside engineers make exact ride-height changes in seconds instead of counting turns on an opposite-thread pushrod.",
+      "summary": "I designed a shim-based attachment to make ride-height changes more repeatable, replacing a process that relied on turning an opposite-thread pushrod.",
       "tags": [
         "Formula 1 inspired",
-        "6061 aluminium",
+        "7075 aluminium",
         "SolidWorks FEA",
         "Trackside serviceable"
       ],
       "points": [
         {
-          "lead": "Problem",
-          "text": "The previous system relied on rotating a pushrod with opposite threads — inaccurate and time consuming."
+          "lead": "A discrete adjustment",
+          "text": "The mechanism changes pushrod length by adding or removing shims and retightening the fasteners. The attachment connects to the inboard suspension mechanism and keeps the shim stack in compression."
         },
         {
-          "lead": "Design goal",
-          "text": "A mechanism allowing exact ride-height changes with minimal disassembly."
+          "lead": "Load path and geometry",
+          "text": "I designed the attachment in 7075 aluminum and kept the shim pockets concentric with the retaining bolts. Lightweight shim geometry reduced the mass added by the adjustment mechanism."
         },
         {
-          "lead": "Concept",
-          "text": "Designed in SolidWorks, heavily inspired by Formula 1 technology that had not previously been seen in FSAE."
+          "lead": "Checks and manufacturing",
+          "text": "I checked the attachment under pushrod loading in SolidWorks FEA. The shims were laser-cut and the attachment pieces machined. The upper component’s CNC machining was handled by another team member."
         },
         {
-          "lead": "Trackside use",
-          "text": "Lets engineers quickly insert or remove shims from the pushrods in a competition environment to change aerodynamic behaviour or roll center."
-        },
-        {
-          "lead": "Validation",
-          "text": "SolidWorks FEA on the discrete adjustment attachment validated its structural integrity under pushrod load."
-        },
-        {
-          "lead": "Weight cost",
-          "text": "6061 aluminium — the mechanism added only 0.7 lb to the weight of the entire car."
+          "lead": "The tradeoff",
+          "text": "The mechanism added 0.7 lb across the car in exchange for a more repeatable setup adjustment."
         }
       ],
       "gallery": [
@@ -381,69 +534,45 @@
       "cardSize": [
         1107,
         1193
-      ]
-    },
-    {
-      "id": "wheel-bearings",
-      "org": "Longhorn Racing Electric — Unsprung",
-      "title": "Wheel Bearing Selection",
-      "when": "2024 – 2025",
-      "card": "images/bearing-sim-setup.jpg",
-      "summary": "Simulated dynamic load cases in SKF SimPro Quick to select rear wheel bearings optimised for fatigue life and load capacity — the lightest bearing that still cleared static and dynamic safety factors, saving 0.8 lb.",
-      "tags": [
-        "SKF SimPro Quick",
-        "Fatigue life",
-        "Trade study",
-        "Power loss"
       ],
-      "points": [
+      "category": "racing",
+      "short": "Discrete ride-height adjustment",
+      "headline": "Discrete Ride-Height Adjustment",
+      "result": "0.7 lb",
+      "unit": "added to the entire car for adjustability",
+      "challenge": "Make trackside ride-height changes more repeatable and easier to perform.",
+      "decision": "Use a 7075 aluminum attachment with removable shims for repeatable ride-height adjustment.",
+      "proof": "SolidWorks FEA checked the attachment under pushrod loading. The mechanism added 0.7 lb across the car.",
+      "takeaway": "A small weight penalty bought a more repeatable adjustment for the team at the track.",
+      "discipline": "Mechanism design / Trackside setup",
+      "showResult": true,
+      "sections": [
         {
-          "lead": "Purpose",
-          "text": "Find the lightest bearing with acceptable static and dynamic safety factors under maximum cornering force loads at the tires."
+          "title": "A discrete adjustment",
+          "text": "The mechanism changes pushrod length by adding or removing shims and retightening the fasteners. The attachment connects to the inboard suspension mechanism and keeps the shim stack in compression."
         },
         {
-          "lead": "Method",
-          "text": "Built a wheel hub assembly simulation in SKF SimPro Quick with maximum tire loads applied, then swept every bearing within the acceptable dimensional envelope for fatigue life and load capacity."
+          "title": "Load path and geometry",
+          "text": "I designed the attachment in 7075 aluminum and kept the shim pockets concentric with the retaining bolts. Lightweight shim geometry reduced the mass added by the adjustment mechanism."
         },
         {
-          "lead": "Cross-team constraint",
-          "text": "Collaborated with Powertrain to set bearing ID parameters from the selected tripod bearings on the half shaft."
+          "title": "Checks and manufacturing",
+          "text": "I checked the attachment under pushrod loading in SolidWorks FEA. The shims were laser-cut and the attachment pieces machined. The upper component’s CNC machining was handled by another team member."
         },
         {
-          "lead": "Losses",
-          "text": "Simulated power loss across the operating wheel-speed range to confirm the selection did not trade weight for drag."
-        },
-        {
-          "lead": "Result",
-          "text": "Selected the SKF 71817 ACDGB/VQ253 angular contact ball bearing — 0.8 pounds saved."
+          "title": "The tradeoff",
+          "text": "The mechanism added 0.7 lb across the car in exchange for a more repeatable setup adjustment."
         }
       ],
-      "gallery": [
-        {
-          "src": "images/bearing-sim-setup.jpg",
-          "cap": "Bearing simulation setup",
-          "w": 1200,
-          "h": 816
-        },
-        {
-          "src": "images/bearing-power-loss.jpg",
-          "cap": "Net power loss vs. speed",
-          "w": 1200,
-          "h": 720
-        }
-      ],
-      "cardSize": [
-        1200,
-        816
-      ]
+      "cardAlt": "Shim-based ride-height adjustment assembly"
     },
     {
       "id": "motion-capture",
-      "org": "SiDi Lab, UT Austin — Undergraduate Robotics Researcher",
+      "org": "SiDi Lab, UT Austin: Undergraduate Robotics Researcher",
       "title": "Motion-Capture Integration for Swarm Manufacturing",
       "when": "January – April 2024",
       "card": "images/lhre-parts-bench.jpg",
-      "summary": "Integrated an infrared motion-capture camera system with a robotic arm and its driver software in Python, enabling real-time position tracking for swarm manufacturing research.",
+      "summary": "I developed software that gave robots real-time position data for swarm-manufacturing research at UT Austin’s SiDi Lab.",
       "tags": [
         "Python",
         "NatNet SDK",
@@ -452,23 +581,49 @@
       ],
       "points": [
         {
-          "lead": "Integration",
-          "text": "Connected an infrared motion-capture camera system to a robotic arm and its driver software using Python and the NatNet SDK."
+          "lead": "Research need",
+          "text": "The lab needed its robots to know their position during coordinated manufacturing tasks."
         },
         {
-          "lead": "Capability",
-          "text": "Enabled real-time position tracking to support swarm manufacturing research in the lab."
+          "lead": "Software integration",
+          "text": "I connected the infrared motion-capture system to a robotic arm and its driver software using Python and the NatNet SDK."
         },
         {
-          "lead": "Communication",
-          "text": "Presented findings in front of UT research faculty."
+          "lead": "Result",
+          "text": "The integration made real-time tracking data available to the robot software. I presented the work to UT research faculty."
         }
       ],
       "gallery": [],
       "cardSize": [
         1675,
         853
-      ]
+      ],
+      "category": "tools",
+      "short": "Robotics motion capture",
+      "headline": "Robotics Motion Capture",
+      "result": "",
+      "unit": "",
+      "challenge": "Make motion-capture position data available to a robotic system used in swarm-manufacturing research.",
+      "decision": "Integrate the camera system with the arm’s driver software through Python and the NatNet SDK.",
+      "proof": "Enabled real-time position tracking and presented the work to UT research faculty.",
+      "takeaway": "The useful result was a working connection between the sensor data and the robot software.",
+      "discipline": "Python / Sensor integration",
+      "showResult": false,
+      "sections": [
+        {
+          "title": "Research need",
+          "text": "The lab needed its robots to know their position during coordinated manufacturing tasks."
+        },
+        {
+          "title": "Software integration",
+          "text": "I connected the infrared motion-capture system to a robotic arm and its driver software using Python and the NatNet SDK."
+        },
+        {
+          "title": "Result",
+          "text": "The integration made real-time tracking data available to the robot software. I presented the work to UT research faculty."
+        }
+      ],
+      "mediaKind": "diagram"
     },
     {
       "id": "hose-carrier",
@@ -476,7 +631,7 @@
       "title": "Adjustable Hose-Carrying Assembly",
       "when": "Geotechnical drill rig",
       "card": "images/hose-assembly.jpg",
-      "summary": "A chain-linkage carrier that safely walks hydraulic hoses from their storage position to the position of operation on a geotechnical drill rig, driven along a sketched path so the assembly can be re-pathed without re-mating parts.",
+      "summary": "I designed a linked carrier to guide hydraulic hoses through a drill rig’s motion while keeping the routing clear of surrounding hardware.",
       "tags": [
         "SolidWorks",
         "Path mates",
@@ -485,20 +640,16 @@
       ],
       "points": [
         {
-          "lead": "Design goal",
-          "text": "Safely transport hydraulic hoses from the storage position to the position of operation on a geotechnical drill rig."
+          "lead": "Motion and packaging",
+          "text": "The hoses needed to move between their stored and operating positions without interference."
         },
         {
-          "lead": "Link design",
-          "text": "Designed a chain linkage part with rotational freedom at the mating interface."
+          "lead": "A path-driven assembly",
+          "text": "I gave each carrier link rotational freedom, fixed one end, and constrained the other to a sketched path in SolidWorks."
         },
         {
-          "lead": "Path",
-          "text": "Created a path sketch for the chain-link assembly to navigate the drill rig and avoid interferences."
-        },
-        {
-          "lead": "Mating scheme",
-          "text": "Mated the chain link assembly so one end is fixed while the other travels freely along the sketch path."
+          "lead": "Design flexibility",
+          "text": "The routing could be revised through the sketch while preserving the linked assembly’s motion."
         }
       ],
       "gallery": [
@@ -524,7 +675,33 @@
       "cardSize": [
         1384,
         961
-      ]
+      ],
+      "category": "tools",
+      "short": "Drill-rig hose carrier",
+      "headline": "Hydraulic Hose Carrier",
+      "result": "",
+      "unit": "",
+      "challenge": "Guide hydraulic hoses through the rig’s motion without interference.",
+      "decision": "Give each link rotational freedom, fix one end of the carrier, and let the other follow a sketched path in SolidWorks.",
+      "proof": "A path-mated assembly with an interference-conscious route and a linkage designed for the required motion.",
+      "takeaway": "The route lives in a sketch, so the assembly can follow a revised path without re-mating each link.",
+      "discipline": "SolidWorks / Motion & packaging",
+      "showResult": false,
+      "sections": [
+        {
+          "title": "Motion and packaging",
+          "text": "The hoses needed to move between their stored and operating positions without interference."
+        },
+        {
+          "title": "A path-driven assembly",
+          "text": "I gave each carrier link rotational freedom, fixed one end, and constrained the other to a sketched path in SolidWorks."
+        },
+        {
+          "title": "Design flexibility",
+          "text": "The routing could be revised through the sketch while preserving the linked assembly’s motion."
+        }
+      ],
+      "cardAlt": "Hydraulic hose carrier assembly CAD model"
     }
   ],
   "code": [
@@ -542,7 +719,7 @@
         1396,
         636
       ],
-      "shotCap": "State-level races for a resolved address — HD-15 boundary overlaid, candidates in the panel."
+      "shotCap": "State-level races for a resolved address, with the HD-15 boundary overlaid, candidates in the panel."
     },
     {
       "name": "march-madness",
@@ -575,15 +752,6 @@
         1003
       ],
       "shotCap": "Heat-flow density over North America with the top-ranked geothermal sites called out."
-    },
-    {
-      "name": "CS313E",
-      "url": "https://github.com/carsonmoore13/CS313E",
-      "desc": "Coursework for UT's Elements of Software Design — data structures and algorithms assignments in Python.",
-      "meta": [
-        "Python",
-        "Data structures"
-      ]
     }
   ]
 }

@@ -1,129 +1,41 @@
-# Carson Moore — Engineering Portfolio
+# Carson Moore: Engineering Portfolio
 
-Static site. No build step, no framework: semantic HTML, vanilla CSS with custom
-properties, and a single vanilla JS file.
+Static portfolio for mechanical and product design recruiting. HTML, CSS, and a small JavaScript enhancement layer. No framework or production build step.
 
-Content lives in `projects.json` — editing that file is how you add, remove, or
-reorder projects. You do not need to touch the HTML.
+## Preview
 
----
+Run `python scripts/serve.py` and open http://127.0.0.1:8000. The development server supports the same `/projects` and `/resume` URLs as Vercel. Use `--port 8765` to select another port.
 
-## Run it locally
+## Editing
 
-The pages `fetch()` `projects.json`, so opening `index.html` straight off disk
-will not work (browsers block `file://` fetches). Serve the folder instead:
+- `index.html`: alpine photo introduction, selected work, CAD/analysis display, personal photographs, background, and experience.
+- `projects.html`: eight image-led engineering case studies, filters, concise introductions, expandable project details, and supporting calculations.
+- `resume.html`: web résumé with print styling and a link to the original `resume.pdf`.
+- `css/studio.css`: shared styles and responsive layouts.
+- `css/alpine.css`: the current photo-inspired blue/slate palette, Instrument Serif headings, Manrope body type, and editorial homepage layout.
+- `css/gallery.css`: full-width project imagery, clean case-study typography, responsive galleries, and masks for unwanted CAD screenshot borders.
+- `js/studio.js`: navigation, CAD switching, filtering, direct project links, and image viewer.
+- `projects.json`: project reference data. Pages are pre-rendered HTML; changes to JSON alone do not change the published pages. Update the corresponding HTML when changing project copy.
+- `images/`: existing photographs, CAD renders, and analysis images. Attribution remains in the project galleries.
 
-```bash
-python -m http.server 8000
-```
+All case-study content is present in HTML. Without JavaScript, native details sections and image links remain usable. Filters and the CAD switch require JavaScript.
 
-Then open <http://127.0.0.1:8000>.
+## Content
 
----
+Target: mechanical and product design engineering internships for Spring and Summer 2027. The control-arm integration story comes from Carson's account: overlooked tolerance stackup, interference at maximum steer, an Ansys check of revised apex geometry, and material removal on the existing part. The project uses the portfolio's precise 4.6 lb weight saving; the original downloadable résumé rounds it to 5 lb.
 
-## Layout
+The alpine photographs were supplied by Carson and converted from HEIC to JPEG for browser compatibility. Crops are controlled in CSS; the original photos are unchanged. No location or expedition details are assumed. Google Fonts supplies Instrument Serif and Manrope, with local serif and sans-serif fallbacks.
 
-```
-index.html          Hero, about, experience, project cards, community, contact
-projects.html       Every project in detail, built from projects.json
-resume.html         Full résumé, styled for screen and for print
-projects.json       ← all the project content
-resume.pdf          Generated from CarsonMooreResume.docx
-css/tokens.css      UT Austin palette + type scale (edit colors here)
-css/layout.css      Structure and components
-css/animations.css  Reveal + entrance motion
-js/site.js          Nav, scroll reveal, JSON → DOM rendering
-images/             Photos, CAD renders, FEA screenshots
-vercel.json         Clean URLs + security headers
-```
+Brake-sizing excerpts retain revision caveats from the supplied CSVs. The hub study retains its inconsistent-bearing-weight note. The SKF report is identified as a team reference with its original author and date.
 
-### Colors
+Project descriptions incorporate Carson's supplied LHR HAND CALCS notes, including SpaceX fixture and handling-tool work, suspension testing and fabrication, rotor development, and hub architecture. The full notes PDF is not included in the public site files. Carson's own SpaceX photographs provide visual context for the SpaceX projects. The Starbase portrait is shown uncropped. White CAD image backgrounds visually blend with the warm paper color through CSS, preserving the original image files and geometry.
 
-`css/tokens.css` holds the palette. Primary is UT burnt orange `#BF5700` with
-`#F8971F` for text-on-dark accents — burnt orange alone fails contrast on the dark
-background. The rest of the official UT secondary palette is defined there too.
+## Deployment
 
----
+`vercel.json` retains the static-site configuration and clean URLs. Review a preview before deploying to the existing `cmoore13` Vercel project. Do not create a second Vercel project or replace its domain configuration.
 
-## Adding a project
+Original styles and `js/site.js` remain for reference but are no longer loaded by the redesigned pages.
 
-Append an object to `projects.json`:
+The rear hub and bearing selection are one case study. It follows system interfaces, bearing and thickness requirements, material selection, loads and thread sizing, FEA pocketing, and manufacturing. The former `#wheel-bearings` link opens the bearing section within the combined hub project.
 
-```json
-{
-  "id": "url-slug",
-  "org": "Team or company — your role",
-  "title": "Project name",
-  "when": "2025 – 2026",
-  "featured": true,
-  "card": "images/thumbnail.jpg",
-  "summary": "One or two sentences.",
-  "tags": ["Material", "Tool", "Result"],
-  "points": [{ "lead": "Design goal", "text": "..." }],
-  "specs": [["Material", "7075-T6"], ["Weight saved", "0.8 lb"]],
-  "gallery": [{ "src": "images/one.jpg", "cap": "Caption" }],
-  "note": "Optional footnote, e.g. a proprietary-content disclaimer."
-}
-```
-
-- `featured: true` puts it on the home page card grid.
-- An empty `gallery` renders the project as a single centred column.
-
----
-
-## Keeping the résumé in sync
-
-Two places hold résumé content: `resume.html` (the web version) and `resume.pdf`
-(the download). Regenerate the PDF from the Word source after any edit:
-
-```powershell
-$w = New-Object -ComObject Word.Application
-$d = $w.Documents.Open("C:\Work\CarsonMooreResume.docx", $false, $true)
-$d.SaveAs([ref]"C:\Work\portfolio\resume.pdf", [ref]17)
-$d.Close($false); $w.Quit()
-```
-
-`resume.html` also has a print stylesheet, so Ctrl+P on that page produces a clean
-light-background copy if you ever need one without opening Word.
-
----
-
-## Deploying to Vercel
-
-Requires a Vercel account — sign up at <https://vercel.com/signup> (the Hobby tier
-is free and enough for this).
-
-```bash
-npm i -g vercel
-vercel login
-vercel --prod
-```
-
-On the first `vercel --prod` the CLI asks a few questions. Answers that matter:
-
-| Prompt | Answer |
-|---|---|
-| Set up and deploy? | `y` |
-| Which scope? | your personal account |
-| Link to existing project? | `n` |
-| Project name? | **`cmoore13`** |
-| In which directory is your code? | `./` |
-| Modify build settings? | `n` |
-
-Naming the project `cmoore13` claims `https://cmoore13.vercel.app`, which was
-unclaimed as of 2 September 2026.
-
-To redeploy after any edit, run `vercel --prod` again from this folder.
-
-### A custom domain
-
-If you want `cmoore13.com` instead, that domain also had no DNS records as of
-2 September 2026 — but it has to be bought. Register it anywhere (Vercel, Cloudflare,
-Namecheap), then `vercel domains add cmoore13.com` and follow the DNS instructions.
-
----
-
-## What is proprietary
-
-The SpaceX projects are described in words only. No CAD, drawings, part numbers,
-or hardware imagery from that work is included, and none should be added.
+The brake rotor case study includes the supplied handwritten design notes: packaging coordination, a 500°C design requirement, material tradeoffs, transient thermal sizing, structural FEA, temperature-crayon testing, and outsourced three-axis CNC machining. Master-cylinder layout and hydraulic sizing are excluded from the portfolio.

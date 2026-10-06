@@ -2,7 +2,7 @@
    layout.css
 
    Design rule for this site: no boxes. Structure comes from
-   whitespace, hairline rules, and type weight — not from
+   whitespace, hairline rules, and type weight: not from
    borders, cards, chips, or filled panels. The only bordered
    things on the page are photographs.
 ────────────────────────────────────────────────────────── */
@@ -105,7 +105,7 @@ h3 { font-size: var(--step-2); }
 }
 .hero__cta { margin-top: 2.75rem; display: flex; flex-wrap: wrap; gap: 2rem; }
 
-/* Facts column — plain rows, no panel */
+/* Facts column: plain rows, no panel */
 .facts { display: grid; gap: 1.15rem; }
 .facts div { display: grid; gap: 0.15rem; }
 .facts dt {
@@ -203,7 +203,7 @@ h3 { font-size: var(--step-2); }
 .repos__go { color: var(--fg-dim); white-space: nowrap; margin-top: 0.35rem; }
 .repos__item:hover .repos__go { color: var(--ut-orange-bright); }
 
-/* A screenshot is a photograph of the running thing — the one kind of
+/* A screenshot is a photograph of the running thing: the one kind of
    element this design lets carry a border. */
 .repos__shot img {
   width: 100%; height: auto;
@@ -222,7 +222,7 @@ h3 { font-size: var(--step-2); }
 
 /* ── section divider / scroll cue ────────────────────── */
 /* Hands the reader from one section into the next instead of letting a
-   page dead-end. A hairline, a label, a chevron — no box. */
+   page dead-end. A hairline, a label, a chevron: no box. */
 .divider {
   display: grid; justify-items: center; gap: 1rem;
   padding-block: clamp(3rem, 7vw, 5rem);
@@ -278,7 +278,7 @@ h3 { font-size: var(--step-2); }
 .proj__note { color: var(--fg-dim); margin-top: 2rem; max-width: 60ch; line-height: 1.9; }
 
 /* ── gallery ───────────────────────────────────────────── */
-/* Images render at their true aspect ratio — never cropped to fit a box.
+/* Images render at their true aspect ratio: never cropped to fit a box.
    Grids use align-items:start so a tall image does not stretch its row. */
 .gallery { display: grid; gap: 1rem; grid-template-columns: repeat(2, 1fr); align-items: start; }
 .gallery img {

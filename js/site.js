@@ -1,5 +1,5 @@
 /* ──────────────────────────────────────────────────────────
-   site.js — nav behaviour, scroll reveal, and JSON-driven
+   site.js: nav behaviour, scroll reveal, and JSON-driven
    rendering for the project cards (index) and project
    sections (projects.html).
 ────────────────────────────────────────────────────────── */
@@ -124,7 +124,7 @@
       a.appendChild(img);
 
       var body = el('div', 'card__body');
-      body.appendChild(el('p', 'card__org mono', p.org.split('—')[0].trim()));
+      body.appendChild(el('p', 'card__org mono', p.org.split(': ')[0].trim()));
       body.appendChild(el('h3', 'card__title', p.title));
       body.appendChild(el('p', 'card__desc', p.summary));
 
@@ -163,7 +163,7 @@
         var fig = el('figure', 'repos__shot');
         var img = el('img');
         img.src = r.shot;
-        img.alt = r.name + ' \u2014 output from the running project';
+        img.alt = r.name + ': output from the running project';
         img.loading = 'lazy';
         img.decoding = 'async';
         if (r.shotSize) { img.width = r.shotSize[0]; img.height = r.shotSize[1]; }
@@ -203,7 +203,7 @@
       var pts = el('ul', 'proj__points');
       (p.points || []).forEach(function (pt) {
         var li = el('li');
-        li.appendChild(el('strong', null, pt.lead + ' — '));
+        li.appendChild(el('strong', null, pt.lead + ': '));
         li.appendChild(document.createTextNode(pt.text));
         pts.appendChild(li);
       });

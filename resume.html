@@ -3,38 +3,44 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Résumé — Carson Moore</title>
-<meta name="description" content="Résumé of Carson Spencer Moore — B.S. Mechanical Engineering, UT Austin, December 2027. SpaceX, Longhorn Racing Electric, SiDi Lab.">
-<meta name="theme-color" content="#BF5700">
-
+<title>Résumé: Carson Moore</title>
+<meta name="description" content="Carson Moore. Mechanical engineering at UT Austin, December 2027. Experience at SpaceX, Longhorn Racing Electric, and SiDi Lab.">
+<meta name="theme-color" content="#f4f7f8">
+<meta property="og:title" content="Résumé: Carson Moore">
+<meta property="og:description" content="Carson Moore. Mechanical engineering at UT Austin, December 2027. Experience at SpaceX, Longhorn Racing Electric, and SiDi Lab.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://cmoore13.vercel.app/images/alpine-lakes.jpg">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="css/tokens.css">
-<link rel="stylesheet" href="css/layout.css">
-<link rel="stylesheet" href="css/animations.css">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/studio.css">
+<link rel="stylesheet" href="/css/alpine.css">
+<link rel="stylesheet" href="/css/gallery.css">
+<script src="/js/studio.js" defer>
+</script>
 </head>
-<body>
-
-<header class="nav">
-  <div class="nav__inner">
-    <a class="nav__brand" href="/">
-      CARSON MOORE
-    </a>
-    <button class="nav__toggle mono" aria-expanded="false" aria-controls="navlinks">Menu</button>
-    <nav class="nav__links mono" id="navlinks">
-      <a href="/#about">About</a>
-      <a href="/#experience">Experience</a>
-      <a href="/projects">Projects</a>
-      <a href="/#code">Code</a>
-      <a href="/resume" aria-current="page">Résumé</a>
-      <a href="/#contact">Contact</a>
-    </nav>
-  </div>
+<body class="inner-page">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+<a class="brand" href="/" aria-label="Carson Moore home">
+<span class="brand-mark" aria-hidden="true">cm.</span>
+<span>Carson Moore</span>
+</a>
+<span class="header-note mono">MECHANICAL ENGINEERING<br>AUSTIN, TX</span>
+<button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu <span aria-hidden="true">+</span>
+</button>
+<nav id="site-nav" aria-label="Main navigation">
+<a href="/projects" >Work</a>
+<a href="/#about">About</a>
+<a href="/resume" aria-current="page">Résumé <span aria-hidden="true">↗</span>
+</a>
+<a class="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span>
+</a>
+</nav>
 </header>
-
-<main class="section">
+<main id="main">
+<div class="resume-page">
   <div class="wrap cv">
 
     <header class="cv__head">
@@ -56,7 +62,8 @@
       <h2>Education</h2>
       <article class="cv__entry">
         <header>
-          <h3>The University of Texas at Austin <span>— Austin, Texas</span></h3>
+          <h3>The University of Texas at Austin <span>: Austin, Texas</span>
+</h3>
           <p class="cv__when mono">December 2027</p>
         </header>
         <ul>
@@ -72,7 +79,8 @@
 
       <article class="cv__entry">
         <header>
-          <h3>SpaceX <span>— Booster Integration Engineering Intern · Starbase, Texas</span></h3>
+          <h3>SpaceX <span>: Booster Integration Engineering Intern · Starbase, Texas</span>
+</h3>
           <p class="cv__when mono">May 2026 – August 2026</p>
         </header>
         <ul>
@@ -88,7 +96,8 @@
 
       <article class="cv__entry">
         <header>
-          <h3>Longhorn Racing Electric FSAE <span>— Dynamics Engineer · Austin, Texas</span></h3>
+          <h3>Longhorn Racing Electric FSAE <span>: Dynamics Engineer · Austin, Texas</span>
+</h3>
           <p class="cv__when mono">August 2023 – Present</p>
         </header>
         <ul>
@@ -98,13 +107,14 @@
           <li>Lectured 20 new and returning members, covering tension, compression, and bending fundamentals for structural design</li>
           <li>Simulated dynamic load cases in SKF SimPro Quick to select rear wheel bearings optimized for fatigue life and load capacity</li>
           <li>Utilized SolidWorks Finite Element Analysis on discrete adjustment attachment to validate its structural integrity</li>
-          <li>Engineered a carbon fiber push rod and swept control arm assembly to minimize mass, cutting suspension weight by 5 lbs</li>
+          <li>Engineered a carbon fiber push rod and swept control arm assembly to minimize mass, cutting suspension weight by 4.6 lbs</li>
         </ul>
       </article>
 
       <article class="cv__entry">
         <header>
-          <h3>SpaceX <span>— Structures Build Engineering Intern · Starbase, Texas</span></h3>
+          <h3>SpaceX <span>: Structures Build Engineering Intern · Starbase, Texas</span>
+</h3>
           <p class="cv__when mono">January 2025 – August 2025</p>
         </header>
         <ul>
@@ -120,7 +130,8 @@
 
       <article class="cv__entry">
         <header>
-          <h3>SiDi Lab, UT Austin <span>— Undergraduate Robotics Researcher · Austin, Texas</span></h3>
+          <h3>SiDi Lab, UT Austin <span>: Undergraduate Robotics Researcher · Austin, Texas</span>
+</h3>
           <p class="cv__when mono">January 2024 – April 2024</p>
         </header>
         <ul>
@@ -130,7 +141,8 @@
 
       <article class="cv__entry">
         <header>
-          <h3>Housing Scout <span>— Real Estate Agent · Austin, Texas</span></h3>
+          <h3>Housing Scout <span>: Real Estate Agent · Austin, Texas</span>
+</h3>
           <p class="cv__when mono">April 2024 – April 2026</p>
         </header>
         <ul>
@@ -145,7 +157,8 @@
 
       <article class="cv__entry">
         <header>
-          <h3>Neighborhood Longhorns <span>— Math Tutor · Austin, Texas</span></h3>
+          <h3>Neighborhood Longhorns <span>: Math Tutor · Austin, Texas</span>
+</h3>
           <p class="cv__when mono">August 2024 – Present</p>
         </header>
         <ul>
@@ -156,7 +169,8 @@
 
       <article class="cv__entry">
         <header>
-          <h3>Texas Wranglers <span>— Alumni Liaison · Austin, Texas</span></h3>
+          <h3>Texas Wranglers <span>: Alumni Liaison · Austin, Texas</span>
+</h3>
           <p class="cv__when mono">September 2023 – Present</p>
         </header>
         <ul>
@@ -200,13 +214,40 @@
     </section>
 
   </div>
+</div>
+<section class="contact" id="contact">
+<div class="section-label">
+<span class="mono">LET’S CONNECT</span>
+<span class="mono">SPRING &amp; SUMMER 2027 INTERNSHIPS</span>
+</div>
+<div class="contact-grid">
+<h2>Get in <em>touch.</em>
+</h2>
+<div>
+<p>I'm looking for mechanical and product design engineering internships for Spring and Summer 2027. Please contact me at my email listed below.</p>
+<a class="contact-email" href="mailto:carsonmoore715@gmail.com">carsonmoore715@gmail.com <span aria-hidden="true">↗</span>
+</a>
+<div class="contact-links">
+<a href="https://www.linkedin.com/in/carsonm13" target="_blank" rel="noopener">LinkedIn ↗</a>
+<a href="/resume">Read my résumé ↗</a>
+</div>
+</div>
+</div>
+</section>
 </main>
-
-<footer class="footer wrap mono">
-  <span>© <span data-year></span> Carson Moore</span>
-  <span>The University of Texas at Austin · Cockrell School of Engineering</span>
+<footer>
+<a href="/" class="footer-name">Carson Moore</a>
+<span class="mono">MECHANICAL ENGINEERING / THE UNIVERSITY OF TEXAS AT AUSTIN</span>
+<span class="mono">© 2026</span>
+<a href="#main">Back to top ↑</a>
 </footer>
-
-<script src="js/site.js" defer></script>
+<dialog class="image-dialog" aria-label="Project image viewer">
+<form method="dialog">
+<button aria-label="Close image viewer">Close ×</button>
+</form>
+<img alt="">
+<p>
+</p>
+</dialog>
 </body>
 </html>
