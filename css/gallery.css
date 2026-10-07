@@ -83,3 +83,6 @@ img[src$="hub-cad-render.jpg"],img[src$="ridehgt-assembly.jpg"]{clip-path:inset(
 .case-gallery img[src$="bearing-power-loss.jpg"]{transform:scale(1.025);transform-origin:center}
 .case-gallery img[src$="hub-fea.jpg"]{transform:scale(1.025);transform-origin:center}
 .case-gallery img[src$="hub-thread-formulas.jpg"]{transform:scale(1.015)}
+
+/* Trim the captured window edge around the hose-carrier CAD, including the enlarged view. */
+img[src$="hose-assembly.jpg"]{clip-path:inset(2%)}

@@ -353,11 +353,6 @@
       "takeaway": "The drivetrain and electronics interfaces set the requirements. Bearing selection, structural analysis, and machining constraints then shaped the hub.",
       "discipline": "System integration / Bearing selection / Mechanical design",
       "showResult": false,
-      "bearingTradeStudy": {
-        "scope": "Preliminary comparison of 50 mm and 60 mm bearing bores, hub mass, and inboard/outboard bearing mass.",
-        "source": "images/hub-bearing-mass-study.png",
-        "limitation": "The source lists different weights for bearing 61912 in its upper comparison and lower reference list. Its totals are not treated as verified final mass results."
-      },
       "bearingSelection": {
         "model": "SKF 71817 ACDGB/VQ253",
         "weightSaved": "0.8 lb",
