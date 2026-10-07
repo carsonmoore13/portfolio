@@ -7,7 +7,7 @@
       "when": "May – August 2026",
       "featured": true,
       "card": "images/spacex-starbase.jpg",
-      "summary": "I redesigned cryo-proof test tooling to simplify assembly, reduce unnecessary leak paths, and improve test repeatability on Super Heavy.",
+      "summary": "As Responsible Engineer for Super Heavy’s cryo-proof tooling, I carried the program from redesign and structural validation through procurement, assembly, and vehicle integration, with a focus on reliable testing and faster production.",
       "tags": [
         "Responsible Engineer",
         "13,000+ components",
@@ -17,20 +17,28 @@
       ],
       "points": [
         {
-          "lead": "A repeatable test setup",
-          "text": "The inherited assembly had unnecessary leak paths, a complicated bolted stackup, and no reliable CAD reference. I rebuilt the assembly model as the design reference and used it to coordinate the tooling changes."
+          "lead": "Scope and test requirements",
+          "text": "The 13,000+ component assembly sealed the booster’s 33 engine feedlines during cryo-proof testing. I redesigned the tooling to accommodate a high-flow gaseous-oxygen test assembly, a drain manifold for post-test cryogenic fluid removal, and gas-system ports for decay checks and transducer testing with the Checkouts team."
         },
         {
-          "lead": "Simpler interfaces",
-          "text": "I replaced the plate-to-drain bolted stackup with a custom welded elbow fitting that located its own orientation for welding. I also worked with the propulsion responsible engineer to revise the plate interfaces for high-flow gaseous-oxygen test tooling."
+          "lead": "Interface redesign",
+          "text": "The inherited assembly had unnecessary leak paths, a complicated bolted stackup, and no reliable CAD reference. I rebuilt the assembly model and replaced the plate-to-drain bolted stackup with a custom welded elbow that located its own orientation for welding. I also coordinated plate-interface changes with the propulsion responsible engineer and replaced specialized bolts with standard factory hardware."
         },
         {
-          "lead": "Hardware and load checks",
-          "text": "I replaced specialized bolts with standard factory hardware and designed the tooling around the maximum pressure-induced separation loads from the vehicle tanks."
+          "lead": "Structural validation",
+          "text": "I ran FEA on maximum-pressure feedline blow-off load cases to check the tooling under cryo-proof loading. These pressure-induced separation loads guided the structural checks at the interfaces that retained the tooling on the vehicle."
         },
         {
-          "lead": "Build and integration",
-          "text": "My responsibility extended through procurement, fabrication, and installation. The overall tooling program saved more than 1,100 production hours per vehicle."
+          "lead": "Procurement and coordination",
+          "text": "I directed $800,000 in machined-part procurement, working through daily vendor calls to keep delivery on schedule and parts conforming to the drawings. Daily stand-ups and status updates to more than 80 stakeholders kept design, supply, build, and integration teams aligned."
+        },
+        {
+          "lead": "Build and vehicle integration",
+          "text": "I oversaw up to 25 technicians during subassembly build and vehicle integration, resolving issues on the floor as they arose. I also physically installed tooling on the vehicle to work through fit issues firsthand and designed lineside parts storage to support the build sequence."
+        },
+        {
+          "lead": "Production improvements",
+          "text": "Across the program, design improvements, streamlined planning, and better parts storage saved more than 1,100 production hours per vehicle. The work extended from how the tooling performed during a test to how efficiently the team could prepare, assemble, and integrate it."
         }
       ],
       "gallery": [],
@@ -52,20 +60,28 @@
       "showResult": true,
       "sections": [
         {
-          "title": "A repeatable test setup",
-          "text": "The inherited assembly had unnecessary leak paths, a complicated bolted stackup, and no reliable CAD reference. I rebuilt the assembly model as the design reference and used it to coordinate the tooling changes."
+          "title": "Scope and test requirements",
+          "text": "The 13,000+ component assembly sealed the booster’s 33 engine feedlines during cryo-proof testing. I redesigned the tooling to accommodate a high-flow gaseous-oxygen test assembly, a drain manifold for post-test cryogenic fluid removal, and gas-system ports for decay checks and transducer testing with the Checkouts team."
         },
         {
-          "title": "Simpler interfaces",
-          "text": "I replaced the plate-to-drain bolted stackup with a custom welded elbow fitting that located its own orientation for welding. I also worked with the propulsion responsible engineer to revise the plate interfaces for high-flow gaseous-oxygen test tooling."
+          "title": "Interface redesign",
+          "text": "The inherited assembly had unnecessary leak paths, a complicated bolted stackup, and no reliable CAD reference. I rebuilt the assembly model and replaced the plate-to-drain bolted stackup with a custom welded elbow that located its own orientation for welding. I also coordinated plate-interface changes with the propulsion responsible engineer and replaced specialized bolts with standard factory hardware."
         },
         {
-          "title": "Hardware and load checks",
-          "text": "I replaced specialized bolts with standard factory hardware and designed the tooling around the maximum pressure-induced separation loads from the vehicle tanks."
+          "title": "Structural validation",
+          "text": "I ran FEA on maximum-pressure feedline blow-off load cases to check the tooling under cryo-proof loading. These pressure-induced separation loads guided the structural checks at the interfaces that retained the tooling on the vehicle."
         },
         {
-          "title": "Build and integration",
-          "text": "My responsibility extended through procurement, fabrication, and installation. The overall tooling program saved more than 1,100 production hours per vehicle."
+          "title": "Procurement and coordination",
+          "text": "I directed $800,000 in machined-part procurement, working through daily vendor calls to keep delivery on schedule and parts conforming to the drawings. Daily stand-ups and status updates to more than 80 stakeholders kept design, supply, build, and integration teams aligned."
+        },
+        {
+          "title": "Build and vehicle integration",
+          "text": "I oversaw up to 25 technicians during subassembly build and vehicle integration, resolving issues on the floor as they arose. I also physically installed tooling on the vehicle to work through fit issues firsthand and designed lineside parts storage to support the build sequence."
+        },
+        {
+          "title": "Production improvements",
+          "text": "Across the program, design improvements, streamlined planning, and better parts storage saved more than 1,100 production hours per vehicle. The work extended from how the tooling performed during a test to how efficiently the team could prepare, assemble, and integrate it."
         }
       ],
       "cardAlt": "Carson at Starbase with Starship and the launch tower",
