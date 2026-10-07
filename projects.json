@@ -94,7 +94,7 @@
       "when": "January – August 2025",
       "featured": true,
       "card": "images/spacex-team.jpg",
-      "summary": "I designed the fixtures and handling tools that supported a Starship manifold build, from locating weld interfaces to lifting hardware and setting up repeatable assembly work.",
+      "summary": "On SpaceX’s Structures Build Engineering team, I helped design and build a new weld-focused subassembly cell for a high-pressure propulsion manifold for Starship V3. My work included flange fit-up fixtures, lift and access tooling, flight-part retrofits, and production improvements.",
       "tags": [
         "Weld cell",
         "GD&T",
@@ -104,20 +104,28 @@
       ],
       "points": [
         {
-          "lead": "Weld-cell layout and locating",
-          "text": "I explored station layouts in CAD, selected welding tables, and designed precision fixtures for the manifold’s endpoint flanges. Dowel pins, toggle clamps, and machined blocks established flange position and orientation using 3-2-1 locating principles and GD&T."
+          "lead": "Subassembly build cell",
+          "text": "I helped develop the manifold build cell and oversaw its integration on the production floor. I managed approximately $50,000 in purchased parts to equip the cell and support the build process."
+        },
+        {
+          "lead": "Self-clocking flange fixtures",
+          "text": "I designed self-clocking fixtures to position and orient the manifold’s endpoint flanges for weld fit-up. This work taught me to apply geometric dimensioning and tolerancing (GD&T) to the tooling interfaces that controlled flange alignment."
         },
         {
           "lead": "Manifold lift tooling",
-          "text": "I designed a lift tool to position the manifold on the vehicle for integration. The work included bending and weld calculations, locating strategy, and critical-lift requirements. The tool was proof-tested at twice its working load."
+          "text": "I designed a lift tool rated for a 1,100 lb working load limit. The tool was proof-tested at twice that limit, or 2,200 lb, to validate it before use."
         },
         {
-          "lead": "Torque-frame integration jig",
-          "text": "A new welded structure needed a repeatable place to receive its bolted components. I developed the assembly sequence and an integration jig at a comfortable working height, designed for repeated production use."
+          "lead": "Aft flap torque-frame access",
+          "text": "I designed a tool that improved technician access and the integration process for Starship’s aft flap torque frames."
         },
         {
-          "lead": "Sizing the jig",
-          "text": "I used maximum integration loads in two-plane bending and torsion to size the base, integration plates, and welds."
+          "lead": "Flight-part retrofits",
+          "text": "I designed five flight-part retrofits to accommodate off-nominal conditions in existing assemblies. I took precise measurements of the as-built hardware, created CAD models of those assemblies, and used them to define custom parts for manufacture and installation."
+        },
+        {
+          "lead": "Production improvements",
+          "text": "Alongside the build cell and integration tooling, I designed several 3D-printed parts and parts manufactured through Protolabs to improve production rate."
         }
       ],
       "gallery": [],
@@ -139,20 +147,28 @@
       "showResult": true,
       "sections": [
         {
-          "title": "Weld-cell layout and locating",
-          "text": "I explored station layouts in CAD, selected welding tables, and designed precision fixtures for the manifold’s endpoint flanges. Dowel pins, toggle clamps, and machined blocks established flange position and orientation using 3-2-1 locating principles and GD&T."
+          "title": "Subassembly build cell",
+          "text": "I helped develop the manifold build cell and oversaw its integration on the production floor. I managed approximately $50,000 in purchased parts to equip the cell and support the build process."
+        },
+        {
+          "title": "Self-clocking flange fixtures",
+          "text": "I designed self-clocking fixtures to position and orient the manifold’s endpoint flanges for weld fit-up. This work taught me to apply geometric dimensioning and tolerancing (GD&T) to the tooling interfaces that controlled flange alignment."
         },
         {
           "title": "Manifold lift tooling",
-          "text": "I designed a lift tool to position the manifold on the vehicle for integration. The work included bending and weld calculations, locating strategy, and critical-lift requirements. The tool was proof-tested at twice its working load."
+          "text": "I designed a lift tool rated for a 1,100 lb working load limit. The tool was proof-tested at twice that limit, or 2,200 lb, to validate it before use."
         },
         {
-          "title": "Torque-frame integration jig",
-          "text": "A new welded structure needed a repeatable place to receive its bolted components. I developed the assembly sequence and an integration jig at a comfortable working height, designed for repeated production use."
+          "title": "Aft flap torque-frame access",
+          "text": "I designed a tool that improved technician access and the integration process for Starship’s aft flap torque frames."
         },
         {
-          "title": "Sizing the jig",
-          "text": "I used maximum integration loads in two-plane bending and torsion to size the base, integration plates, and welds."
+          "title": "Flight-part retrofits",
+          "text": "I designed five flight-part retrofits to accommodate off-nominal conditions in existing assemblies. I took precise measurements of the as-built hardware, created CAD models of those assemblies, and used them to define custom parts for manufacture and installation."
+        },
+        {
+          "title": "Production improvements",
+          "text": "Alongside the build cell and integration tooling, I designed several 3D-printed parts and parts manufactured through Protolabs to improve production rate."
         }
       ],
       "mediaKind": "photo",
