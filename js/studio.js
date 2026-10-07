@@ -61,8 +61,11 @@
       link.addEventListener('click', event => {
         event.preventDefault();
         const img = dialog.querySelector('img');
-        img.src = link.href; img.alt = link.dataset.caption;
-        dialog.querySelector('p').textContent = link.dataset.caption;
+        img.src = link.href;
+        img.alt = link.querySelector('img')?.alt || link.dataset.caption || '';
+        const caption = dialog.querySelector('p');
+        caption.textContent = link.dataset.caption || '';
+        caption.hidden = !caption.textContent;
         dialog.showModal();
       });
     });
