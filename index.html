@@ -31,7 +31,7 @@
 <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu <span aria-hidden="true">+</span>
 </button>
 <nav id="site-nav" aria-label="Main navigation">
-<a href="/projects" >Work</a>
+<a href="/projects" >All projects</a>
 <a href="/#about">About</a>
 <a href="/resume" >Résumé <span aria-hidden="true">↗</span>
 </a>
@@ -48,7 +48,7 @@
 </h1>
 <p class="alpine-bio">I’m an aspiring mechanical design engineer interested in turning emerging technologies into thoughtfully designed products.</p>
 <div class="hero-actions">
-<a class="button" href="/projects">Explore my work <span aria-hidden="true">↗</span>
+<a class="button" href="/projects">View all projects <span aria-hidden="true">↗</span>
 </a>
 <a class="text-link" href="/resume">Résumé ↗</a>
 </div>
@@ -70,7 +70,7 @@
 <section class="alpine-selected wrap" id="selected">
 <div class="section-label">
 <span class="mono">01 / ENGINEERING</span>
-<a class="mono" href="/projects">ALL PROJECTS ↗</a>
+<a class="text-link collection-link" href="/projects">View all projects ↗</a>
 </div>
 <div class="section-heading">
 <h2>Selected work<span class="orange">.</span>
@@ -78,7 +78,7 @@
 <p>From vehicle-scale tooling to the details of a wheel assembly. A closer look at my role, the decisions, and the results.</p>
 </div>
 <div class="work-list">
-<a class="work-row" href="/projects#booster-cryo-proof">
+<a class="work-row" id="booster-cryo-proof-preview" href="/projects#booster-cryo-proof">
 <div class="work-row-image">
 <img src="/images/spacex-starbase.jpg" alt="Starship Booster Cryo Proof Tooling" loading="lazy">
 </div>
@@ -90,7 +90,7 @@
 </span>
 </div>
 </a>
-<a class="work-row" href="/projects#brake-rotors">
+<a class="work-row" id="brake-rotors-preview" href="/projects#brake-rotors">
 <div class="work-row-image">
 <img src="/images/rotor-slotted-cad.jpg" alt="Brake Rotors &amp; Mounts" loading="lazy">
 </div>
@@ -102,7 +102,7 @@
 </span>
 </div>
 </a>
-<a class="work-row" href="/projects#wheel-hub">
+<a class="work-row" id="hub-preview" href="/projects#wheel-hub">
 <div class="work-row-image">
 <img src="/images/hub-cad-render.jpg" alt="Rear Wheel Hub &amp; Bearing Assembly" loading="lazy">
 </div>
@@ -116,25 +116,16 @@
 </a>
 </div>
 </section>
-<section class="design-detail wrap" id="hub-preview">
+<section class="all-projects-cta wrap" aria-labelledby="all-projects-title">
 <div>
-<p class="eyebrow mono">A CLOSER LOOK / HUB &amp; BEARING ASSEMBLY</p>
-<h2>From system requirements<br>to a complete assembly.</h2>
-<p>The hub had to connect the drivetrain, wheel bearings, and electronics in one compact assembly. I developed the design around those interfaces, with analysis guiding how much material to keep and where.</p>
-<a class="text-link" href="/projects#wheel-hub">Explore the design decisions ↗</a>
+<p class="eyebrow">THE FULL COLLECTION</p>
+<h2 id="all-projects-title">More to explore.</h2>
+<p>Browse every engineering and software project, from suspension design to interactive applications.</p>
 </div>
-<div class="workbench">
-<div class="bench-stage">
-<img id="bench-image" src="/images/hub-cad-render.jpg" alt="Rear wheel hub and bearing CAD assembly" width="1247" height="933">
-</div>
-<div class="bench-bottom">
-<div class="bench-tabs" role="group" aria-label="Wheel hub view">
-<button type="button" class="active" aria-pressed="true" data-bench="cad">CAD model</button>
-<button type="button" aria-pressed="false" data-bench="fea">Structural analysis</button>
-</div>
-<a href="/projects#wheel-hub" aria-label="Read the wheel hub project">↗</a>
-</div>
-<p class="bench-caption" id="bench-caption">Rear hub and bearing assembly</p>
+<div class="collection-actions">
+<a class="button" href="/projects">View all projects <span aria-hidden="true">↗</span>
+</a>
+<a class="text-link" href="/projects#code">Software &amp; side projects ↗</a>
 </div>
 </section>
 <section class="alpine-about" id="about">

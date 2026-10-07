@@ -19,24 +19,6 @@
     }
   });
 
-  const benchViews = {
-    cad: { src: '/images/hub-cad-render.jpg', alt: 'Rear wheel hub and bearing CAD assembly', caption: 'Rear hub and bearing assembly' },
-    fea: { src: '/images/hub-fea.jpg', alt: 'Ansys finite element analysis of the rear wheel hub', caption: 'Hub structural analysis in Ansys' }
-  };
-  document.querySelectorAll('[data-bench]').forEach(button => {
-    button.addEventListener('click', () => {
-      const view = benchViews[button.dataset.bench];
-      const img = document.querySelector('#bench-image');
-      img.src = view.src; img.alt = view.alt;
-      img.parentElement.classList.toggle('analysis', button.dataset.bench === 'fea');
-      document.querySelector('#bench-caption').textContent = view.caption;
-      document.querySelectorAll('[data-bench]').forEach(item => {
-        const active = item === button;
-        item.classList.toggle('active', active); item.setAttribute('aria-pressed', String(active));
-      });
-    });
-  });
-
   const cases = [...document.querySelectorAll('.case')];
   const filters = [...document.querySelectorAll('[data-filter]')];
   function applyFilter(category) {
@@ -50,7 +32,7 @@
       item.classList.toggle('active', active); item.setAttribute('aria-pressed', String(active));
     });
     const countNode = document.querySelector('#project-count');
-    if (countNode) countNode.textContent = `${count} PROJECT${count === 1 ? '' : 'S'}`;
+    if (countNode) countNode.textContent = `${count} engineering project${count === 1 ? '' : 's'}`;
   }
   filters.forEach(button => button.addEventListener('click', () => applyFilter(button.dataset.filter)));
   let hashFrame;

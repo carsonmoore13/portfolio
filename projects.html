@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>The work: Carson Moore</title>
-<meta name="description" content="Eight engineering projects: SpaceX production tooling, Longhorn Racing Electric hardware, robotics, and drill-rig design. Explore the decisions and results.">
+<title>All projects: Carson Moore</title>
+<meta name="description" content="Engineering and software projects: SpaceX production tooling, Longhorn Racing Electric hardware, robotics, and drill-rig design. Explore the decisions and results.">
 <meta name="theme-color" content="#f4f7f8">
-<meta property="og:title" content="The work: Carson Moore">
-<meta property="og:description" content="Eight engineering projects: SpaceX production tooling, Longhorn Racing Electric hardware, robotics, and drill-rig design. Explore the decisions and results.">
+<meta property="og:title" content="All projects: Carson Moore">
+<meta property="og:description" content="Engineering and software projects: SpaceX production tooling, Longhorn Racing Electric hardware, robotics, and drill-rig design. Explore the decisions and results.">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://cmoore13.vercel.app/images/alpine-lakes.jpg">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -31,7 +31,7 @@
 <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu <span aria-hidden="true">+</span>
 </button>
 <nav id="site-nav" aria-label="Main navigation">
-<a href="/projects" aria-current="page">Work</a>
+<a href="/projects" aria-current="page">All projects</a>
 <a href="/#about">About</a>
 <a href="/resume" >Résumé <span aria-hidden="true">↗</span>
 </a>
@@ -42,13 +42,17 @@
 <main id="main">
 <section class="gallery-intro wrap">
 <p class="eyebrow">Engineering portfolio</p>
-<h1>Selected work.</h1>
-<p>Mechanical design, testing, and manufacturing across aerospace, vehicle dynamics, and robotics.</p>
+<h1>All projects.</h1>
+<p>Mechanical design, testing, and manufacturing, alongside software I’ve built. Choose a project below to explore.</p>
+<nav class="collection-shortcuts" aria-label="Project collections">
+<a href="#project-index">Engineering projects ↓</a>
+<a href="#code">Software &amp; side projects ↓</a>
+</nav>
 </section>
 <section class="project-library wrap" id="project-index">
 <div class="project-controls">
 <div class="filters" role="group" aria-label="Filter engineering projects">
-<button aria-pressed="true" class="active" data-filter="all">All work <span>08</span>
+<button aria-pressed="true" class="active" data-filter="all">All engineering <span>08</span>
 </button>
 <button aria-pressed="false" data-filter="spacex">SpaceX <span>02</span>
 </button>
@@ -57,7 +61,7 @@
 <button aria-pressed="false" data-filter="tools">Research &amp; tools <span>02</span>
 </button>
 </div>
-<p id="project-count" aria-live="polite">8 projects</p>
+<p id="project-count" aria-live="polite">8 engineering projects</p>
 </div>
 <nav class="project-jumps" aria-label="Jump to a project">
 <a href="#booster-cryo-proof">Booster cryo-proof tooling <span aria-hidden="true">↗</span>
@@ -75,6 +79,12 @@
 <a href="#motion-capture">Robotics motion capture <span aria-hidden="true">↗</span>
 </a>
 <a href="#hose-carrier">Drill-rig hose carrier <span aria-hidden="true">↗</span>
+</a>
+<a class="software-jump" href="#software-1">PolicyMarket <span aria-hidden="true">↗</span>
+</a>
+<a class="software-jump" href="#software-2">march-madness <span aria-hidden="true">↗</span>
+</a>
+<a class="software-jump" href="#software-3">Runtime-Terror <span aria-hidden="true">↗</span>
 </a>
 </nav>
 <div class="project-cases">
@@ -774,7 +784,7 @@
 <p>A computer science minor, a few hackathons, and projects I wanted to use myself.</p>
 </div>
 <div class="code-grid">
-<a class="code-card" href="https://github.com/carsonmoore13/PolicyMarket" target="_blank" rel="noopener">
+<a class="code-card" id="software-1" href="https://github.com/carsonmoore13/PolicyMarket" target="_blank" rel="noopener">
 <img src="/images/code-policymarket.jpg" alt="State-level races for a resolved address, with the HD-15 boundary overlaid, candidates in the panel." loading="lazy" width="1396" height="636">
 <div>
 <span class="mono">01 / SOFTWARE</span>
@@ -784,7 +794,7 @@
 <small>React + Vite · Express + MongoDB · Leaflet</small>
 </div>
 </a>
-<a class="code-card" href="https://github.com/carsonmoore13/march-madness" target="_blank" rel="noopener">
+<a class="code-card" id="software-2" href="https://github.com/carsonmoore13/march-madness" target="_blank" rel="noopener">
 <img src="/images/code-march-madness.jpg" alt="Full bracket from a 10,000-run simulation, with per-matchup advance probabilities." loading="lazy" width="1600" height="1067">
 <div>
 <span class="mono">02 / SOFTWARE</span>
@@ -794,7 +804,7 @@
 <small>JavaScript · Monte Carlo · 2025 + 2026 fields</small>
 </div>
 </a>
-<a class="code-card" href="https://github.com/carsonmoore13/Runtime-Terror" target="_blank" rel="noopener">
+<a class="code-card" id="software-3" href="https://github.com/carsonmoore13/Runtime-Terror" target="_blank" rel="noopener">
 <img src="/images/code-runtime-terror.jpg" alt="Heat-flow density over North America with the top-ranked geothermal sites called out." loading="lazy" width="1600" height="1003">
 <div>
 <span class="mono">03 / SOFTWARE</span>

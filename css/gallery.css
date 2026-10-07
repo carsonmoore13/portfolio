@@ -24,3 +24,62 @@ img[src$="hub-cad-render.jpg"],img[src$="ridehgt-assembly.jpg"]{clip-path:inset(
 #ship-structures .project-visual.photo .visual-canvas{height:auto;background:transparent}
 #ship-structures .project-visual.photo img{width:100%;height:auto;max-height:850px;object-fit:contain;object-position:center}
 @media(max-width:760px){#booster-cryo-proof .project-visual.photo img{max-height:none;width:100%}.work-row:first-child .work-row-image{height:auto;aspect-ratio:1600/2132}}
+/* Image frames hug the image instead of adding a fixed-height matte. */
+:root{--image-edge:#aab6bf;--image-radius:8px}
+.project-visual.photo .visual-canvas,
+.project-body .case-gallery .zoom-image,
+.sizing-image,.hub-study-image,.personal-zoom,
+.work-row:first-child .work-row-image{
+ border:1px solid var(--image-edge);border-radius:var(--image-radius);overflow:hidden;padding:0;
+}
+.project-visual.photo .visual-canvas{
+ width:fit-content;max-width:100%;margin-inline:auto;background:transparent;
+}
+#ship-structures .project-visual.photo img,
+#booster-cryo-proof .project-visual.photo img{
+ display:block;width:auto;height:auto;max-width:100%;max-height:850px;
+}
+.project-body .case-gallery{align-items:start}
+.project-body .case-gallery .zoom-image,
+.project-body .case-gallery figure:first-child .zoom-image{
+ display:block;width:fit-content;max-width:100%;height:auto;min-height:0;margin-inline:auto;background:transparent;
+}
+.project-body .case-gallery .zoom-image>img{
+ display:block;width:auto;height:auto;max-width:100%;max-height:720px;padding:0;
+}
+.project-body .case-gallery figcaption{max-width:900px;margin-inline:auto}
+.sizing-image,.hub-study-image{display:block;height:auto;min-height:0;background:transparent}
+.sizing-image>img,.hub-study-image>img{display:block;width:100%;height:auto;padding:0}
+.code-card{border-color:var(--image-edge);border-radius:var(--image-radius);overflow:hidden}
+.code-card>img{width:100%;height:auto;aspect-ratio:auto;object-fit:contain;padding:0;border-bottom:1px solid var(--image-edge)}
+.work-row-image>img:not([src$="spacex-starbase.jpg"]){padding:0}
+.work-row:first-child .work-row-image{width:fit-content;max-width:100%;height:auto;margin-inline:auto;aspect-ratio:auto}
+.work-row:first-child .work-row-image>img{width:auto;height:auto;max-width:100%;max-height:600px}
+/* Explicit routes to the complete collection, including software. */
+.alpine-selected .section-label{align-items:center}
+.collection-link{font-size:14px;font-weight:600;color:var(--accent)}
+.all-projects-cta{display:flex;align-items:center;justify-content:space-between;gap:60px;padding-block:24px 80px}
+.all-projects-cta .eyebrow{font-size:11px;letter-spacing:.06em;color:var(--accent)}
+.all-projects-cta h2{font-size:56px;margin:14px 0 18px}
+.all-projects-cta p:last-child{font-size:15px;line-height:1.8;max-width:590px;color:var(--muted)}
+.collection-actions{display:flex;flex-direction:column;align-items:flex-start;gap:20px;flex-shrink:0}
+.collection-shortcuts{display:flex;flex-wrap:wrap;gap:16px 32px;margin-top:26px}
+.collection-shortcuts a{font-size:13px;font-weight:600;color:var(--accent);border-bottom:1px solid var(--image-edge);padding-bottom:6px}
+.gallery-intro>p:not(.eyebrow){font-size:17px;color:var(--muted);max-width:610px;line-height:1.8}
+.project-jumps a{font-size:13px;padding:9px 0;border-bottom:1px solid var(--line)}
+.project-jumps .software-jump{color:var(--accent)}
+@media(max-width:760px){
+ .all-projects-cta{flex-direction:column;align-items:flex-start;gap:27px;padding-block:0 52px}
+ .all-projects-cta h2{font-size:45px}
+ .all-projects-cta p:last-child,.gallery-intro>p:not(.eyebrow){font-size:14px}
+ .collection-actions{width:100%}.collection-actions .button{width:100%}
+ .collection-link{font-size:12px}.project-jumps a{font-size:12px}
+ .work-row:first-child .work-row-image>img{max-height:540px}
+ .project-body .case-gallery .zoom-image>img{max-height:none}
+}
+/* Hide thin screenshot capture rims while preserving the underlying originals. */
+.case-gallery img[src$="hub-thread-calcs.jpg"],
+.case-gallery img[src$="hub-thread-formulas.jpg"],
+.case-gallery img[src$="bearing-power-loss.jpg"]{transform:scale(1.025);transform-origin:center}
+.case-gallery img[src$="hub-fea.jpg"]{transform:scale(1.025);transform-origin:center}
+.case-gallery img[src$="hub-thread-formulas.jpg"]{transform:scale(1.015)}
