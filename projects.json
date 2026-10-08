@@ -18,48 +18,28 @@
       ],
       "points": [
         {
-          "lead": "Find the weak interfaces",
-          "text": "I reviewed the tooling sealing 33 feedlines for leak paths, difficult work access, and assembly errors. That review led to three component redesigns, alongside drain rerouting and mistake-proofing."
+          "lead": "Problem statement",
+          "text": "The cryo-proof assembly had leak-prone interfaces, difficult work access, and opportunities for incorrect assembly. I redesigned the tooling sealing the booster’s 33 feedlines."
         },
         {
-          "lead": "Replace the leak-prone stackup",
-          "text": "I replaced a leak-prone bolted joint stackup with a welded 90° elbow connecting the blankoff to the cryogenic drain tube. The elbow welded directly to the blankoff, leaving one B-nut joint at the flared tube’s AN connection with a copper seal. I chose 304 stainless steel to match the blankoff’s weld material."
+          "lead": "Design requirements",
+          "text": "Withstand maximum feedline blow-off loads, control elbow orientation and weld fit-up, improve GOX sealing, and maintain bolt preload under repeated loading."
         },
         {
-          "lead": "Size the vehicle-side weld, then control fit-up",
-          "text": "I used the maximum elbow outlet moment and loads from the cryo-proof feedline blow-off cases to size the elbow’s vehicle-side weld to the blankoff using Blodgett’s method. A radial key clocked the outlet; a diameter step located weld height. I toleranced the fit to keep the TIG root gap within 0.5 mm."
+          "lead": "Material selection",
+          "text": "I chose 304 stainless steel for the elbow to match the blankoff’s weld material. The GOX redesign used a Monel bung and stainless blankoff; load, gapping, and fatigue checks supported switching the attachment bolts to stocked Grade 5 hardware."
         },
         {
-          "lead": "Recheck the revised blankoffs",
-          "text": "I ran Ansys simulations on the revised blankoff geometries, including the new clocking cutouts. I applied pressure to their internal faces based on the maximum feedline blow-off load cases in the cryo-proof test."
+          "lead": "Design & validation",
+          "text": "I replaced a leak-prone bolted joint stackup with a welded 90° elbow connecting the blankoff to the cryogenic drain tube. The elbow welded directly to the blankoff, leaving one B-nut joint at the flared tube’s AN connection with a copper seal. I chose 304 stainless steel to match the blankoff’s weld material. I used the maximum elbow outlet moment and loads from the cryo-proof feedline blow-off cases to size the elbow’s vehicle-side weld to the blankoff using Blodgett’s method. A radial key clocked the outlet; a diameter step located weld height. I toleranced the fit to keep the TIG root gap within 0.5 mm. I ran Ansys simulations on the revised blankoff geometries, including the new clocking cutouts. I applied pressure to their internal faces based on the maximum feedline blow-off load cases in the cryo-proof test. I designed a Monel bung welded to a stainless blankoff to improve sealing performance at another faulty interface. I controlled the interface geometry to minimize gaseous-oxygen (GOX) impingement risk and sized the dissimilar-metal weld using Blodgett’s method. The bung protruded through the blankoff and sat against a counterbore in the blankoff to form the inner lip of an upper seal gland. I used the Parker O-Ring Handbook to size the gland for the required O-ring compression. I evaluated replacing the existing A280 mil-spec bolts with Grade 5 hardware stocked in the factory. I based the sizing on maximum feedline blow-off loads during cryo-proof testing. From the blow-off force, I calculated the required bolt preload and tightening torque using T = KDF, with K as the torque coefficient, D as bolt diameter, and F as preload. I checked joint gapping and bolt fatigue under repeated loading. All checks passed, allowing us to replace the specialized bolts with standard Grade 5 hardware."
         },
         {
-          "lead": "Improve sealing at a faulty interface",
-          "text": "I designed a Monel bung welded to a stainless blankoff to improve sealing performance at another faulty interface. I controlled the interface geometry to minimize gaseous-oxygen (GOX) impingement risk and sized the dissimilar-metal weld using Blodgett’s method."
+          "lead": "Manufacturing & integration",
+          "text": "I released the revised parts, evaluated manufacturing deviations against critical sealing requirements, and oversaw welded-subassembly fabrication and vehicle integration."
         },
         {
-          "lead": "Design the seal gland",
-          "text": "The bung protruded through the blankoff and sat against a counterbore in the blankoff to form the inner lip of an upper seal gland. I used the Parker O-Ring Handbook to size the gland for the required O-ring compression."
-        },
-        {
-          "lead": "Define the repeated load case",
-          "text": "I evaluated replacing the existing A280 mil-spec bolts with Grade 5 hardware stocked in the factory. I based the sizing on maximum feedline blow-off loads during cryo-proof testing."
-        },
-        {
-          "lead": "Calculate preload & torque",
-          "text": "From the blow-off force, I calculated the required bolt preload and tightening torque using T = KDF, with K as the torque coefficient, D as bolt diameter, and F as preload."
-        },
-        {
-          "lead": "Check gapping & fatigue",
-          "text": "I checked joint gapping and bolt fatigue under repeated loading. All checks passed, allowing us to replace the specialized bolts with standard Grade 5 hardware."
-        },
-        {
-          "lead": "Release, manufacture & inspect",
-          "text": "I released the revised parts and evaluated manufacturing deviations against critical sealing requirements. I then oversaw fabrication of the welded subassemblies."
-        },
-        {
-          "lead": "Integrate & support repeat use",
-          "text": "I oversaw vehicle integration, rerouted drain tubes for work access, and mistake-proofed an asymmetric subassembly. I maintained the 13,000-component CAD assembly across three vehicles at different release states and designed lineside storage to support two vehicles using the tools simultaneously."
+          "lead": "Additional considerations",
+          "text": "I rerouted drain tubes for work access and mistake-proofed an asymmetric subassembly. I maintained the 13,000-component CAD assembly across three vehicle release states and designed lineside storage to support two vehicles using the tools simultaneously."
         }
       ],
       "gallery": [],
@@ -81,112 +61,103 @@
       "showResult": false,
       "sections": [
         {
-          "title": "Find the weak interfaces",
-          "text": "I reviewed the tooling sealing 33 feedlines for leak paths, difficult work access, and assembly errors. That review led to three component redesigns, alongside drain rerouting and mistake-proofing."
+          "title": "Problem statement",
+          "text": "The cryo-proof assembly had leak-prone interfaces, difficult work access, and opportunities for incorrect assembly. I redesigned the tooling sealing the booster’s 33 feedlines."
         },
         {
-          "title": "Replace the leak-prone stackup",
-          "text": "I replaced a leak-prone bolted joint stackup with a welded 90° elbow connecting the blankoff to the cryogenic drain tube. The elbow welded directly to the blankoff, leaving one B-nut joint at the flared tube’s AN connection with a copper seal. I chose 304 stainless steel to match the blankoff’s weld material."
+          "title": "Design requirements",
+          "text": "Withstand maximum feedline blow-off loads, control elbow orientation and weld fit-up, improve GOX sealing, and maintain bolt preload under repeated loading."
         },
         {
-          "title": "Size the vehicle-side weld, then control fit-up",
-          "text": "I used the maximum elbow outlet moment and loads from the cryo-proof feedline blow-off cases to size the elbow’s vehicle-side weld to the blankoff using Blodgett’s method. A radial key clocked the outlet; a diameter step located weld height. I toleranced the fit to keep the TIG root gap within 0.5 mm."
+          "title": "Material selection",
+          "text": "I chose 304 stainless steel for the elbow to match the blankoff’s weld material. The GOX redesign used a Monel bung and stainless blankoff; load, gapping, and fatigue checks supported switching the attachment bolts to stocked Grade 5 hardware."
         },
         {
-          "title": "Recheck the revised blankoffs",
-          "text": "I ran Ansys simulations on the revised blankoff geometries, including the new clocking cutouts. I applied pressure to their internal faces based on the maximum feedline blow-off load cases in the cryo-proof test."
+          "title": "Design & validation",
+          "text": "I replaced a leak-prone bolted joint stackup with a welded 90° elbow connecting the blankoff to the cryogenic drain tube. The elbow welded directly to the blankoff, leaving one B-nut joint at the flared tube’s AN connection with a copper seal. I chose 304 stainless steel to match the blankoff’s weld material. I used the maximum elbow outlet moment and loads from the cryo-proof feedline blow-off cases to size the elbow’s vehicle-side weld to the blankoff using Blodgett’s method. A radial key clocked the outlet; a diameter step located weld height. I toleranced the fit to keep the TIG root gap within 0.5 mm. I ran Ansys simulations on the revised blankoff geometries, including the new clocking cutouts. I applied pressure to their internal faces based on the maximum feedline blow-off load cases in the cryo-proof test. I designed a Monel bung welded to a stainless blankoff to improve sealing performance at another faulty interface. I controlled the interface geometry to minimize gaseous-oxygen (GOX) impingement risk and sized the dissimilar-metal weld using Blodgett’s method. The bung protruded through the blankoff and sat against a counterbore in the blankoff to form the inner lip of an upper seal gland. I used the Parker O-Ring Handbook to size the gland for the required O-ring compression. I evaluated replacing the existing A280 mil-spec bolts with Grade 5 hardware stocked in the factory. I based the sizing on maximum feedline blow-off loads during cryo-proof testing. From the blow-off force, I calculated the required bolt preload and tightening torque using T = KDF, with K as the torque coefficient, D as bolt diameter, and F as preload. I checked joint gapping and bolt fatigue under repeated loading. All checks passed, allowing us to replace the specialized bolts with standard Grade 5 hardware."
         },
         {
-          "title": "Improve sealing at a faulty interface",
-          "text": "I designed a Monel bung welded to a stainless blankoff to improve sealing performance at another faulty interface. I controlled the interface geometry to minimize gaseous-oxygen (GOX) impingement risk and sized the dissimilar-metal weld using Blodgett’s method."
+          "title": "Manufacturing & integration",
+          "text": "I released the revised parts, evaluated manufacturing deviations against critical sealing requirements, and oversaw welded-subassembly fabrication and vehicle integration."
         },
         {
-          "title": "Design the seal gland",
-          "text": "The bung protruded through the blankoff and sat against a counterbore in the blankoff to form the inner lip of an upper seal gland. I used the Parker O-Ring Handbook to size the gland for the required O-ring compression."
-        },
-        {
-          "title": "Define the repeated load case",
-          "text": "I evaluated replacing the existing A280 mil-spec bolts with Grade 5 hardware stocked in the factory. I based the sizing on maximum feedline blow-off loads during cryo-proof testing."
-        },
-        {
-          "title": "Calculate preload & torque",
-          "text": "From the blow-off force, I calculated the required bolt preload and tightening torque using T = KDF, with K as the torque coefficient, D as bolt diameter, and F as preload."
-        },
-        {
-          "title": "Check gapping & fatigue",
-          "text": "I checked joint gapping and bolt fatigue under repeated loading. All checks passed, allowing us to replace the specialized bolts with standard Grade 5 hardware."
-        },
-        {
-          "title": "Release, manufacture & inspect",
-          "text": "I released the revised parts and evaluated manufacturing deviations against critical sealing requirements. I then oversaw fabrication of the welded subassemblies."
-        },
-        {
-          "title": "Integrate & support repeat use",
-          "text": "I oversaw vehicle integration, rerouted drain tubes for work access, and mistake-proofed an asymmetric subassembly. I maintained the 13,000-component CAD assembly across three vehicles at different release states and designed lineside storage to support two vehicles using the tools simultaneously."
+          "title": "Additional considerations",
+          "text": "I rerouted drain tubes for work access and mistake-proofed an asymmetric subassembly. I maintained the 13,000-component CAD assembly across three vehicle release states and designed lineside storage to support two vehicles using the tools simultaneously."
         }
       ],
       "process": {
-        "start": {
-          "title": "Find the weak interfaces",
-          "text": "I reviewed the tooling sealing 33 feedlines for leak paths, difficult work access, and assembly errors. That review led to three component redesigns, alongside drain rerouting and mistake-proofing."
-        },
-        "tracks": [
+        "outline": [
           {
-            "title": "Drain elbow & blankoffs",
-            "steps": [
+            "title": "Problem statement",
+            "text": "The cryo-proof assembly had leak-prone interfaces, difficult work access, and opportunities for incorrect assembly. I redesigned the tooling sealing the booster’s 33 feedlines."
+          },
+          {
+            "title": "Design requirements",
+            "text": "Withstand maximum feedline blow-off loads, control elbow orientation and weld fit-up, improve GOX sealing, and maintain bolt preload under repeated loading."
+          },
+          {
+            "title": "Material selection",
+            "text": "I chose 304 stainless steel for the elbow to match the blankoff’s weld material. The GOX redesign used a Monel bung and stainless blankoff; load, gapping, and fatigue checks supported switching the attachment bolts to stocked Grade 5 hardware."
+          },
+          {
+            "title": "Design & validation",
+            "tracks": [
               {
-                "title": "Replace the leak-prone stackup",
-                "text": "I replaced a leak-prone bolted joint stackup with a welded 90° elbow connecting the blankoff to the cryogenic drain tube. The elbow welded directly to the blankoff, leaving one B-nut joint at the flared tube’s AN connection with a copper seal. I chose 304 stainless steel to match the blankoff’s weld material."
+                "title": "Drain elbow & blankoffs",
+                "steps": [
+                  {
+                    "title": "Replace the leak-prone stackup",
+                    "text": "I replaced a leak-prone bolted joint stackup with a welded 90° elbow connecting the blankoff to the cryogenic drain tube. The elbow welded directly to the blankoff, leaving one B-nut joint at the flared tube’s AN connection with a copper seal. I chose 304 stainless steel to match the blankoff’s weld material."
+                  },
+                  {
+                    "title": "Size the vehicle-side weld, then control fit-up",
+                    "text": "I used the maximum elbow outlet moment and loads from the cryo-proof feedline blow-off cases to size the elbow’s vehicle-side weld to the blankoff using Blodgett’s method. A radial key clocked the outlet; a diameter step located weld height. I toleranced the fit to keep the TIG root gap within 0.5 mm."
+                  },
+                  {
+                    "title": "Recheck the revised blankoffs",
+                    "text": "I ran Ansys simulations on the revised blankoff geometries, including the new clocking cutouts. I applied pressure to their internal faces based on the maximum feedline blow-off load cases in the cryo-proof test."
+                  }
+                ]
               },
               {
-                "title": "Size the vehicle-side weld, then control fit-up",
-                "text": "I used the maximum elbow outlet moment and loads from the cryo-proof feedline blow-off cases to size the elbow’s vehicle-side weld to the blankoff using Blodgett’s method. A radial key clocked the outlet; a diameter step located weld height. I toleranced the fit to keep the TIG root gap within 0.5 mm."
+                "title": "GOX port & seal",
+                "steps": [
+                  {
+                    "title": "Improve sealing at a faulty interface",
+                    "text": "I designed a Monel bung welded to a stainless blankoff to improve sealing performance at another faulty interface. I controlled the interface geometry to minimize gaseous-oxygen (GOX) impingement risk and sized the dissimilar-metal weld using Blodgett’s method."
+                  },
+                  {
+                    "title": "Design the seal gland",
+                    "text": "The bung protruded through the blankoff and sat against a counterbore in the blankoff to form the inner lip of an upper seal gland. I used the Parker O-Ring Handbook to size the gland for the required O-ring compression."
+                  }
+                ]
               },
               {
-                "title": "Recheck the revised blankoffs",
-                "text": "I ran Ansys simulations on the revised blankoff geometries, including the new clocking cutouts. I applied pressure to their internal faces based on the maximum feedline blow-off load cases in the cryo-proof test."
+                "title": "Blankoff attachment bolts",
+                "steps": [
+                  {
+                    "title": "Define the repeated load case",
+                    "text": "I evaluated replacing the existing A280 mil-spec bolts with Grade 5 hardware stocked in the factory. I based the sizing on maximum feedline blow-off loads during cryo-proof testing."
+                  },
+                  {
+                    "title": "Calculate preload & torque",
+                    "text": "From the blow-off force, I calculated the required bolt preload and tightening torque using T = KDF, with K as the torque coefficient, D as bolt diameter, and F as preload."
+                  },
+                  {
+                    "title": "Check gapping & fatigue",
+                    "text": "I checked joint gapping and bolt fatigue under repeated loading. All checks passed, allowing us to replace the specialized bolts with standard Grade 5 hardware."
+                  }
+                ]
               }
             ]
           },
           {
-            "title": "GOX port & seal",
-            "steps": [
-              {
-                "title": "Improve sealing at a faulty interface",
-                "text": "I designed a Monel bung welded to a stainless blankoff to improve sealing performance at another faulty interface. I controlled the interface geometry to minimize gaseous-oxygen (GOX) impingement risk and sized the dissimilar-metal weld using Blodgett’s method."
-              },
-              {
-                "title": "Design the seal gland",
-                "text": "The bung protruded through the blankoff and sat against a counterbore in the blankoff to form the inner lip of an upper seal gland. I used the Parker O-Ring Handbook to size the gland for the required O-ring compression."
-              }
-            ]
+            "title": "Manufacturing & integration",
+            "text": "I released the revised parts, evaluated manufacturing deviations against critical sealing requirements, and oversaw welded-subassembly fabrication and vehicle integration."
           },
           {
-            "title": "Blankoff attachment bolts",
-            "steps": [
-              {
-                "title": "Define the repeated load case",
-                "text": "I evaluated replacing the existing A280 mil-spec bolts with Grade 5 hardware stocked in the factory. I based the sizing on maximum feedline blow-off loads during cryo-proof testing."
-              },
-              {
-                "title": "Calculate preload & torque",
-                "text": "From the blow-off force, I calculated the required bolt preload and tightening torque using T = KDF, with K as the torque coefficient, D as bolt diameter, and F as preload."
-              },
-              {
-                "title": "Check gapping & fatigue",
-                "text": "I checked joint gapping and bolt fatigue under repeated loading. All checks passed, allowing us to replace the specialized bolts with standard Grade 5 hardware."
-              }
-            ]
-          }
-        ],
-        "finish": [
-          {
-            "title": "Release, manufacture & inspect",
-            "text": "I released the revised parts and evaluated manufacturing deviations against critical sealing requirements. I then oversaw fabrication of the welded subassemblies."
-          },
-          {
-            "title": "Integrate & support repeat use",
-            "text": "I oversaw vehicle integration, rerouted drain tubes for work access, and mistake-proofed an asymmetric subassembly. I maintained the 13,000-component CAD assembly across three vehicles at different release states and designed lineside storage to support two vehicles using the tools simultaneously."
+            "title": "Additional considerations",
+            "text": "I rerouted drain tubes for work access and mistake-proofed an asymmetric subassembly. I maintained the 13,000-component CAD assembly across three vehicle release states and designed lineside storage to support two vehicles using the tools simultaneously."
           }
         ]
       },
@@ -212,52 +183,24 @@
       ],
       "points": [
         {
-          "lead": "Plan how the cell would build the manifold",
-          "text": "I defined the concept of operations (CONOPS) and arranged the cell in a semicircle, laying out the slat wall, Siegmund weld tables, and cantilevered racks around the ring-manifold build."
+          "lead": "Problem statement",
+          "text": "Starfactory needed a V3 cell to build and integrate a ring manifold carrying oxygen, methane, environmental-control gases, and helium. I owned its CONOPS, layout, and tooling design."
         },
         {
-          "lead": "Define the locating constraints",
-          "text": "I used the Siegmund table holes to locate the fixtures and kept them clear of the Orbitalum orbital tube welder. The flanged endpoints needed precise position and clocking because they formed critical vehicle passthroughs."
+          "lead": "Design requirements",
+          "text": "Locate and clock critical tube endpoints using Siegmund table holes while clearing the Orbitalum welder. Support a 1,100 lb lift with a 2× WLL proof test, and size the torque-frame stand for maximum technician-applied integration loads."
         },
         {
-          "lead": "Turn constraints into fixture geometry",
-          "text": "I applied 3-2-1 locating, GD&T, and selected dowel-pin fits to control the endpoints. I also sized tooling seal glands using the Parker O-Ring Handbook."
+          "lead": "Design & validation",
+          "text": "I used the Siegmund table holes to locate the fixtures and kept them clear of the Orbitalum orbital tube welder. The flanged endpoints needed precise position and clocking because they formed critical vehicle passthroughs. I applied 3-2-1 locating, GD&T, and selected dowel-pin fits to control the endpoints. I also sized tooling seal glands using the Parker O-Ring Handbook. I quickly 3D-printed fixture components for the first article build, revised the designs from those fit-up lessons, and had the tools machined for subsequent builds. I oversaw the cell’s setup and integration. I worked with the assembly’s Responsible Engineer to establish rigging points on its brackets, then designed a three-point lift and rigging plan to fly the welded manifold into the vehicle. I used bending and deflection calculations to size the 1,100 lb WLL tool. I calculated bracket centers of gravity and placed welded lifting lugs directly above them to prevent tilt. I sized the lug welds so two lugs could carry the entire assembly. I proof-tested the tool at 2,200 lb, twice its working load limit, and wrote the integration plan for welding the subassembly on the vehicle. I designed a stand to improve work access during aft flap torque-frame integration. I based its load cases on the maximum forces technicians could apply during assembly. I solved for two-plane bending and maximum torsion, then used those loads to size the integration stand and its welds. I took precise measurements of existing assemblies and created as-built CAD models of the off-nominal conditions. I used those models to design five flight-part retrofits for manufacture and installation on the existing assemblies."
         },
         {
-          "lead": "Prototype, learn, then machine",
-          "text": "I quickly 3D-printed fixture components for the first article build, revised the designs from those fit-up lessons, and had the tools machined for subsequent builds. I oversaw the cell’s setup and integration."
+          "lead": "Manufacturing & integration",
+          "text": "I arranged the cell in a semicircle with a slat wall, weld tables, and cantilevered racks. First-article builds with 3D-printed fixtures informed the machined tools. I oversaw cell setup and wrote the manifold’s on-vehicle weld integration plan."
         },
         {
-          "lead": "Establish a three-point lift",
-          "text": "I worked with the assembly’s Responsible Engineer to establish rigging points on its brackets, then designed a three-point lift and rigging plan to fly the welded manifold into the vehicle."
-        },
-        {
-          "lead": "Size the structure and locate the lugs",
-          "text": "I used bending and deflection calculations to size the 1,100 lb WLL tool. I calculated bracket centers of gravity and placed welded lifting lugs directly above them to prevent tilt. I sized the lug welds so two lugs could carry the entire assembly."
-        },
-        {
-          "lead": "Prove the lift and plan installation",
-          "text": "I proof-tested the tool at 2,200 lb, twice its working load limit, and wrote the integration plan for welding the subassembly on the vehicle."
-        },
-        {
-          "lead": "Define technician-applied loads",
-          "text": "I designed a stand to improve work access during aft flap torque-frame integration. I based its load cases on the maximum forces technicians could apply during assembly."
-        },
-        {
-          "lead": "Calculate bending, torsion, and weld loads",
-          "text": "I solved for two-plane bending and maximum torsion, then used those loads to size the integration stand and its welds."
-        },
-        {
-          "lead": "Measure the as-built hardware",
-          "text": "I took precise measurements of existing assemblies and created as-built CAD models of the off-nominal conditions."
-        },
-        {
-          "lead": "Design parts to fit",
-          "text": "I used those models to design five flight-part retrofits for manufacture and installation on the existing assemblies."
-        },
-        {
-          "lead": "Support production and integration",
-          "text": "I designed additional tools, including 3D-printed and Protolabs parts, to support cell integration and improve the production process."
+          "lead": "Additional considerations",
+          "text": "I also designed miscellaneous integration aids, including 3D-printed and Protolabs parts, to support the cell’s production process."
         }
       ],
       "gallery": [],
@@ -279,131 +222,112 @@
       "showResult": false,
       "sections": [
         {
-          "title": "Plan how the cell would build the manifold",
-          "text": "I defined the concept of operations (CONOPS) and arranged the cell in a semicircle, laying out the slat wall, Siegmund weld tables, and cantilevered racks around the ring-manifold build."
+          "title": "Problem statement",
+          "text": "Starfactory needed a V3 cell to build and integrate a ring manifold carrying oxygen, methane, environmental-control gases, and helium. I owned its CONOPS, layout, and tooling design."
         },
         {
-          "title": "Define the locating constraints",
-          "text": "I used the Siegmund table holes to locate the fixtures and kept them clear of the Orbitalum orbital tube welder. The flanged endpoints needed precise position and clocking because they formed critical vehicle passthroughs."
+          "title": "Design requirements",
+          "text": "Locate and clock critical tube endpoints using Siegmund table holes while clearing the Orbitalum welder. Support a 1,100 lb lift with a 2× WLL proof test, and size the torque-frame stand for maximum technician-applied integration loads."
         },
         {
-          "title": "Turn constraints into fixture geometry",
-          "text": "I applied 3-2-1 locating, GD&T, and selected dowel-pin fits to control the endpoints. I also sized tooling seal glands using the Parker O-Ring Handbook."
+          "title": "Design & validation",
+          "text": "I used the Siegmund table holes to locate the fixtures and kept them clear of the Orbitalum orbital tube welder. The flanged endpoints needed precise position and clocking because they formed critical vehicle passthroughs. I applied 3-2-1 locating, GD&T, and selected dowel-pin fits to control the endpoints. I also sized tooling seal glands using the Parker O-Ring Handbook. I quickly 3D-printed fixture components for the first article build, revised the designs from those fit-up lessons, and had the tools machined for subsequent builds. I oversaw the cell’s setup and integration. I worked with the assembly’s Responsible Engineer to establish rigging points on its brackets, then designed a three-point lift and rigging plan to fly the welded manifold into the vehicle. I used bending and deflection calculations to size the 1,100 lb WLL tool. I calculated bracket centers of gravity and placed welded lifting lugs directly above them to prevent tilt. I sized the lug welds so two lugs could carry the entire assembly. I proof-tested the tool at 2,200 lb, twice its working load limit, and wrote the integration plan for welding the subassembly on the vehicle. I designed a stand to improve work access during aft flap torque-frame integration. I based its load cases on the maximum forces technicians could apply during assembly. I solved for two-plane bending and maximum torsion, then used those loads to size the integration stand and its welds. I took precise measurements of existing assemblies and created as-built CAD models of the off-nominal conditions. I used those models to design five flight-part retrofits for manufacture and installation on the existing assemblies."
         },
         {
-          "title": "Prototype, learn, then machine",
-          "text": "I quickly 3D-printed fixture components for the first article build, revised the designs from those fit-up lessons, and had the tools machined for subsequent builds. I oversaw the cell’s setup and integration."
+          "title": "Manufacturing & integration",
+          "text": "I arranged the cell in a semicircle with a slat wall, weld tables, and cantilevered racks. First-article builds with 3D-printed fixtures informed the machined tools. I oversaw cell setup and wrote the manifold’s on-vehicle weld integration plan."
         },
         {
-          "title": "Establish a three-point lift",
-          "text": "I worked with the assembly’s Responsible Engineer to establish rigging points on its brackets, then designed a three-point lift and rigging plan to fly the welded manifold into the vehicle."
-        },
-        {
-          "title": "Size the structure and locate the lugs",
-          "text": "I used bending and deflection calculations to size the 1,100 lb WLL tool. I calculated bracket centers of gravity and placed welded lifting lugs directly above them to prevent tilt. I sized the lug welds so two lugs could carry the entire assembly."
-        },
-        {
-          "title": "Prove the lift and plan installation",
-          "text": "I proof-tested the tool at 2,200 lb, twice its working load limit, and wrote the integration plan for welding the subassembly on the vehicle."
-        },
-        {
-          "title": "Define technician-applied loads",
-          "text": "I designed a stand to improve work access during aft flap torque-frame integration. I based its load cases on the maximum forces technicians could apply during assembly."
-        },
-        {
-          "title": "Calculate bending, torsion, and weld loads",
-          "text": "I solved for two-plane bending and maximum torsion, then used those loads to size the integration stand and its welds."
-        },
-        {
-          "title": "Measure the as-built hardware",
-          "text": "I took precise measurements of existing assemblies and created as-built CAD models of the off-nominal conditions."
-        },
-        {
-          "title": "Design parts to fit",
-          "text": "I used those models to design five flight-part retrofits for manufacture and installation on the existing assemblies."
-        },
-        {
-          "title": "Support production and integration",
-          "text": "I designed additional tools, including 3D-printed and Protolabs parts, to support cell integration and improve the production process."
+          "title": "Additional considerations",
+          "text": "I also designed miscellaneous integration aids, including 3D-printed and Protolabs parts, to support the cell’s production process."
         }
       ],
       "mediaKind": "photo",
       "cardAlt": "Carson at SpaceX",
       "process": {
-        "start": {
-          "title": "Plan how the cell would build the manifold",
-          "text": "I defined the concept of operations (CONOPS) and arranged the cell in a semicircle, laying out the slat wall, Siegmund weld tables, and cantilevered racks around the ring-manifold build."
-        },
-        "tracks": [
+        "outline": [
           {
-            "title": "Weld cell & fixtures",
-            "steps": [
+            "title": "Problem statement",
+            "text": "Starfactory needed a V3 cell to build and integrate a ring manifold carrying oxygen, methane, environmental-control gases, and helium. I owned its CONOPS, layout, and tooling design."
+          },
+          {
+            "title": "Design requirements",
+            "text": "Locate and clock critical tube endpoints using Siegmund table holes while clearing the Orbitalum welder. Support a 1,100 lb lift with a 2× WLL proof test, and size the torque-frame stand for maximum technician-applied integration loads."
+          },
+          {
+            "title": "Design & validation",
+            "tracks": [
               {
-                "title": "Define the locating constraints",
-                "text": "I used the Siegmund table holes to locate the fixtures and kept them clear of the Orbitalum orbital tube welder. The flanged endpoints needed precise position and clocking because they formed critical vehicle passthroughs."
+                "title": "Weld cell & fixtures",
+                "steps": [
+                  {
+                    "title": "Define the locating constraints",
+                    "text": "I used the Siegmund table holes to locate the fixtures and kept them clear of the Orbitalum orbital tube welder. The flanged endpoints needed precise position and clocking because they formed critical vehicle passthroughs."
+                  },
+                  {
+                    "title": "Turn constraints into fixture geometry",
+                    "text": "I applied 3-2-1 locating, GD&T, and selected dowel-pin fits to control the endpoints. I also sized tooling seal glands using the Parker O-Ring Handbook."
+                  },
+                  {
+                    "title": "Prototype, learn, then machine",
+                    "text": "I quickly 3D-printed fixture components for the first article build, revised the designs from those fit-up lessons, and had the tools machined for subsequent builds. I oversaw the cell’s setup and integration."
+                  }
+                ]
               },
               {
-                "title": "Turn constraints into fixture geometry",
-                "text": "I applied 3-2-1 locating, GD&T, and selected dowel-pin fits to control the endpoints. I also sized tooling seal glands using the Parker O-Ring Handbook."
+                "title": "Manifold lift tool",
+                "steps": [
+                  {
+                    "title": "Establish a three-point lift",
+                    "text": "I worked with the assembly’s Responsible Engineer to establish rigging points on its brackets, then designed a three-point lift and rigging plan to fly the welded manifold into the vehicle."
+                  },
+                  {
+                    "title": "Size the structure and locate the lugs",
+                    "text": "I used bending and deflection calculations to size the 1,100 lb WLL tool. I calculated bracket centers of gravity and placed welded lifting lugs directly above them to prevent tilt. I sized the lug welds so two lugs could carry the entire assembly."
+                  },
+                  {
+                    "title": "Prove the lift and plan installation",
+                    "text": "I proof-tested the tool at 2,200 lb, twice its working load limit, and wrote the integration plan for welding the subassembly on the vehicle."
+                  }
+                ]
               },
               {
-                "title": "Prototype, learn, then machine",
-                "text": "I quickly 3D-printed fixture components for the first article build, revised the designs from those fit-up lessons, and had the tools machined for subsequent builds. I oversaw the cell’s setup and integration."
+                "title": "Torque-frame access",
+                "steps": [
+                  {
+                    "title": "Define technician-applied loads",
+                    "text": "I designed a stand to improve work access during aft flap torque-frame integration. I based its load cases on the maximum forces technicians could apply during assembly."
+                  },
+                  {
+                    "title": "Calculate bending, torsion, and weld loads",
+                    "text": "I solved for two-plane bending and maximum torsion, then used those loads to size the integration stand and its welds."
+                  }
+                ]
+              },
+              {
+                "title": "Flight-part retrofits",
+                "steps": [
+                  {
+                    "title": "Measure the as-built hardware",
+                    "text": "I took precise measurements of existing assemblies and created as-built CAD models of the off-nominal conditions."
+                  },
+                  {
+                    "title": "Design parts to fit",
+                    "text": "I used those models to design five flight-part retrofits for manufacture and installation on the existing assemblies."
+                  }
+                ]
               }
             ]
           },
           {
-            "title": "Manifold lift tool",
-            "steps": [
-              {
-                "title": "Establish a three-point lift",
-                "text": "I worked with the assembly’s Responsible Engineer to establish rigging points on its brackets, then designed a three-point lift and rigging plan to fly the welded manifold into the vehicle."
-              },
-              {
-                "title": "Size the structure and locate the lugs",
-                "text": "I used bending and deflection calculations to size the 1,100 lb WLL tool. I calculated bracket centers of gravity and placed welded lifting lugs directly above them to prevent tilt. I sized the lug welds so two lugs could carry the entire assembly."
-              },
-              {
-                "title": "Prove the lift and plan installation",
-                "text": "I proof-tested the tool at 2,200 lb, twice its working load limit, and wrote the integration plan for welding the subassembly on the vehicle."
-              }
-            ]
+            "title": "Manufacturing & integration",
+            "text": "I arranged the cell in a semicircle with a slat wall, weld tables, and cantilevered racks. First-article builds with 3D-printed fixtures informed the machined tools. I oversaw cell setup and wrote the manifold’s on-vehicle weld integration plan."
           },
           {
-            "title": "Torque-frame access",
-            "steps": [
-              {
-                "title": "Define technician-applied loads",
-                "text": "I designed a stand to improve work access during aft flap torque-frame integration. I based its load cases on the maximum forces technicians could apply during assembly."
-              },
-              {
-                "title": "Calculate bending, torsion, and weld loads",
-                "text": "I solved for two-plane bending and maximum torsion, then used those loads to size the integration stand and its welds."
-              }
-            ]
-          },
-          {
-            "title": "Flight-part retrofits",
-            "steps": [
-              {
-                "title": "Measure the as-built hardware",
-                "text": "I took precise measurements of existing assemblies and created as-built CAD models of the off-nominal conditions."
-              },
-              {
-                "title": "Design parts to fit",
-                "text": "I used those models to design five flight-part retrofits for manufacture and installation on the existing assemblies."
-              }
-            ]
+            "title": "Additional considerations",
+            "text": "I also designed miscellaneous integration aids, including 3D-printed and Protolabs parts, to support the cell’s production process."
           }
-        ],
-        "finish": [
-          {
-            "title": "Support production and integration",
-            "text": "I designed additional tools, including 3D-printed and Protolabs parts, to support cell integration and improve the production process."
-          }
-        ],
-        "startLabel": "01 / DEFINE THE WORK",
-        "finishLabel": "03 / PRODUCTION SUPPORT"
+        ]
       },
       "role": "Ship Structures Build Engineering Intern",
       "organization": "SpaceX"
@@ -426,20 +350,28 @@
       ],
       "points": [
         {
-          "lead": "Materials: separate the thermal roles",
+          "lead": "Problem statement",
+          "text": "I needed a reliable brake rotor and mount that fit the rear drivetrain package while limiting heat transfer into the mount."
+        },
+        {
+          "lead": "Design requirements",
+          "text": "Package the mount at the differential bolts, accommodate braking loads, and size the rotor for a 500°C temperature requirement with a safety margin."
+        },
+        {
+          "lead": "Material selection",
           "text": "I compared cast iron and 4140 steel and selected steel for its endurance-limit advantage. Titanium buttons limited heat transfer into the 7075 aluminum mount, which I packaged at the differential bolts."
         },
         {
-          "lead": "Thickness: bound and refine the heat load",
-          "text": "For the 500°C requirement, I first sized thickness assuming maximum braking energy became heat with no heat escaping. I refined that conservative estimate with transient conduction, forced convection, and radiation analysis."
+          "lead": "Design & validation",
+          "text": "For the 500°C requirement, I first sized thickness assuming maximum braking energy became heat with no heat escaping. I refined that conservative estimate with transient conduction, forced convection, and radiation analysis. I added curved face slots for debris removal, de-gassing, and water clearance, accepting additional pad wear. In Ansys, I supported the pad contact regions and applied braking moment through the mount connections to check stress."
         },
         {
-          "lead": "Geometry: manage debris and check stress",
-          "text": "I added curved face slots for debris removal, de-gassing, and water clearance, accepting additional pad wear. In Ansys, I supported the pad contact regions and applied braking moment through the mount connections to check stress."
-        },
-        {
-          "lead": "Manufacture, then check temperature",
+          "lead": "Manufacturing & integration",
           "text": "The rotors were manufactured through outsourced three-axis CNC machining. I used temperature crayons to assess their operating temperatures."
+        },
+        {
+          "lead": "Additional considerations",
+          "text": "The face slots improved debris, gas, and water clearance at the cost of additional pad wear. Sponsorship availability drove the Brembo P2.34 caliper choice; the supporting matrix records the technical tradeoffs."
         }
       ],
       "gallery": [
@@ -489,40 +421,65 @@
       },
       "sections": [
         {
-          "title": "Materials: separate the thermal roles",
+          "title": "Problem statement",
+          "text": "I needed a reliable brake rotor and mount that fit the rear drivetrain package while limiting heat transfer into the mount."
+        },
+        {
+          "title": "Design requirements",
+          "text": "Package the mount at the differential bolts, accommodate braking loads, and size the rotor for a 500°C temperature requirement with a safety margin."
+        },
+        {
+          "title": "Material selection",
           "text": "I compared cast iron and 4140 steel and selected steel for its endurance-limit advantage. Titanium buttons limited heat transfer into the 7075 aluminum mount, which I packaged at the differential bolts."
         },
         {
-          "title": "Thickness: bound and refine the heat load",
-          "text": "For the 500°C requirement, I first sized thickness assuming maximum braking energy became heat with no heat escaping. I refined that conservative estimate with transient conduction, forced convection, and radiation analysis."
+          "title": "Design & validation",
+          "text": "For the 500°C requirement, I first sized thickness assuming maximum braking energy became heat with no heat escaping. I refined that conservative estimate with transient conduction, forced convection, and radiation analysis. I added curved face slots for debris removal, de-gassing, and water clearance, accepting additional pad wear. In Ansys, I supported the pad contact regions and applied braking moment through the mount connections to check stress."
         },
         {
-          "title": "Geometry: manage debris and check stress",
-          "text": "I added curved face slots for debris removal, de-gassing, and water clearance, accepting additional pad wear. In Ansys, I supported the pad contact regions and applied braking moment through the mount connections to check stress."
-        },
-        {
-          "title": "Manufacture, then check temperature",
+          "title": "Manufacturing & integration",
           "text": "The rotors were manufactured through outsourced three-axis CNC machining. I used temperature crayons to assess their operating temperatures."
+        },
+        {
+          "title": "Additional considerations",
+          "text": "The face slots improved debris, gas, and water clearance at the cost of additional pad wear. Sponsorship availability drove the Brembo P2.34 caliper choice; the supporting matrix records the technical tradeoffs."
         }
       ],
       "cardAlt": "Slotted steel rotor and mounting geometry",
       "process": {
-        "steps": [
+        "outline": [
           {
-            "title": "Materials: separate the thermal roles",
+            "title": "Problem statement",
+            "text": "I needed a reliable brake rotor and mount that fit the rear drivetrain package while limiting heat transfer into the mount."
+          },
+          {
+            "title": "Design requirements",
+            "text": "Package the mount at the differential bolts, accommodate braking loads, and size the rotor for a 500°C temperature requirement with a safety margin."
+          },
+          {
+            "title": "Material selection",
             "text": "I compared cast iron and 4140 steel and selected steel for its endurance-limit advantage. Titanium buttons limited heat transfer into the 7075 aluminum mount, which I packaged at the differential bolts."
           },
           {
-            "title": "Thickness: bound and refine the heat load",
-            "text": "For the 500°C requirement, I first sized thickness assuming maximum braking energy became heat with no heat escaping. I refined that conservative estimate with transient conduction, forced convection, and radiation analysis."
+            "title": "Design & validation",
+            "steps": [
+              {
+                "title": "Thickness: bound and refine the heat load",
+                "text": "For the 500°C requirement, I first sized thickness assuming maximum braking energy became heat with no heat escaping. I refined that conservative estimate with transient conduction, forced convection, and radiation analysis."
+              },
+              {
+                "title": "Geometry: manage debris and check stress",
+                "text": "I added curved face slots for debris removal, de-gassing, and water clearance, accepting additional pad wear. In Ansys, I supported the pad contact regions and applied braking moment through the mount connections to check stress."
+              }
+            ]
           },
           {
-            "title": "Geometry: manage debris and check stress",
-            "text": "I added curved face slots for debris removal, de-gassing, and water clearance, accepting additional pad wear. In Ansys, I supported the pad contact regions and applied braking moment through the mount connections to check stress."
-          },
-          {
-            "title": "Manufacture, then check temperature",
+            "title": "Manufacturing & integration",
             "text": "The rotors were manufactured through outsourced three-axis CNC machining. I used temperature crayons to assess their operating temperatures."
+          },
+          {
+            "title": "Additional considerations",
+            "text": "The face slots improved debris, gas, and water clearance at the cost of additional pad wear. Sponsorship availability drove the Brembo P2.34 caliper choice; the supporting matrix records the technical tradeoffs."
           }
         ]
       },
@@ -552,24 +509,28 @@
       ],
       "points": [
         {
-          "lead": "Interfaces: establish the envelope",
-          "text": "I defined the hub around the drivetrain’s tripod bearing and the electronics team’s Hall sensors. I screened bearings in SKF SimPro Quick for load capacity, fatigue life, and power loss within an 80–85 mm bore and 110–120 mm outer-diameter envelope; the selection set hub thickness and packaging."
+          "lead": "Problem statement",
+          "text": "I needed a lightweight rear hub that joined the drivetrain, wheel, bearing, and electronics interfaces while remaining practical to machine."
         },
         {
-          "lead": "Material: balance strength and mass",
+          "lead": "Design requirements",
+          "text": "Accommodate the tripod bearing and Hall sensors, carry wheel and drivetrain loads, and package the bearing within an 80–85 mm bore and 110–120 mm outer-diameter envelope."
+        },
+        {
+          "lead": "Material selection",
           "text": "I compared titanium, 6061, and 7075 aluminum and selected 7075-T6. Its higher yield strength than 6061 supported the hub’s structural requirements."
         },
         {
-          "lead": "Load model and thread sizing",
-          "text": "I applied wheel loads from the team’s truss solver to the wheel flange, modeled the tensile load from the center-lock nut, and included bearing forces and drivetrain torque at the tripod interface. I sized hub-nut engagement using bolt tensile and nut thread-shear areas."
+          "lead": "Design & validation",
+          "text": "I screened bearings in SKF SimPro Quick for load capacity, fatigue life, and power loss. The selected bearing set the hub’s packaging and thickness requirements. I applied wheel loads from the team’s truss solver to the wheel flange, modeled the tensile load from the center-lock nut, and included bearing forces and drivetrain torque at the tripod interface. I sized hub-nut engagement using bolt tensile and nut thread-shear areas. I built the geometry around the interfaces and selected bearing, removed excess material through pocketing, and checked the revised hub in Ansys."
         },
         {
-          "lead": "Geometry: remove mass, then check",
-          "text": "I built the geometry around the interfaces and selected bearing, removed excess material through pocketing, and checked the revised hub in Ansys."
-        },
-        {
-          "lead": "Manufacture the assembly",
+          "lead": "Manufacturing & integration",
           "text": "Rotational features were turned first; CNC milling then produced the tripod cutout, pin and button holes, and flange pockets."
+        },
+        {
+          "lead": "Additional considerations",
+          "text": "Bearing selection and machining access constrained where I could remove material. The selected SKF 71817 bearing is distinct from the 61916 pair documented in the supporting team-reference report."
         }
       ],
       "gallery": [
@@ -636,48 +597,69 @@
       ],
       "sections": [
         {
-          "title": "Interfaces: establish the envelope",
-          "text": "I defined the hub around the drivetrain’s tripod bearing and the electronics team’s Hall sensors. I screened bearings in SKF SimPro Quick for load capacity, fatigue life, and power loss within an 80–85 mm bore and 110–120 mm outer-diameter envelope; the selection set hub thickness and packaging."
+          "title": "Problem statement",
+          "text": "I needed a lightweight rear hub that joined the drivetrain, wheel, bearing, and electronics interfaces while remaining practical to machine."
         },
         {
-          "title": "Material: balance strength and mass",
+          "title": "Design requirements",
+          "text": "Accommodate the tripod bearing and Hall sensors, carry wheel and drivetrain loads, and package the bearing within an 80–85 mm bore and 110–120 mm outer-diameter envelope."
+        },
+        {
+          "title": "Material selection",
           "text": "I compared titanium, 6061, and 7075 aluminum and selected 7075-T6. Its higher yield strength than 6061 supported the hub’s structural requirements."
         },
         {
-          "title": "Load model and thread sizing",
-          "text": "I applied wheel loads from the team’s truss solver to the wheel flange, modeled the tensile load from the center-lock nut, and included bearing forces and drivetrain torque at the tripod interface. I sized hub-nut engagement using bolt tensile and nut thread-shear areas."
+          "title": "Design & validation",
+          "text": "I screened bearings in SKF SimPro Quick for load capacity, fatigue life, and power loss. The selected bearing set the hub’s packaging and thickness requirements. I applied wheel loads from the team’s truss solver to the wheel flange, modeled the tensile load from the center-lock nut, and included bearing forces and drivetrain torque at the tripod interface. I sized hub-nut engagement using bolt tensile and nut thread-shear areas. I built the geometry around the interfaces and selected bearing, removed excess material through pocketing, and checked the revised hub in Ansys."
         },
         {
-          "title": "Geometry: remove mass, then check",
-          "text": "I built the geometry around the interfaces and selected bearing, removed excess material through pocketing, and checked the revised hub in Ansys."
-        },
-        {
-          "title": "Manufacture the assembly",
+          "title": "Manufacturing & integration",
           "text": "Rotational features were turned first; CNC milling then produced the tripod cutout, pin and button holes, and flange pockets."
+        },
+        {
+          "title": "Additional considerations",
+          "text": "Bearing selection and machining access constrained where I could remove material. The selected SKF 71817 bearing is distinct from the 61916 pair documented in the supporting team-reference report."
         }
       ],
       "cardAlt": "Rear wheel hub and bearing assembly CAD model",
       "process": {
-        "steps": [
+        "outline": [
           {
-            "title": "Interfaces: establish the envelope",
-            "text": "I defined the hub around the drivetrain’s tripod bearing and the electronics team’s Hall sensors. I screened bearings in SKF SimPro Quick for load capacity, fatigue life, and power loss within an 80–85 mm bore and 110–120 mm outer-diameter envelope; the selection set hub thickness and packaging."
+            "title": "Problem statement",
+            "text": "I needed a lightweight rear hub that joined the drivetrain, wheel, bearing, and electronics interfaces while remaining practical to machine."
           },
           {
-            "title": "Material: balance strength and mass",
+            "title": "Design requirements",
+            "text": "Accommodate the tripod bearing and Hall sensors, carry wheel and drivetrain loads, and package the bearing within an 80–85 mm bore and 110–120 mm outer-diameter envelope."
+          },
+          {
+            "title": "Material selection",
             "text": "I compared titanium, 6061, and 7075 aluminum and selected 7075-T6. Its higher yield strength than 6061 supported the hub’s structural requirements."
           },
           {
-            "title": "Load model and thread sizing",
-            "text": "I applied wheel loads from the team’s truss solver to the wheel flange, modeled the tensile load from the center-lock nut, and included bearing forces and drivetrain torque at the tripod interface. I sized hub-nut engagement using bolt tensile and nut thread-shear areas."
+            "title": "Design & validation",
+            "steps": [
+              {
+                "title": "Select the bearing",
+                "text": "I screened bearings in SKF SimPro Quick for load capacity, fatigue life, and power loss. The selected bearing set the hub’s packaging and thickness requirements."
+              },
+              {
+                "title": "Load model and thread sizing",
+                "text": "I applied wheel loads from the team’s truss solver to the wheel flange, modeled the tensile load from the center-lock nut, and included bearing forces and drivetrain torque at the tripod interface. I sized hub-nut engagement using bolt tensile and nut thread-shear areas."
+              },
+              {
+                "title": "Geometry: remove mass, then check",
+                "text": "I built the geometry around the interfaces and selected bearing, removed excess material through pocketing, and checked the revised hub in Ansys."
+              }
+            ]
           },
           {
-            "title": "Geometry: remove mass, then check",
-            "text": "I built the geometry around the interfaces and selected bearing, removed excess material through pocketing, and checked the revised hub in Ansys."
-          },
-          {
-            "title": "Manufacture the assembly",
+            "title": "Manufacturing & integration",
             "text": "Rotational features were turned first; CNC milling then produced the tripod cutout, pin and button holes, and flange pockets."
+          },
+          {
+            "title": "Additional considerations",
+            "text": "Bearing selection and machining access constrained where I could remove material. The selected SKF 71817 bearing is distinct from the 61916 pair documented in the supporting team-reference report."
           }
         ]
       },
@@ -701,19 +683,27 @@
       ],
       "points": [
         {
-          "lead": "Materials: reduce mass within shop capability",
-          "text": "I kept steel control arms because the team had greater confidence in that manufacturing process, and switched the pushrods to carbon fiber to reduce mass. Apex-mounted gussets replaced a heavy mounting plate."
+          "lead": "Problem statement",
+          "text": "I redesigned and fabricated the control arms and pushrods to reduce suspension mass while preserving their interfaces and on-car clearance."
         },
         {
-          "lead": "Pushrod testing and bonding",
-          "text": "I tested the carbon-fiber pushrods in tension and compression on an Instron. For fabrication, I cut the tubes to length and turned aluminum end plugs, controlling the bonding-surface diameter to within half a thousandth of an inch."
+          "lead": "Design requirements",
+          "text": "Connect the upright, chassis tabs, and pushrods; carry tension and compression loads; control the bonded end-plug fit; and maintain clearance through maximum steer."
         },
         {
-          "lead": "Fabrication: carry the geometry into hardware",
-          "text": "I cut steel tubing, turned and milled end plugs, bored and reamed bearing seats in laser-cut plates, and welded and tapped the plugs for rod ends."
+          "lead": "Material selection",
+          "text": "I retained steel control arms because the team had greater confidence in that manufacturing process. Carbon-fiber pushrods reduced mass, with turned aluminum end plugs providing the bonded connections."
         },
         {
-          "lead": "Integration and steering clearance",
+          "lead": "Design & validation",
+          "text": "I replaced a heavy mounting plate with gussets at the control-arm apex. I tested the carbon-fiber pushrods in tension and compression on an Instron."
+        },
+        {
+          "lead": "Manufacturing & integration",
+          "text": "I cut the carbon tubes and turned their end plugs, controlling bonding-surface diameter within 0.0005 in. For the control arms, I cut steel tubing, turned and milled plugs, bored and reamed bearing seats, and welded and tapped rod-end interfaces."
+        },
+        {
+          "lead": "Additional considerations",
           "text": "During freshman-year integration, a missed tolerance stackup caused the apex to interfere at maximum steer. We checked the required material removal in Ansys and ground the existing apex to recover clearance. The combined suspension redesign saved 4.6 lb."
         }
       ],
@@ -760,39 +750,64 @@
       "showResult": true,
       "sections": [
         {
-          "title": "Materials: reduce mass within shop capability",
-          "text": "I kept steel control arms because the team had greater confidence in that manufacturing process, and switched the pushrods to carbon fiber to reduce mass. Apex-mounted gussets replaced a heavy mounting plate."
+          "title": "Problem statement",
+          "text": "I redesigned and fabricated the control arms and pushrods to reduce suspension mass while preserving their interfaces and on-car clearance."
         },
         {
-          "title": "Pushrod testing and bonding",
-          "text": "I tested the carbon-fiber pushrods in tension and compression on an Instron. For fabrication, I cut the tubes to length and turned aluminum end plugs, controlling the bonding-surface diameter to within half a thousandth of an inch."
+          "title": "Design requirements",
+          "text": "Connect the upright, chassis tabs, and pushrods; carry tension and compression loads; control the bonded end-plug fit; and maintain clearance through maximum steer."
         },
         {
-          "title": "Fabrication: carry the geometry into hardware",
-          "text": "I cut steel tubing, turned and milled end plugs, bored and reamed bearing seats in laser-cut plates, and welded and tapped the plugs for rod ends."
+          "title": "Material selection",
+          "text": "I retained steel control arms because the team had greater confidence in that manufacturing process. Carbon-fiber pushrods reduced mass, with turned aluminum end plugs providing the bonded connections."
         },
         {
-          "title": "Integration and steering clearance",
+          "title": "Design & validation",
+          "text": "I replaced a heavy mounting plate with gussets at the control-arm apex. I tested the carbon-fiber pushrods in tension and compression on an Instron."
+        },
+        {
+          "title": "Manufacturing & integration",
+          "text": "I cut the carbon tubes and turned their end plugs, controlling bonding-surface diameter within 0.0005 in. For the control arms, I cut steel tubing, turned and milled plugs, bored and reamed bearing seats, and welded and tapped rod-end interfaces."
+        },
+        {
+          "title": "Additional considerations",
           "text": "During freshman-year integration, a missed tolerance stackup caused the apex to interfere at maximum steer. We checked the required material removal in Ansys and ground the existing apex to recover clearance. The combined suspension redesign saved 4.6 lb."
         }
       ],
       "cardAlt": "Control-arm and pushrod CAD assembly",
       "process": {
-        "steps": [
+        "outline": [
           {
-            "title": "Materials: reduce mass within shop capability",
-            "text": "I kept steel control arms because the team had greater confidence in that manufacturing process, and switched the pushrods to carbon fiber to reduce mass. Apex-mounted gussets replaced a heavy mounting plate."
+            "title": "Problem statement",
+            "text": "I redesigned and fabricated the control arms and pushrods to reduce suspension mass while preserving their interfaces and on-car clearance."
           },
           {
-            "title": "Pushrod testing and bonding",
-            "text": "I tested the carbon-fiber pushrods in tension and compression on an Instron. For fabrication, I cut the tubes to length and turned aluminum end plugs, controlling the bonding-surface diameter to within half a thousandth of an inch."
+            "title": "Design requirements",
+            "text": "Connect the upright, chassis tabs, and pushrods; carry tension and compression loads; control the bonded end-plug fit; and maintain clearance through maximum steer."
           },
           {
-            "title": "Fabrication: carry the geometry into hardware",
-            "text": "I cut steel tubing, turned and milled end plugs, bored and reamed bearing seats in laser-cut plates, and welded and tapped the plugs for rod ends."
+            "title": "Material selection",
+            "text": "I retained steel control arms because the team had greater confidence in that manufacturing process. Carbon-fiber pushrods reduced mass, with turned aluminum end plugs providing the bonded connections."
           },
           {
-            "title": "Integration and steering clearance",
+            "title": "Design & validation",
+            "steps": [
+              {
+                "title": "Simplify the load introduction",
+                "text": "I replaced a heavy mounting plate with gussets at the control-arm apex."
+              },
+              {
+                "title": "Test the pushrods",
+                "text": "I tested the carbon-fiber pushrods in tension and compression on an Instron."
+              }
+            ]
+          },
+          {
+            "title": "Manufacturing & integration",
+            "text": "I cut the carbon tubes and turned their end plugs, controlling bonding-surface diameter within 0.0005 in. For the control arms, I cut steel tubing, turned and milled plugs, bored and reamed bearing seats, and welded and tapped rod-end interfaces."
+          },
+          {
+            "title": "Additional considerations",
             "text": "During freshman-year integration, a missed tolerance stackup caused the apex to interfere at maximum steer. We checked the required material removal in Ansys and ground the existing apex to recover clearance. The combined suspension redesign saved 4.6 lb."
           }
         ]
@@ -816,16 +831,28 @@
       ],
       "points": [
         {
-          "lead": "A discrete adjustment",
-          "text": "The mechanism changes pushrod length by adding or removing shims and retightening the fasteners. The attachment connects to the inboard suspension mechanism and keeps the shim stack in compression."
+          "lead": "Problem statement",
+          "text": "Ride-height adjustment relied on turning an opposite-thread pushrod. I designed a shim-based attachment for more repeatable setup changes."
         },
         {
-          "lead": "Load path and geometry",
-          "text": "I designed the attachment in 7075 aluminum and kept the shim pockets concentric with the retaining bolts. Lightweight shim geometry reduced the mass added by the adjustment mechanism."
+          "lead": "Design requirements",
+          "text": "Change pushrod length in discrete increments, retain the inboard suspension interface, and keep the shim stack in compression under pushrod loading."
         },
         {
-          "lead": "Validation and tradeoff",
-          "text": "I checked the attachment under pushrod loading in SolidWorks FEA. The shims were laser-cut and the attachment pieces machined; another team member CNC-machined the upper component. The mechanism added 0.7 lb across the car in exchange for repeatable adjustment."
+          "lead": "Material selection",
+          "text": "I used 7075 aluminum for the attachment and minimized shim mass through lightweight geometry."
+        },
+        {
+          "lead": "Design & validation",
+          "text": "Adding or removing shims changes pushrod length; retightening the fasteners secures the setting. I kept the shim pockets concentric with the retaining bolts. I checked the attachment under pushrod loading in SolidWorks FEA."
+        },
+        {
+          "lead": "Manufacturing & integration",
+          "text": "The shims were laser-cut and the attachment pieces machined. Another team member handled the upper component’s CNC machining."
+        },
+        {
+          "lead": "Additional considerations",
+          "text": "The mechanism added 0.7 lb across the car in exchange for more repeatable ride-height adjustment."
         }
       ],
       "gallery": [
@@ -859,32 +886,65 @@
       "showResult": true,
       "sections": [
         {
-          "title": "A discrete adjustment",
-          "text": "The mechanism changes pushrod length by adding or removing shims and retightening the fasteners. The attachment connects to the inboard suspension mechanism and keeps the shim stack in compression."
+          "title": "Problem statement",
+          "text": "Ride-height adjustment relied on turning an opposite-thread pushrod. I designed a shim-based attachment for more repeatable setup changes."
         },
         {
-          "title": "Load path and geometry",
-          "text": "I designed the attachment in 7075 aluminum and kept the shim pockets concentric with the retaining bolts. Lightweight shim geometry reduced the mass added by the adjustment mechanism."
+          "title": "Design requirements",
+          "text": "Change pushrod length in discrete increments, retain the inboard suspension interface, and keep the shim stack in compression under pushrod loading."
         },
         {
-          "title": "Validation and tradeoff",
-          "text": "I checked the attachment under pushrod loading in SolidWorks FEA. The shims were laser-cut and the attachment pieces machined; another team member CNC-machined the upper component. The mechanism added 0.7 lb across the car in exchange for repeatable adjustment."
+          "title": "Material selection",
+          "text": "I used 7075 aluminum for the attachment and minimized shim mass through lightweight geometry."
+        },
+        {
+          "title": "Design & validation",
+          "text": "Adding or removing shims changes pushrod length; retightening the fasteners secures the setting. I kept the shim pockets concentric with the retaining bolts. I checked the attachment under pushrod loading in SolidWorks FEA."
+        },
+        {
+          "title": "Manufacturing & integration",
+          "text": "The shims were laser-cut and the attachment pieces machined. Another team member handled the upper component’s CNC machining."
+        },
+        {
+          "title": "Additional considerations",
+          "text": "The mechanism added 0.7 lb across the car in exchange for more repeatable ride-height adjustment."
         }
       ],
       "cardAlt": "Shim-based ride-height adjustment assembly",
       "process": {
-        "steps": [
+        "outline": [
           {
-            "title": "A discrete adjustment",
-            "text": "The mechanism changes pushrod length by adding or removing shims and retightening the fasteners. The attachment connects to the inboard suspension mechanism and keeps the shim stack in compression."
+            "title": "Problem statement",
+            "text": "Ride-height adjustment relied on turning an opposite-thread pushrod. I designed a shim-based attachment for more repeatable setup changes."
           },
           {
-            "title": "Load path and geometry",
-            "text": "I designed the attachment in 7075 aluminum and kept the shim pockets concentric with the retaining bolts. Lightweight shim geometry reduced the mass added by the adjustment mechanism."
+            "title": "Design requirements",
+            "text": "Change pushrod length in discrete increments, retain the inboard suspension interface, and keep the shim stack in compression under pushrod loading."
           },
           {
-            "title": "Validation and tradeoff",
-            "text": "I checked the attachment under pushrod loading in SolidWorks FEA. The shims were laser-cut and the attachment pieces machined; another team member CNC-machined the upper component. The mechanism added 0.7 lb across the car in exchange for repeatable adjustment."
+            "title": "Material selection",
+            "text": "I used 7075 aluminum for the attachment and minimized shim mass through lightweight geometry."
+          },
+          {
+            "title": "Design & validation",
+            "steps": [
+              {
+                "title": "Define the adjustment mechanism",
+                "text": "Adding or removing shims changes pushrod length; retightening the fasteners secures the setting. I kept the shim pockets concentric with the retaining bolts."
+              },
+              {
+                "title": "Check the attachment",
+                "text": "I checked the attachment under pushrod loading in SolidWorks FEA."
+              }
+            ]
+          },
+          {
+            "title": "Manufacturing & integration",
+            "text": "The shims were laser-cut and the attachment pieces machined. Another team member handled the upper component’s CNC machining."
+          },
+          {
+            "title": "Additional considerations",
+            "text": "The mechanism added 0.7 lb across the car in exchange for more repeatable ride-height adjustment."
           }
         ]
       },

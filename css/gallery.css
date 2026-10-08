@@ -88,6 +88,12 @@ img[src$="hub-cad-render.jpg"],img[src$="ridehgt-assembly.jpg"]{clip-path:inset(
 img[src$="hose-assembly.jpg"]{clip-path:inset(2%)}
 
 .project-process{margin-bottom:45px}
+.project-outline{list-style:none;margin:0;padding:0}
+.outline-narrow{max-width:850px;margin-inline:auto}
+.project-outline>li+li:before{content:'↓';display:block;text-align:center;font-size:30px;line-height:1;color:var(--accent);margin:28px 0}
+.outline-wide>h3,.outline-wide>.process-label{text-align:center}
+.project-process .track-heading{font:400 29px/1.2 var(--display);margin:0 0 22px}
+.project-process h5{font:600 15px/1.5 var(--body);margin:0 0 10px}
 .project-heading>div{min-width:0}
 .project-heading .project-subtitle{font:500 22px/1.4 var(--body);color:var(--accent);margin:18px 0 0}
 .work-row-copy>p.project-subtitle{font:500 19px/1.45 var(--body);color:var(--accent);margin:14px 0}
