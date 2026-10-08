@@ -31,7 +31,7 @@
         },
         {
           "lead": "Design & validation",
-          "text": "I replaced a leak-prone bolted joint stackup with a welded 90° elbow connecting the blankoff to the cryogenic drain tube. The elbow welded directly to the blankoff, leaving one B-nut joint at the flared tube’s AN connection with a copper seal. I chose 304 stainless steel to match the blankoff’s weld material. I used the maximum elbow outlet moment and loads from the cryo-proof feedline blow-off cases to size the elbow’s vehicle-side weld to the blankoff using Blodgett’s method. A radial key clocked the outlet; a diameter step located weld height. I toleranced the fit to keep the TIG root gap within 0.5 mm. I ran Ansys simulations on the revised blankoff geometries, including the new clocking cutouts. I applied pressure to their internal faces based on the maximum feedline blow-off load cases in the cryo-proof test. I designed a Monel bung welded to a stainless blankoff to improve sealing performance at another faulty interface. I controlled the interface geometry to minimize gaseous-oxygen (GOX) impingement risk and sized the dissimilar-metal weld using Blodgett’s method. The bung protruded through the blankoff and sat against a counterbore in the blankoff to form the inner lip of an upper seal gland. I used the Parker O-Ring Handbook to size the gland for the required O-ring compression. I evaluated replacing the existing A280 mil-spec bolts with Grade 5 hardware stocked in the factory. I based the sizing on maximum feedline blow-off loads during cryo-proof testing. From the blow-off force, I calculated the required bolt preload and tightening torque using T = KDF, with K as the torque coefficient, D as bolt diameter, and F as preload. I checked joint gapping and bolt fatigue under repeated loading. All checks passed, allowing us to replace the specialized bolts with standard Grade 5 hardware."
+          "text": "I replaced a leak-prone bolted joint stackup with a welded 90° elbow connecting the blankoff to the cryogenic drain tube. The elbow welded directly to the blankoff, leaving one B-nut joint at the flared tube’s AN connection with a copper seal. I chose 304 stainless steel to match the blankoff’s weld material. I used the maximum elbow outlet moment and loads from the cryo-proof feedline blow-off cases to size the elbow’s vehicle-side weld to the blankoff using Blodgett’s method. A radial key clocked the outlet; a diameter step located weld height. I toleranced the fit to keep the TIG root gap within 0.5 mm. I ran Ansys simulations on the revised blankoff geometries, including the new clocking cutouts. I applied pressure to their internal faces based on the maximum feedline blow-off load cases in the cryo-proof test. I designed a Monel bung welded to a stainless blankoff to improve sealing performance at another faulty interface. I controlled the interface geometry to minimize gaseous-oxygen (GOX) impingement risk and sized the dissimilar-metal weld using Blodgett’s method. The bung protruded through the blankoff and sat against a counterbore in the blankoff to form the inner lip of an upper seal gland. I used the Parker O-Ring Handbook to size the gland for the required O-ring compression. I evaluated replacing the existing A280 mil-spec bolts with Grade 5 hardware stocked in the factory. I based the sizing on maximum feedline blow-off loads during cryo-proof testing. From the blow-off force, I calculated the required bolt preload and tightening torque using T = KDF. I checked joint gapping and bolt fatigue under repeated loading. All checks passed, allowing us to replace the specialized bolts with standard Grade 5 hardware."
         },
         {
           "lead": "Manufacturing & integration",
@@ -74,7 +74,7 @@
         },
         {
           "title": "Design & validation",
-          "text": "I replaced a leak-prone bolted joint stackup with a welded 90° elbow connecting the blankoff to the cryogenic drain tube. The elbow welded directly to the blankoff, leaving one B-nut joint at the flared tube’s AN connection with a copper seal. I chose 304 stainless steel to match the blankoff’s weld material. I used the maximum elbow outlet moment and loads from the cryo-proof feedline blow-off cases to size the elbow’s vehicle-side weld to the blankoff using Blodgett’s method. A radial key clocked the outlet; a diameter step located weld height. I toleranced the fit to keep the TIG root gap within 0.5 mm. I ran Ansys simulations on the revised blankoff geometries, including the new clocking cutouts. I applied pressure to their internal faces based on the maximum feedline blow-off load cases in the cryo-proof test. I designed a Monel bung welded to a stainless blankoff to improve sealing performance at another faulty interface. I controlled the interface geometry to minimize gaseous-oxygen (GOX) impingement risk and sized the dissimilar-metal weld using Blodgett’s method. The bung protruded through the blankoff and sat against a counterbore in the blankoff to form the inner lip of an upper seal gland. I used the Parker O-Ring Handbook to size the gland for the required O-ring compression. I evaluated replacing the existing A280 mil-spec bolts with Grade 5 hardware stocked in the factory. I based the sizing on maximum feedline blow-off loads during cryo-proof testing. From the blow-off force, I calculated the required bolt preload and tightening torque using T = KDF, with K as the torque coefficient, D as bolt diameter, and F as preload. I checked joint gapping and bolt fatigue under repeated loading. All checks passed, allowing us to replace the specialized bolts with standard Grade 5 hardware."
+          "text": "I replaced a leak-prone bolted joint stackup with a welded 90° elbow connecting the blankoff to the cryogenic drain tube. The elbow welded directly to the blankoff, leaving one B-nut joint at the flared tube’s AN connection with a copper seal. I chose 304 stainless steel to match the blankoff’s weld material. I used the maximum elbow outlet moment and loads from the cryo-proof feedline blow-off cases to size the elbow’s vehicle-side weld to the blankoff using Blodgett’s method. A radial key clocked the outlet; a diameter step located weld height. I toleranced the fit to keep the TIG root gap within 0.5 mm. I ran Ansys simulations on the revised blankoff geometries, including the new clocking cutouts. I applied pressure to their internal faces based on the maximum feedline blow-off load cases in the cryo-proof test. I designed a Monel bung welded to a stainless blankoff to improve sealing performance at another faulty interface. I controlled the interface geometry to minimize gaseous-oxygen (GOX) impingement risk and sized the dissimilar-metal weld using Blodgett’s method. The bung protruded through the blankoff and sat against a counterbore in the blankoff to form the inner lip of an upper seal gland. I used the Parker O-Ring Handbook to size the gland for the required O-ring compression. I evaluated replacing the existing A280 mil-spec bolts with Grade 5 hardware stocked in the factory. I based the sizing on maximum feedline blow-off loads during cryo-proof testing. From the blow-off force, I calculated the required bolt preload and tightening torque using T = KDF. I checked joint gapping and bolt fatigue under repeated loading. All checks passed, allowing us to replace the specialized bolts with standard Grade 5 hardware."
         },
         {
           "title": "Manufacturing & integration",
@@ -141,7 +141,7 @@
                   },
                   {
                     "title": "Calculate preload & torque",
-                    "text": "From the blow-off force, I calculated the required bolt preload and tightening torque using T = KDF, with K as the torque coefficient, D as bolt diameter, and F as preload."
+                    "text": "From the blow-off force, I calculated the required bolt preload and tightening torque using T = KDF."
                   },
                   {
                     "title": "Check gapping & fatigue",
@@ -184,7 +184,7 @@
       "points": [
         {
           "lead": "Problem statement",
-          "text": "Starfactory needed a V3 cell to build and integrate a ring manifold carrying oxygen, methane, environmental-control gases, and helium. I owned its CONOPS, layout, and tooling design."
+          "text": "As SpaceX redesigned the factory line for Starship V3, I owned the CONOPS, layout, tooling design, and integration of a new build cell for a welded ring manifold of tubes extending 360° around the vehicle’s inner circumference."
         },
         {
           "lead": "Design requirements",
@@ -227,7 +227,7 @@
       "sections": [
         {
           "title": "Problem statement",
-          "text": "Starfactory needed a V3 cell to build and integrate a ring manifold carrying oxygen, methane, environmental-control gases, and helium. I owned its CONOPS, layout, and tooling design."
+          "text": "As SpaceX redesigned the factory line for Starship V3, I owned the CONOPS, layout, tooling design, and integration of a new build cell for a welded ring manifold of tubes extending 360° around the vehicle’s inner circumference."
         },
         {
           "title": "Design requirements",
@@ -256,7 +256,7 @@
         "outline": [
           {
             "title": "Problem statement",
-            "text": "Starfactory needed a V3 cell to build and integrate a ring manifold carrying oxygen, methane, environmental-control gases, and helium. I owned its CONOPS, layout, and tooling design."
+            "text": "As SpaceX redesigned the factory line for Starship V3, I owned the CONOPS, layout, tooling design, and integration of a new build cell for a welded ring manifold of tubes extending 360° around the vehicle’s inner circumference."
           },
           {
             "title": "Design requirements",
@@ -367,7 +367,7 @@
         },
         {
           "lead": "Design requirements",
-          "text": "Package the mount at the differential bolts, accommodate braking loads, and size the rotor for a 500°C temperature requirement with a safety margin. My general target across racing projects was a factor of safety of 2 against maximum design loads."
+          "text": "Package the mount at the differential bolts, accommodate braking loads, and size the rotor for a 500°C temperature requirement with a safety margin."
         },
         {
           "lead": "Material selection",
@@ -438,7 +438,7 @@
         },
         {
           "title": "Design requirements",
-          "text": "Package the mount at the differential bolts, accommodate braking loads, and size the rotor for a 500°C temperature requirement with a safety margin. My general target across racing projects was a factor of safety of 2 against maximum design loads."
+          "text": "Package the mount at the differential bolts, accommodate braking loads, and size the rotor for a 500°C temperature requirement with a safety margin."
         },
         {
           "title": "Material selection",
@@ -466,7 +466,7 @@
           },
           {
             "title": "Design requirements",
-            "text": "Package the mount at the differential bolts, accommodate braking loads, and size the rotor for a 500°C temperature requirement with a safety margin. My general target across racing projects was a factor of safety of 2 against maximum design loads."
+            "text": "Package the mount at the differential bolts, accommodate braking loads, and size the rotor for a 500°C temperature requirement with a safety margin."
           },
           {
             "title": "Material selection",
@@ -526,7 +526,7 @@
         },
         {
           "lead": "Design requirements",
-          "text": "Accommodate the tripod bearing and Hall sensors, carry wheel and drivetrain loads, and package the bearing within an 80–85 mm bore and 110–120 mm outer-diameter envelope. My general target across racing projects was a factor of safety of 2 against maximum design loads."
+          "text": "Accommodate the tripod bearing and Hall sensors, carry wheel and drivetrain loads, and package the bearing within an 80–85 mm bore and 110–120 mm outer-diameter envelope."
         },
         {
           "lead": "Material selection",
@@ -534,7 +534,7 @@
         },
         {
           "lead": "Design & validation",
-          "text": "I screened bearings in SKF SimPro Quick for load capacity, fatigue life, and power loss. The selected bearing set the hub’s packaging and thickness requirements. I applied wheel loads from the team’s truss solver to the wheel flange, modeled the tensile load from the center-lock nut, and included bearing forces and drivetrain torque at the tripod interface. I sized hub-nut engagement using bolt tensile and nut thread-shear areas. I built the geometry around the interfaces and selected bearing, removed excess material through pocketing, and checked the revised hub in Ansys."
+          "text": "I screened bearings in SKF SimPro Quick for load capacity, fatigue life, and power loss. The selected bearing set the hub’s packaging and thickness requirements. I built the initial hub geometry around the given packaging constraints and interface requirements from the drivetrain, wheel, bearing, and electronics systems. I sized hub-nut engagement using bolt tensile and nut thread-shear areas. In Ansys, I applied wheel loads from the team’s truss solver to the wheel flange, modeled the tensile load from the center-lock nut, and included bearing forces and drivetrain torque at the tripod interface. I used the FEA results to identify where I could remove material, then iterated on the pockets and rechecked the revised hub in Ansys."
         },
         {
           "lead": "Manufacturing & integration",
@@ -614,7 +614,7 @@
         },
         {
           "title": "Design requirements",
-          "text": "Accommodate the tripod bearing and Hall sensors, carry wheel and drivetrain loads, and package the bearing within an 80–85 mm bore and 110–120 mm outer-diameter envelope. My general target across racing projects was a factor of safety of 2 against maximum design loads."
+          "text": "Accommodate the tripod bearing and Hall sensors, carry wheel and drivetrain loads, and package the bearing within an 80–85 mm bore and 110–120 mm outer-diameter envelope."
         },
         {
           "title": "Material selection",
@@ -622,7 +622,7 @@
         },
         {
           "title": "Design & validation",
-          "text": "I screened bearings in SKF SimPro Quick for load capacity, fatigue life, and power loss. The selected bearing set the hub’s packaging and thickness requirements. I applied wheel loads from the team’s truss solver to the wheel flange, modeled the tensile load from the center-lock nut, and included bearing forces and drivetrain torque at the tripod interface. I sized hub-nut engagement using bolt tensile and nut thread-shear areas. I built the geometry around the interfaces and selected bearing, removed excess material through pocketing, and checked the revised hub in Ansys."
+          "text": "I screened bearings in SKF SimPro Quick for load capacity, fatigue life, and power loss. The selected bearing set the hub’s packaging and thickness requirements. I built the initial hub geometry around the given packaging constraints and interface requirements from the drivetrain, wheel, bearing, and electronics systems. I sized hub-nut engagement using bolt tensile and nut thread-shear areas. In Ansys, I applied wheel loads from the team’s truss solver to the wheel flange, modeled the tensile load from the center-lock nut, and included bearing forces and drivetrain torque at the tripod interface. I used the FEA results to identify where I could remove material, then iterated on the pockets and rechecked the revised hub in Ansys."
         },
         {
           "title": "Manufacturing & integration",
@@ -642,7 +642,7 @@
           },
           {
             "title": "Design requirements",
-            "text": "Accommodate the tripod bearing and Hall sensors, carry wheel and drivetrain loads, and package the bearing within an 80–85 mm bore and 110–120 mm outer-diameter envelope. My general target across racing projects was a factor of safety of 2 against maximum design loads."
+            "text": "Accommodate the tripod bearing and Hall sensors, carry wheel and drivetrain loads, and package the bearing within an 80–85 mm bore and 110–120 mm outer-diameter envelope."
           },
           {
             "title": "Material selection",
@@ -656,12 +656,16 @@
                 "text": "I screened bearings in SKF SimPro Quick for load capacity, fatigue life, and power loss. The selected bearing set the hub’s packaging and thickness requirements."
               },
               {
-                "title": "Load model and thread sizing",
-                "text": "I applied wheel loads from the team’s truss solver to the wheel flange, modeled the tensile load from the center-lock nut, and included bearing forces and drivetrain torque at the tripod interface. I sized hub-nut engagement using bolt tensile and nut thread-shear areas."
+                "title": "Model the constrained geometry",
+                "text": "I built the initial hub geometry around the given packaging constraints and interface requirements from the drivetrain, wheel, bearing, and electronics systems. I sized hub-nut engagement using bolt tensile and nut thread-shear areas."
               },
               {
-                "title": "Geometry: remove mass, then check",
-                "text": "I built the geometry around the interfaces and selected bearing, removed excess material through pocketing, and checked the revised hub in Ansys."
+                "title": "Set up the FEA load cases",
+                "text": "In Ansys, I applied wheel loads from the team’s truss solver to the wheel flange, modeled the tensile load from the center-lock nut, and included bearing forces and drivetrain torque at the tripod interface."
+              },
+              {
+                "title": "Optimize through pocketing",
+                "text": "I used the FEA results to identify where I could remove material, then iterated on the pockets and rechecked the revised hub in Ansys."
               }
             ]
           },
@@ -700,7 +704,7 @@
         },
         {
           "lead": "Design requirements",
-          "text": "Connect the upright, chassis tabs, and pushrods; carry tension and compression loads; control the bonded end-plug fit; and maintain clearance through maximum steer. My general target across racing projects was a factor of safety of 2 against maximum design loads."
+          "text": "Connect the upright, chassis tabs, and pushrods; carry tension and compression loads; control the bonded end-plug fit; and maintain clearance through maximum steer."
         },
         {
           "lead": "Material selection",
@@ -767,7 +771,7 @@
         },
         {
           "title": "Design requirements",
-          "text": "Connect the upright, chassis tabs, and pushrods; carry tension and compression loads; control the bonded end-plug fit; and maintain clearance through maximum steer. My general target across racing projects was a factor of safety of 2 against maximum design loads."
+          "text": "Connect the upright, chassis tabs, and pushrods; carry tension and compression loads; control the bonded end-plug fit; and maintain clearance through maximum steer."
         },
         {
           "title": "Material selection",
@@ -795,7 +799,7 @@
           },
           {
             "title": "Design requirements",
-            "text": "Connect the upright, chassis tabs, and pushrods; carry tension and compression loads; control the bonded end-plug fit; and maintain clearance through maximum steer. My general target across racing projects was a factor of safety of 2 against maximum design loads."
+            "text": "Connect the upright, chassis tabs, and pushrods; carry tension and compression loads; control the bonded end-plug fit; and maintain clearance through maximum steer."
           },
           {
             "title": "Material selection",
