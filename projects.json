@@ -34,16 +34,12 @@
           "text": "I ran Ansys simulations on the revised blankoff geometries, including the new clocking cutouts. I applied pressure to their internal faces based on the maximum feedline blow-off load cases in the cryo-proof test."
         },
         {
-          "lead": "Remove the bolted interface",
-          "text": "I designed a Monel bung welded to a stainless blankoff to remove another leak joint. I controlled the interface geometry to minimize gaseous-oxygen (GOX) impingement risk and sized the dissimilar-metal weld using Blodgett’s method."
+          "lead": "Improve sealing at a faulty interface",
+          "text": "I designed a Monel bung welded to a stainless blankoff to improve sealing performance at another faulty interface. I controlled the interface geometry to minimize gaseous-oxygen (GOX) impingement risk and sized the dissimilar-metal weld using Blodgett’s method."
         },
         {
           "lead": "Design the seal gland",
-          "text": "The bung formed the inner lip of the upper seal gland. I used the Parker O-Ring Handbook to size the gland for the required O-ring compression."
-        },
-        {
-          "lead": "Compare seal performance",
-          "text": "Empirical testing showed the Teflon O-ring was more consistent and reliable than the spring-energized alternative we were evaluating."
+          "text": "The bung protruded through the blankoff and sat against a counterbore in the blankoff to form the inner lip of an upper seal gland. I used the Parker O-Ring Handbook to size the gland for the required O-ring compression."
         },
         {
           "lead": "Define the repeated load case",
@@ -101,16 +97,12 @@
           "text": "I ran Ansys simulations on the revised blankoff geometries, including the new clocking cutouts. I applied pressure to their internal faces based on the maximum feedline blow-off load cases in the cryo-proof test."
         },
         {
-          "title": "Remove the bolted interface",
-          "text": "I designed a Monel bung welded to a stainless blankoff to remove another leak joint. I controlled the interface geometry to minimize gaseous-oxygen (GOX) impingement risk and sized the dissimilar-metal weld using Blodgett’s method."
+          "title": "Improve sealing at a faulty interface",
+          "text": "I designed a Monel bung welded to a stainless blankoff to improve sealing performance at another faulty interface. I controlled the interface geometry to minimize gaseous-oxygen (GOX) impingement risk and sized the dissimilar-metal weld using Blodgett’s method."
         },
         {
           "title": "Design the seal gland",
-          "text": "The bung formed the inner lip of the upper seal gland. I used the Parker O-Ring Handbook to size the gland for the required O-ring compression."
-        },
-        {
-          "title": "Compare seal performance",
-          "text": "Empirical testing showed the Teflon O-ring was more consistent and reliable than the spring-energized alternative we were evaluating."
+          "text": "The bung protruded through the blankoff and sat against a counterbore in the blankoff to form the inner lip of an upper seal gland. I used the Parker O-Ring Handbook to size the gland for the required O-ring compression."
         },
         {
           "title": "Define the repeated load case",
@@ -160,16 +152,12 @@
             "title": "GOX port & seal",
             "steps": [
               {
-                "title": "Remove the bolted interface",
-                "text": "I designed a Monel bung welded to a stainless blankoff to remove another leak joint. I controlled the interface geometry to minimize gaseous-oxygen (GOX) impingement risk and sized the dissimilar-metal weld using Blodgett’s method."
+                "title": "Improve sealing at a faulty interface",
+                "text": "I designed a Monel bung welded to a stainless blankoff to improve sealing performance at another faulty interface. I controlled the interface geometry to minimize gaseous-oxygen (GOX) impingement risk and sized the dissimilar-metal weld using Blodgett’s method."
               },
               {
                 "title": "Design the seal gland",
-                "text": "The bung formed the inner lip of the upper seal gland. I used the Parker O-Ring Handbook to size the gland for the required O-ring compression."
-              },
-              {
-                "title": "Compare seal performance",
-                "text": "Empirical testing showed the Teflon O-ring was more consistent and reliable than the spring-energized alternative we were evaluating."
+                "text": "The bung protruded through the blankoff and sat against a counterbore in the blankoff to form the inner lip of an upper seal gland. I used the Parker O-Ring Handbook to size the gland for the required O-ring compression."
               }
             ]
           },
