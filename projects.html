@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>All projects: Carson Moore</title>
-<meta name="description" content="Engineering and software projects: SpaceX production tooling, Longhorn Racing Electric hardware, robotics, and drill-rig design. Explore the decisions and results.">
+<meta name="description" content="Engineering and software projects: SpaceX production tooling and Longhorn Racing Electric hardware. Explore the design decisions, analysis, and execution.">
 <meta name="theme-color" content="#f4f7f8">
 <meta property="og:title" content="All projects: Carson Moore">
-<meta property="og:description" content="Engineering and software projects: SpaceX production tooling, Longhorn Racing Electric hardware, robotics, and drill-rig design. Explore the decisions and results.">
+<meta property="og:description" content="Engineering and software projects: SpaceX production tooling and Longhorn Racing Electric hardware. Explore the design decisions, analysis, and execution.">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://cmoore13.vercel.app/images/alpine-lakes.jpg">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -52,16 +52,14 @@
 <section class="project-library wrap" id="project-index">
 <div class="project-controls">
 <div class="filters" role="group" aria-label="Filter engineering projects">
-<button aria-pressed="true" class="active" data-filter="all">All engineering <span>08</span>
+<button aria-pressed="true" class="active" data-filter="all">All engineering <span>06</span>
 </button>
-<button aria-pressed="false" data-filter="spacex">SpaceX <span>02</span>
+<button aria-pressed="false" class="" data-filter="spacex">SpaceX <span>02</span>
 </button>
-<button aria-pressed="false" data-filter="racing">Racing <span>04</span>
-</button>
-<button aria-pressed="false" data-filter="tools">Research &amp; tools <span>02</span>
+<button aria-pressed="false" class="" data-filter="racing">Racing <span>04</span>
 </button>
 </div>
-<p id="project-count" aria-live="polite">8 engineering projects</p>
+<p id="project-count" aria-live="polite">6 engineering projects</p>
 </div>
 <nav class="project-jumps" aria-label="Jump to a project">
 <a href="#booster-cryo-proof">Booster cryo-proof tooling <span aria-hidden="true">↗</span>
@@ -75,10 +73,6 @@
 <a href="#control-arms">Pushrods &amp; control arms <span aria-hidden="true">↗</span>
 </a>
 <a href="#ride-height">Discrete ride-height adjustment <span aria-hidden="true">↗</span>
-</a>
-<a href="#motion-capture">Robotics motion capture <span aria-hidden="true">↗</span>
-</a>
-<a href="#hose-carrier">Drill-rig hose carrier <span aria-hidden="true">↗</span>
 </a>
 <a class="software-jump" href="#software-1">PolicyMarket <span aria-hidden="true">↗</span>
 </a>
@@ -101,7 +95,7 @@
 <img src="/images/spacex-starbase.jpg" alt="Carson at Starbase with Starship and the launch tower" width="1600" height="2132" loading="lazy">
 </a>
 </figure>
-<p class="project-summary">As Responsible Engineer for Super Heavy’s cryo-proof tooling, I carried the program from redesign and structural validation through procurement, assembly, and vehicle integration, with a focus on reliable testing and faster production.</p>
+<p class="project-summary">I redesigned Super Heavy’s cryo-proof tooling to reduce leak paths and make installation repeatable. My work covered welded drain elbows, self-clocking blankoffs, a GOX seal interface, and assembly-level integration.</p>
 <details class="case-details">
 <summary>
 <span>Explore this project<span class="sr-only">: Booster cryo-proof tooling</span>
@@ -111,28 +105,32 @@
 <div class="project-body">
 <div class="project-story">
 <section>
-<h3>Scope and test requirements</h3>
-<p>The 13,000+ component assembly sealed the booster’s 33 engine feedlines during cryo-proof testing. I redesigned the tooling to accommodate a high-flow gaseous-oxygen test assembly, a drain manifold for post-test cryogenic fluid removal, and gas-system ports for decay checks and transducer testing with the Checkouts team.</p>
+<h3>Identify weak interfaces</h3>
+<p>I reviewed the tooling sealing 33 engine feedlines for unnecessary leak joints and difficult installation steps. I replaced bolted interfaces with welded connections where practical, rerouted drain tubes for work access, and revised remaining bolted connections to use standard hardware.</p>
 </section>
 <section>
-<h3>Interface redesign</h3>
-<p>The inherited assembly had unnecessary leak paths, a complicated bolted stackup, and no reliable CAD reference. I rebuilt the assembly model and replaced the plate-to-drain bolted stackup with a custom welded elbow that located its own orientation for welding. I also coordinated plate-interface changes with the propulsion responsible engineer and replaced specialized bolts with standard factory hardware.</p>
+<h3>Drain elbow: fewer leak paths</h3>
+<p>The drain-to-blankoff interface had a bolted stackup with several potential leak paths. I replaced it with a 90° elbow welded to the blankoff, leaving one B-nut joint to the flared drain tube through an AN connection with a copper seal. I chose 304 stainless steel to match the blankoff’s weld material.</p>
 </section>
 <section>
-<h3>Structural validation</h3>
-<p>I ran FEA on maximum-pressure feedline blow-off load cases to check the tooling under cryo-proof loading. These pressure-induced separation loads guided the structural checks at the interfaces that retained the tooling on the vehicle.</p>
+<h3>Weld fit-up: locate and clock</h3>
+<p>Outlet orientation had to repeat across different blankoffs. I added a radial key and mating cutout to clock the elbow, plus a diameter step to locate its height for welding. I toleranced the fit to keep the TIG weld root gap within the specified 0.5 mm maximum.</p>
 </section>
 <section>
-<h3>Procurement and coordination</h3>
-<p>I directed $800,000 in machined-part procurement, working through daily vendor calls to keep delivery on schedule and parts conforming to the drawings. Daily stand-ups and status updates to more than 80 stakeholders kept design, supply, build, and integration teams aligned.</p>
+<h3>Loads: size the weld and recheck the part</h3>
+<p>I sized the elbow weld using Blodgett’s method and the maximum outlet moment from tank-pressure blow-off loads. The clocking cutout changed the blankoff geometry enough to require new analysis, so I checked each revised blankoff in Ansys under internal pressure.</p>
 </section>
 <section>
-<h3>Build and vehicle integration</h3>
-<p>I oversaw up to 25 technicians during subassembly build and vehicle integration, resolving issues on the floor as they arose. I also physically installed tooling on the vehicle to work through fit issues firsthand and designed lineside parts storage to support the build sequence.</p>
+<h3>GOX port: weld and seal geometry</h3>
+<p>I eliminated another bolted leak interface by designing a Monel bung welded to a stainless blankoff. I toleranced the interface to minimize gaseous-oxygen (GOX) impingement risk and sized the dissimilar-metal weld using Blodgett’s method. The bung formed the inner lip of the upper seal gland, which I sized for the required O-ring compression using the Parker O-Ring Handbook.</p>
 </section>
 <section>
-<h3>Production improvements</h3>
-<p>Across the program, design improvements, streamlined planning, and better parts storage saved more than 1,100 production hours per vehicle. The work extended from how the tooling performed during a test to how efficiently the team could prepare, assemble, and integrate it.</p>
+<h3>Repeatability: testing and mistake-proofing</h3>
+<p>Empirical testing showed the Teflon O-ring was more consistent and reliable than the spring-energized alternative under evaluation. Elsewhere in the assembly, I redesigned a subtly asymmetric welded subassembly so it could not be installed incorrectly.</p>
+</section>
+<section>
+<h3>Carry the design into use</h3>
+<p>I evaluated manufacturing deviations against critical sealing requirements and oversaw welded-subassembly fabrication and vehicle integration. I maintained the 13,000-component CAD assembly across three vehicles at different release states, and designed lineside storage and material flow to support two vehicles using the tooling simultaneously.</p>
 </section>
 </div>
 </div>
@@ -161,20 +159,16 @@
 <div class="project-body">
 <div class="project-story">
 <section>
-<h3>Subassembly build cell</h3>
-<p>I helped develop the manifold build cell and oversaw its integration on the production floor. I managed approximately $50,000 in purchased parts to equip the cell and support the build process.</p>
+<h3>Weld cell: control flange fit-up</h3>
+<p>I helped design the manifold subassembly cell and designed self-clocking endpoint-flange fixtures. I used locating features and GD&amp;T to control flange position and orientation for welding, then oversaw the cell’s integration on the production floor.</p>
 </section>
 <section>
-<h3>Self-clocking flange fixtures</h3>
-<p>I designed self-clocking fixtures to position and orient the manifold’s endpoint flanges for weld fit-up. This work taught me to apply geometric dimensioning and tolerancing (GD&amp;T) to the tooling interfaces that controlled flange alignment.</p>
+<h3>Lift tool: size and prove the load path</h3>
+<p>I designed a manifold lift tool for a 1,100 lb working load limit, using bending and weld calculations to size it. The tool was proof-tested at twice that limit, or 2,200 lb.</p>
 </section>
 <section>
-<h3>Manifold lift tooling</h3>
-<p>I designed a lift tool rated for a 1,100 lb working load limit. The tool was proof-tested at twice that limit, or 2,200 lb, to validate it before use.</p>
-</section>
-<section>
-<h3>Aft flap torque-frame access</h3>
-<p>I designed a tool that improved technician access and the integration process for Starship’s aft flap torque frames.</p>
+<h3>Torque frames: improve work access</h3>
+<p>I designed an integration jig for Starship’s aft flap torque frames to improve technician access. I developed the assembly sequence and used integration loads in bending and torsion to size the base, plates, and welds.</p>
 </section>
 <section>
 <h3>Flight-part retrofits</h3>
@@ -182,7 +176,7 @@
 </section>
 <section>
 <h3>Production improvements</h3>
-<p>Alongside the build cell and integration tooling, I designed several 3D-printed parts and parts manufactured through Protolabs to improve production rate.</p>
+<p>I also designed 3D-printed parts and parts manufactured through Protolabs to improve the build process.</p>
 </section>
 </div>
 </div>
@@ -211,28 +205,20 @@
 <div class="project-body">
 <div class="project-story">
 <section>
-<h3>Packaging &amp; requirements</h3>
-<p>I coordinated space claims with the powertrain team so the rotor would fit the drivetrain assembly. Long-term reliability was the main goal, with a design requirement to tolerate temperatures up to 500°C with a safety margin.</p>
+<h3>Materials: separate the thermal roles</h3>
+<p>I compared cast iron and 4140 steel and selected steel for its endurance-limit advantage. Titanium buttons limited heat transfer into the 7075 aluminum mount, which I packaged at the differential bolts.</p>
 </section>
 <section>
-<h3>Rotor material selection</h3>
-<p>I compared cast iron and 4140 steel in a material decision matrix. The study weighed cast iron’s density and thermal-conductivity advantages against fatigue performance, and I selected steel for its endurance-limit advantage in that comparison.</p>
+<h3>Thickness: bound and refine the heat load</h3>
+<p>For the 500°C requirement, I first sized thickness assuming maximum braking energy became heat with no heat escaping. I refined that conservative estimate with transient conduction, forced convection, and radiation analysis.</p>
 </section>
 <section>
-<h3>Buttons &amp; mount</h3>
-<p>I chose titanium buttons for their low thermal conductivity, strength-to-weight ratio, and corrosion resistance. They act as a thermal choke between the steel disc and the lightweight 7075 aluminum mount, which interfaces with the differential bolts.</p>
+<h3>Geometry: manage debris and check stress</h3>
+<p>I added curved face slots for debris removal, de-gassing, and water clearance, accepting additional pad wear. In Ansys, I supported the pad contact regions and applied braking moment through the mount connections to check stress.</p>
 </section>
 <section>
-<h3>Thermal sizing</h3>
-<p>I first sized rotor thickness using a conservative case in which maximum braking energy became heat with no heat escaping. I then refined the sizing through transient heat-transfer analysis, considering conduction, forced convection, and radiation.</p>
-</section>
-<section>
-<h3>Slot geometry &amp; structural FEA</h3>
-<p>I used curved face slots for pad debris removal, de-gassing, and water clearance, accepting additional pad wear. In Ansys, I fixed the pad contact regions and distributed the maximum rules-based braking moment through the mount’s bolted connections to check stress states.</p>
-</section>
-<section>
-<h3>Temperature testing &amp; manufacturing</h3>
-<p>I tested the rotors with temperature crayons to assess their operating temperatures. Manufacturing was outsourced for three-axis CNC machining.</p>
+<h3>Validation: measure operating temperature</h3>
+<p>I used temperature crayons to assess rotor operating temperatures and prepared the design for three-axis CNC manufacturing.</p>
 </section>
 </div>
 <div class="case-gallery">
@@ -445,24 +431,20 @@
 <div class="project-body">
 <div class="project-story">
 <section>
-<h3>System interfaces</h3>
-<p>I collaborated with the drivetrain and electronics teams to define the assembly’s interfaces. The hub needed to accommodate the drivetrain’s tripod bearing and integrate the electronics team’s Hall effect sensors.</p>
+<h3>Interfaces: establish the envelope</h3>
+<p>I defined the hub around the drivetrain’s tripod bearing and the electronics team’s Hall sensors. I screened bearings in SKF SimPro Quick for load capacity, fatigue life, and power loss within an 80–85 mm bore and 110–120 mm outer-diameter envelope; the selection set hub thickness and packaging.</p>
 </section>
 <section>
-<h3>Bearing selection and material</h3>
-<p>I evaluated bearings in SKF SimPro Quick within an 80–85 mm inner-diameter and 110–120 mm outer-diameter envelope. The selection informed hub thickness and packaging. I compared titanium, 6061, and 7075 aluminum, selecting 7075-T6.</p>
+<h3>Material: balance strength and mass</h3>
+<p>I compared titanium, 6061, and 7075 aluminum and selected 7075-T6. Its higher yield strength than 6061 supported the hub’s structural requirements.</p>
 </section>
 <section>
 <h3>Load model and thread sizing</h3>
 <p>I applied wheel loads from the team’s truss solver to the wheel flange, modeled the tensile load from the center-lock nut, and included bearing forces and drivetrain torque at the tripod interface. I sized hub-nut engagement using bolt tensile and nut thread-shear areas.</p>
 </section>
 <section>
-<h3>Geometry and pocketing</h3>
-<p>I started with geometry that satisfied the system interfaces and bearing constraints, then removed excess material through pocketing and checked the revised hub in Ansys.</p>
-</section>
-<section>
-<h3>Manufacturing sequence</h3>
-<p>The rotational features were turned on a lathe first. CNC milling then produced the tripod cutout, dowel-pin holes, brake-button holes, and wheel-flange pockets.</p>
+<h3>Geometry: remove mass, then check</h3>
+<p>I built the geometry around the interfaces and selected bearing, removed excess material through pocketing, and checked the revised hub in Ansys. Rotational features were turned first; CNC milling produced the tripod cutout, pin and button holes, and flange pockets.</p>
 </section>
 </div>
 <div class="case-gallery">
@@ -576,16 +558,16 @@
 <div class="project-body">
 <div class="project-story">
 <section>
-<h3>Interfaces and material choices</h3>
-<p>The control arms had to connect the upright, chassis tabs, and pushrods. I kept steel for the control arms, where the team had greater confidence in the manufacturing process, and used carbon fiber for the pushrods to reduce mass.</p>
+<h3>Materials: reduce mass within shop capability</h3>
+<p>I kept steel control arms because the team had greater confidence in that manufacturing process, and switched the pushrods to carbon fiber to reduce mass. Apex-mounted gussets replaced a heavy mounting plate.</p>
 </section>
 <section>
 <h3>Pushrod testing and bonding</h3>
 <p>I tested the carbon-fiber pushrods in tension and compression on an Instron. For fabrication, I cut the tubes to length and turned aluminum end plugs, controlling the bonding-surface diameter to within half a thousandth of an inch.</p>
 </section>
 <section>
-<h3>Control-arm fabrication</h3>
-<p>I replaced a heavy mounting plate with gussets at the apex. I cut steel tubing, turned and milled end plugs, bored and reamed bearing seats in laser-cut plates, and welded and tapped the plugs for rod ends.</p>
+<h3>Fabrication: carry the geometry into hardware</h3>
+<p>I cut steel tubing, turned and milled end plugs, bored and reamed bearing seats in laser-cut plates, and welded and tapped the plugs for rod ends.</p>
 </section>
 <section>
 <h3>Integration and steering clearance</h3>
@@ -647,110 +629,14 @@
 <p>I designed the attachment in 7075 aluminum and kept the shim pockets concentric with the retaining bolts. Lightweight shim geometry reduced the mass added by the adjustment mechanism.</p>
 </section>
 <section>
-<h3>Checks and manufacturing</h3>
-<p>I checked the attachment under pushrod loading in SolidWorks FEA. The shims were laser-cut and the attachment pieces machined. The upper component’s CNC machining was handled by another team member.</p>
-</section>
-<section>
-<h3>The tradeoff</h3>
-<p>The mechanism added 0.7 lb across the car in exchange for a more repeatable setup adjustment.</p>
+<h3>Validation and tradeoff</h3>
+<p>I checked the attachment under pushrod loading in SolidWorks FEA. The shims were laser-cut and the attachment pieces machined; another team member CNC-machined the upper component. The mechanism added 0.7 lb across the car in exchange for repeatable adjustment.</p>
 </section>
 </div>
 <div class="case-gallery">
 <figure>
 <a class="zoom-image" href="/images/ridehgt-shim.jpg" data-caption="" aria-label="Enlarge Stand-alone shim">
 <img src="/images/ridehgt-shim.jpg" alt="Stand-alone shim" loading="lazy" width="1140" height="771">
-<span aria-hidden="true">↗</span>
-</a>
-</figure>
-</div>
-</div>
-</details>
-</article>
-<article class="case project-feature" data-category="tools" id="motion-capture">
-<header class="project-heading">
-<div>
-<p class="project-organization">SiDi Lab, UT Austin</p>
-<h2>Robotics Motion Capture</h2>
-</div>
-<p class="project-date">January – April 2024</p>
-</header>
-<div class="motion-diagram" aria-label="Motion-capture data flows through Python and the NatNet SDK to the robot driver">
-<span>Motion capture</span>
-<b aria-hidden="true">→</b>
-<span>Python + NatNet</span>
-<b aria-hidden="true">→</b>
-<span>Robot driver</span>
-</div>
-<p class="project-summary">I developed software that gave robots real-time position data for swarm-manufacturing research at UT Austin’s SiDi Lab.</p>
-<details class="case-details">
-<summary>
-<span>Explore this project<span class="sr-only">: Robotics motion capture</span>
-</span>
-<span class="details-plus" aria-hidden="true">+</span>
-</summary>
-<div class="project-body">
-<div class="project-story">
-<section>
-<h3>Research need</h3>
-<p>The lab needed its robots to know their position during coordinated manufacturing tasks.</p>
-</section>
-<section>
-<h3>Software integration</h3>
-<p>I connected the infrared motion-capture system to a robotic arm and its driver software using Python and the NatNet SDK.</p>
-</section>
-<section>
-<h3>Result</h3>
-<p>The integration made real-time tracking data available to the robot software. I presented the work to UT research faculty.</p>
-</section>
-</div>
-</div>
-</details>
-</article>
-<article class="case project-feature" data-category="tools" id="hose-carrier">
-<header class="project-heading">
-<div>
-<p class="project-organization">Drillmaker</p>
-<h2>Hydraulic Hose Carrier</h2>
-</div>
-<p class="project-date">Geotechnical drill rig</p>
-</header>
-<figure class="project-visual cad">
-<a class="zoom-image visual-canvas" href="/images/hose-assembly.jpg" data-caption="" aria-label="Enlarge Hydraulic hose carrier assembly CAD model">
-<img src="/images/hose-assembly.jpg" alt="Hydraulic hose carrier assembly CAD model" width="1384" height="961" loading="lazy">
-</a>
-</figure>
-<p class="project-summary">I designed a linked carrier to guide hydraulic hoses through a drill rig’s motion while keeping the routing clear of surrounding hardware.</p>
-<details class="case-details">
-<summary>
-<span>Explore this project<span class="sr-only">: Drill-rig hose carrier</span>
-</span>
-<span class="details-plus" aria-hidden="true">+</span>
-</summary>
-<div class="project-body">
-<div class="project-story">
-<section>
-<h3>Motion and packaging</h3>
-<p>The hoses needed to move between their stored and operating positions without interference.</p>
-</section>
-<section>
-<h3>A path-driven assembly</h3>
-<p>I gave each carrier link rotational freedom, fixed one end, and constrained the other to a sketched path in SolidWorks.</p>
-</section>
-<section>
-<h3>Design flexibility</h3>
-<p>The routing could be revised through the sketch while preserving the linked assembly’s motion.</p>
-</section>
-</div>
-<div class="case-gallery">
-<figure>
-<a class="zoom-image" href="/images/hose-chain-linkage.jpg" data-caption="" aria-label="Enlarge Chain linkage part">
-<img src="/images/hose-chain-linkage.jpg" alt="Chain linkage part" loading="lazy" width="1400" height="610">
-<span aria-hidden="true">↗</span>
-</a>
-</figure>
-<figure>
-<a class="zoom-image" href="/images/hose-sketch-path.jpg" data-caption="" aria-label="Enlarge Sketch path">
-<img src="/images/hose-sketch-path.jpg" alt="Sketch path" loading="lazy" width="1400" height="272">
 <span aria-hidden="true">↗</span>
 </a>
 </figure>
