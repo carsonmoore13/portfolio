@@ -192,15 +192,11 @@
         },
         {
           "lead": "Material selection",
-          "text": "I used PLA for printed fixture prototypes, then primarily aluminum for the machined fixtures to keep them light under modest loads. The lift tool and torque-frame stand used carbon steel with corrosion-resistant paint to prevent corrosion from spreading to flight hardware."
+          "text": "I used PLA for printed fixture prototypes, then primarily aluminum for the machined fixtures to keep them light under modest loads. The lift tool used carbon steel with corrosion-resistant paint to prevent corrosion from spreading to flight hardware."
         },
         {
           "lead": "Design & validation",
-          "text": "I used the Siegmund table holes to locate the fixtures and kept them clear of the Orbitalum orbital tube welder. The flanged endpoints needed precise position and clocking because they formed critical vehicle passthroughs. I applied 3-2-1 locating, GD&T, and selected dowel-pin fits to control the endpoints. I also sized tooling seal glands using the Parker O-Ring Handbook. I quickly 3D-printed PLA fixture components for the first article build, revised the designs from those fit-up lessons, and had predominantly aluminum tools machined for subsequent builds. I oversaw the cell’s setup and integration. I worked with the assembly’s Responsible Engineer to establish rigging points on its brackets, then designed a three-point lift and rigging plan to fly the welded manifold into the vehicle. I used bending and deflection calculations to size the 1,100 lb WLL tool. I calculated bracket centers of gravity and placed welded lifting lugs directly above them to prevent tilt. I sized the lug welds so two lugs could carry the entire assembly. I proof-tested the tool at 2,200 lb, twice its working load limit, and wrote the integration plan for welding the subassembly on the vehicle. I designed a stand to improve work access during aft flap torque-frame integration. I based its load cases on the maximum forces technicians could apply during assembly. I solved for two-plane bending and maximum torsion, then used those loads to size the integration stand and its welds. I took precise measurements of existing assemblies and created as-built CAD models of the off-nominal conditions. I used those models to design five flight-part retrofits for manufacture and installation on the existing assemblies."
-        },
-        {
-          "lead": "Manufacturing & integration",
-          "text": "I arranged the cell in a semicircle with a slat wall, weld tables, and cantilevered racks. First-article builds with 3D-printed fixtures informed the machined tools. I oversaw cell setup and wrote the manifold’s on-vehicle weld integration plan."
+          "text": "I used the Siegmund table holes to locate the fixtures and kept them clear of the Orbitalum orbital tube welder. The flanged endpoints needed precise position and clocking because they formed critical vehicle passthroughs. I used 3-2-1 locating principles, GD&T, and selected dowel-pin fits to size and tolerance the endpoint tools. I sized the tools’ seal glands using the Parker O-Ring Handbook. I quickly 3D-printed PLA fixture components for the first article build, revised the designs from those fit-up lessons, and had predominantly aluminum tools machined for subsequent builds. I oversaw the cell’s setup and integration. I worked with the assembly’s Responsible Engineer to establish rigging points on its brackets, then designed a three-point lift and rigging plan to fly the welded manifold into the vehicle. I used bending and deflection calculations to size the 1,100 lb WLL tool. I calculated bracket centers of gravity and placed welded lifting lugs directly above them to prevent tilt. I sized the lug welds so two lugs could carry the entire assembly. I proof-tested the tool at 2,200 lb, twice its working load limit, and wrote the integration plan for welding the subassembly on the vehicle. I designed a stand to improve work access during aft flap torque-frame integration. I based its load cases on the maximum forces technicians could apply during assembly. I solved for two-plane bending and maximum torsion, then used those loads to size the integration stand and its welds. I took precise measurements of existing assemblies and created as-built CAD models of the off-nominal conditions. I used those models to design five flight-part retrofits for manufacture and installation on the existing assemblies."
         },
         {
           "lead": "Additional considerations",
@@ -235,15 +231,11 @@
         },
         {
           "title": "Material selection",
-          "text": "I used PLA for printed fixture prototypes, then primarily aluminum for the machined fixtures to keep them light under modest loads. The lift tool and torque-frame stand used carbon steel with corrosion-resistant paint to prevent corrosion from spreading to flight hardware."
+          "text": "I used PLA for printed fixture prototypes, then primarily aluminum for the machined fixtures to keep them light under modest loads. The lift tool used carbon steel with corrosion-resistant paint to prevent corrosion from spreading to flight hardware."
         },
         {
           "title": "Design & validation",
-          "text": "I used the Siegmund table holes to locate the fixtures and kept them clear of the Orbitalum orbital tube welder. The flanged endpoints needed precise position and clocking because they formed critical vehicle passthroughs. I applied 3-2-1 locating, GD&T, and selected dowel-pin fits to control the endpoints. I also sized tooling seal glands using the Parker O-Ring Handbook. I quickly 3D-printed PLA fixture components for the first article build, revised the designs from those fit-up lessons, and had predominantly aluminum tools machined for subsequent builds. I oversaw the cell’s setup and integration. I worked with the assembly’s Responsible Engineer to establish rigging points on its brackets, then designed a three-point lift and rigging plan to fly the welded manifold into the vehicle. I used bending and deflection calculations to size the 1,100 lb WLL tool. I calculated bracket centers of gravity and placed welded lifting lugs directly above them to prevent tilt. I sized the lug welds so two lugs could carry the entire assembly. I proof-tested the tool at 2,200 lb, twice its working load limit, and wrote the integration plan for welding the subassembly on the vehicle. I designed a stand to improve work access during aft flap torque-frame integration. I based its load cases on the maximum forces technicians could apply during assembly. I solved for two-plane bending and maximum torsion, then used those loads to size the integration stand and its welds. I took precise measurements of existing assemblies and created as-built CAD models of the off-nominal conditions. I used those models to design five flight-part retrofits for manufacture and installation on the existing assemblies."
-        },
-        {
-          "title": "Manufacturing & integration",
-          "text": "I arranged the cell in a semicircle with a slat wall, weld tables, and cantilevered racks. First-article builds with 3D-printed fixtures informed the machined tools. I oversaw cell setup and wrote the manifold’s on-vehicle weld integration plan."
+          "text": "I used the Siegmund table holes to locate the fixtures and kept them clear of the Orbitalum orbital tube welder. The flanged endpoints needed precise position and clocking because they formed critical vehicle passthroughs. I used 3-2-1 locating principles, GD&T, and selected dowel-pin fits to size and tolerance the endpoint tools. I sized the tools’ seal glands using the Parker O-Ring Handbook. I quickly 3D-printed PLA fixture components for the first article build, revised the designs from those fit-up lessons, and had predominantly aluminum tools machined for subsequent builds. I oversaw the cell’s setup and integration. I worked with the assembly’s Responsible Engineer to establish rigging points on its brackets, then designed a three-point lift and rigging plan to fly the welded manifold into the vehicle. I used bending and deflection calculations to size the 1,100 lb WLL tool. I calculated bracket centers of gravity and placed welded lifting lugs directly above them to prevent tilt. I sized the lug welds so two lugs could carry the entire assembly. I proof-tested the tool at 2,200 lb, twice its working load limit, and wrote the integration plan for welding the subassembly on the vehicle. I designed a stand to improve work access during aft flap torque-frame integration. I based its load cases on the maximum forces technicians could apply during assembly. I solved for two-plane bending and maximum torsion, then used those loads to size the integration stand and its welds. I took precise measurements of existing assemblies and created as-built CAD models of the off-nominal conditions. I used those models to design five flight-part retrofits for manufacture and installation on the existing assemblies."
         },
         {
           "title": "Additional considerations",
@@ -264,7 +256,7 @@
           },
           {
             "title": "Material selection",
-            "text": "I used PLA for printed fixture prototypes, then primarily aluminum for the machined fixtures to keep them light under modest loads. The lift tool and torque-frame stand used carbon steel with corrosion-resistant paint to prevent corrosion from spreading to flight hardware."
+            "text": "I used PLA for printed fixture prototypes, then primarily aluminum for the machined fixtures to keep them light under modest loads. The lift tool used carbon steel with corrosion-resistant paint to prevent corrosion from spreading to flight hardware."
           },
           {
             "title": "Design & validation",
@@ -277,8 +269,8 @@
                     "text": "I used the Siegmund table holes to locate the fixtures and kept them clear of the Orbitalum orbital tube welder. The flanged endpoints needed precise position and clocking because they formed critical vehicle passthroughs."
                   },
                   {
-                    "title": "Turn constraints into fixture geometry",
-                    "text": "I applied 3-2-1 locating, GD&T, and selected dowel-pin fits to control the endpoints. I also sized tooling seal glands using the Parker O-Ring Handbook."
+                    "title": "Size and tolerance the endpoint tools",
+                    "text": "I used 3-2-1 locating principles, GD&T, and selected dowel-pin fits to size and tolerance the endpoint tools. I sized the tools’ seal glands using the Parker O-Ring Handbook."
                   },
                   {
                     "title": "Prototype, learn, then machine",
@@ -330,10 +322,6 @@
                 ]
               }
             ]
-          },
-          {
-            "title": "Manufacturing & integration",
-            "text": "I arranged the cell in a semicircle with a slat wall, weld tables, and cantilevered racks. First-article builds with 3D-printed fixtures informed the machined tools. I oversaw cell setup and wrote the manifold’s on-vehicle weld integration plan."
           },
           {
             "title": "Additional considerations",
