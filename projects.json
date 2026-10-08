@@ -848,7 +848,7 @@
         },
         {
           "lead": "Design requirements",
-          "text": "Change pushrod length in discrete increments, retain the inboard suspension interface, and keep the shim stack in compression under pushrod loading. My general target across racing projects was a factor of safety of 2 against maximum design loads."
+          "text": "Change pushrod length in discrete increments, retain the inboard suspension interface, and keep the shim stack in compression under pushrod loading."
         },
         {
           "lead": "Material selection",
@@ -856,7 +856,7 @@
         },
         {
           "lead": "Design & validation",
-          "text": "Adding or removing shims changes pushrod length; retightening the fasteners secures the setting. I kept the shim pockets concentric with the retaining bolts. I checked the attachment under pushrod loading in SolidWorks FEA."
+          "text": "Adding or removing shims changes pushrod length; retightening the fasteners secures the setting. I kept the shim pockets concentric with the retaining bolts."
         },
         {
           "lead": "Manufacturing & integration",
@@ -903,7 +903,7 @@
         },
         {
           "title": "Design requirements",
-          "text": "Change pushrod length in discrete increments, retain the inboard suspension interface, and keep the shim stack in compression under pushrod loading. My general target across racing projects was a factor of safety of 2 against maximum design loads."
+          "text": "Change pushrod length in discrete increments, retain the inboard suspension interface, and keep the shim stack in compression under pushrod loading."
         },
         {
           "title": "Material selection",
@@ -911,7 +911,7 @@
         },
         {
           "title": "Design & validation",
-          "text": "Adding or removing shims changes pushrod length; retightening the fasteners secures the setting. I kept the shim pockets concentric with the retaining bolts. I checked the attachment under pushrod loading in SolidWorks FEA."
+          "text": "Adding or removing shims changes pushrod length; retightening the fasteners secures the setting. I kept the shim pockets concentric with the retaining bolts."
         },
         {
           "title": "Manufacturing & integration",
@@ -931,7 +931,7 @@
           },
           {
             "title": "Design requirements",
-            "text": "Change pushrod length in discrete increments, retain the inboard suspension interface, and keep the shim stack in compression under pushrod loading. My general target across racing projects was a factor of safety of 2 against maximum design loads."
+            "text": "Change pushrod length in discrete increments, retain the inboard suspension interface, and keep the shim stack in compression under pushrod loading."
           },
           {
             "title": "Material selection",
@@ -943,10 +943,6 @@
               {
                 "title": "Define the adjustment mechanism",
                 "text": "Adding or removing shims changes pushrod length; retightening the fasteners secures the setting. I kept the shim pockets concentric with the retaining bolts."
-              },
-              {
-                "title": "Check the attachment",
-                "text": "I checked the attachment under pushrod loading in SolidWorks FEA."
               }
             ]
           },

@@ -16,7 +16,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/studio.css">
 <link rel="stylesheet" href="/css/alpine.css">
-<link rel="stylesheet" href="/css/gallery.css?v=80c6c0a77002">
+<link rel="stylesheet" href="/css/gallery.css?v=aa8c487b8630">
 <script src="/js/studio.js" defer>
 </script>
 </head>
@@ -399,6 +399,96 @@
 <details class="project-evidence">
 <summary>Calculations &amp; reference material <span aria-hidden="true">+</span>
 </summary>
+<section class="brake-sizing frozen-reference" aria-labelledby="brake-sizing-title">
+<p class="eyebrow mono">2026 FROZEN CALCULATIONS</p>
+<h3 id="brake-sizing-title">From tire grip to rotor geometry</h3>
+<p class="sizing-intro">The rotor radius was part of a system-level balance: generate braking torque near each axle’s grip limit, then fit the pad and mounting buttons around that radius.</p>
+<ol class="process-steps calculation-flow">
+<li>
+<h4>01 / Establish the braking load case</h4>
+<p>The frozen model uses a 600 lbf vehicle-and-driver weight, 330 N of downforce, a 1,549.4 mm wheelbase and a 282.4 mm CG height. At 1.57 g, the recorded frontward load transfer is 763.9 N, leaving 2,263.3 N on the front axle and 735.6 N on the rear.</p>
+<p class="calculation-result">Modeled longitudinal grip: 2,914.3 N front / 1,266.2 N rear.</p>
+</li>
+<li>
+<h4>02 / Match braking torque to available grip</h4>
+<p>With a 100 lbf pedal input, 3.5:1 pedal ratio and 56.2% front bias, the model pairs 72 mm front and 80 mm rear effective rotor radii with 34 mm caliper pistons and a 0.50 pad friction coefficient. The resulting tire forces are 2,891.2 N front and 1,251.8 N rear.</p>
+<p class="calculation-result">99.21% front / 98.87% rear of modeled locking force. Pedal-force gradient: 64.4 lbf/g, within the sheet’s 60–70 lbf/g target.</p>
+<p>Using axle torque = tire force × 0.1999 m loaded tire radius gives approximately 578.0 N·m front and 250.2 N·m rear. These are axle totals at the stated pedal input, not per-rotor ultimate loads.</p>
+</li>
+<li>
+<h4>03 / Turn effective radius into a rotor envelope</h4>
+<p>The pad’s radial width establishes the swept band. Edge clearance sets the outer diameter; button size and button-to-pad clearance set the inner boundary. The frozen dimensions make those packaging allowances explicit.</p>
+<div class="matrix-scroll" role="region" aria-label="Frozen rotor dimensions" tabindex="0">
+<table class="rotor-dimensions">
+<caption>Frozen geometry, all dimensions in mm</caption>
+<thead>
+<tr>
+<th scope="col">Dimension</th>
+<th scope="col">Front</th>
+<th scope="col">Rear</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">Effective radius</th>
+<td>72.0</td>
+<td>80.0</td>
+</tr>
+<tr>
+<th scope="row">Pad radial width</th>
+<td>33.1</td>
+<td>33.1</td>
+</tr>
+<tr>
+<th scope="row">Button diameter</th>
+<td>12.7</td>
+<td>12.7</td>
+</tr>
+<tr>
+<th scope="row">Button-to-pad clearance</th>
+<td>3.0</td>
+<td>3.0</td>
+</tr>
+<tr>
+<th scope="row">Pad-to-outer-edge clearance</th>
+<td>1.5</td>
+<td>0.5</td>
+</tr>
+<tr>
+<th scope="row">Rotor outer diameter</th>
+<td>180.1</td>
+<td>194.1</td>
+</tr>
+<tr>
+<th scope="row">Rotor inner diameter</th>
+<td>92.2</td>
+<td>108.2</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>The recorded dimensions reconcile with OD = 2 × effective radius + pad width + 2 × edge clearance, and ID = 2 × effective radius − pad width − 2 × button clearance − button diameter.</p>
+</li>
+<li>
+<h4>04 / Carry the envelope into detailed design</h4>
+<p>This calculation establishes braking balance and radial packaging. Rotor thickness, heat transfer through the buttons, and rotor/carrier stresses require the separate thermal and structural checks described in the project. The frozen sheet does not establish those margins.</p>
+</li>
+</ol>
+<details class="calculation-notes">
+<summary>Calculation basis and source files <span aria-hidden="true">+</span>
+</summary>
+<div>
+<p>The supplied “Frozen - 26 Calcs” export is the reference for these values and corresponds to pages 10–11 of the workbook PDF. Other workbook revisions are not combined with this baseline. The CSV contains recorded values rather than formulas; the torque and diameter relationships above are reconstructed checks, not a rerun of the original workbook.</p>
+<p>The source labels 2,668.9 N / 600 lbf as vehicle-and-driver “mass”; it is presented here as weight. Its separate 449.6 lbf maximum-pedal case records 2,882.7 psi front and 2,246.7 psi rear line pressure. Caliper burst ratings are not supplied in the frozen sheet, so a passed burst-pressure check is not claimed.</p>
+<p>
+<a class="text-link" href="/reports/brakes-2026-frozen.csv" download>2026 frozen calculations (CSV) ↓</a>
+</p>
+<p>
+<a class="text-link" href="/reports/brakes-calcs-respin.pdf#page=10" target="_blank" rel="noopener">Full calculation workbook (PDF), frozen revision on pages 10–11 ↗</a>
+</p>
+</div>
+</details>
+</section>
 <section class="caliper-selection" aria-labelledby="caliper-title">
 <div class="caliper-heading">
 <div>
@@ -515,47 +605,6 @@
 <p>“Not listed” indicates a blank entry in the source. “Request” = pressure data marked for inquiry. Prices are from the original comparison and do not represent sponsorship terms. Piston and pad areas are reproduced as listed.</p>
 <a class="text-link zoom-image-source" href="/images/caliper-selection-source.png" target="_blank" rel="noopener">View original comparison ↗</a>
 </div>
-</section>
-<section class="brake-sizing" aria-labelledby="brake-sizing-title">
-<p class="eyebrow mono">SUPPORTING CALCULATIONS</p>
-<h3 id="brake-sizing-title">Rotor geometry &amp; mounting loads</h3>
-<p class="sizing-intro">These worksheet excerpts document rotor dimensions and the mounting hardware’s load checks. They complement the thermal sizing and structural analysis described above.</p>
-<figure class="sizing-figure">
-<div>
-<p class="eyebrow mono">CALCULATION 01</p>
-<h4>Rotor dimensions and effective radius</h4>
-<p>The sizing sheet compares the available geometry with calculated minimum dimensions. Its 7.000-inch front rotor exceeds the recorded 6.943-inch minimum. The rear entries require reconciliation: 8.125 inches entered versus an 8.336-inch minimum.</p>
-</div>
-<a class="zoom-image sizing-image" href="/images/brake-sizing-geometry.png" data-caption="Rotor dimensions and effective radius: reformatted Rev2 CSV excerpt" aria-label="Enlarge Rotor dimensions and effective radius">
-<img src="/images/brake-sizing-geometry.png" alt="Rotor dimensions and effective radius. Recorded front and rear inputs and results from the Rev2 calculation export." loading="lazy">
-<span aria-hidden="true">↗</span>
-</a>
-</figure>
-<figure class="sizing-figure">
-<div>
-<p class="eyebrow mono">CALCULATION 02</p>
-<h4>Transferring torque into the mount</h4>
-<p>The mounting calculations follow rotor torque into four 0.5-inch buttons and the 7075 aluminum carrier. This export assumes 7075 buttons and records button stress and carrier bearing stress; it is a separate revision from the titanium-button design.</p>
-</div>
-<a class="zoom-image sizing-image" href="/images/brake-sizing-mounts.png" data-caption="Transferring torque into the mount: reformatted Rev2 CSV excerpt" aria-label="Enlarge Transferring torque into the mount">
-<img src="/images/brake-sizing-mounts.png" alt="Transferring torque into the mount. Recorded front and rear inputs and results from the Rev2 calculation export." loading="lazy">
-<span aria-hidden="true">↗</span>
-</a>
-</figure>
-<details class="calculation-notes">
-<summary>Revision notes and source sheet <span aria-hidden="true">+</span>
-</summary>
-<div>
-<p>These figures reproduce values from the Rev2 sizing CSV with clearer formatting. The export does not retain the original formulas or diagrams, so the excerpts are calculation records rather than a recalculated final design.</p>
-<ul>
-<li>
-<strong>Rear geometry:</strong> the entered rear diameter and effective radius are below the minimum values recorded in the sizing sheet.</li>
-<li>
-<strong>Materials and loads:</strong> this revision assumes 7075 buttons, while the design described above uses titanium. The recorded stresses and factors apply to that revision’s material and torque inputs, not verified final values for the titanium-button design.</li>
-</ul>
-<a class="text-link" href="/reports/brake-sizing-rev2.csv" download>Rotor sizing source (CSV) ↓</a>
-</div>
-</details>
 </section>
 </details>
 </div>
@@ -839,7 +888,7 @@
 <li class="outline-narrow">
 <p class="process-label">02</p>
 <h3>Design requirements</h3>
-<p>Change pushrod length in discrete increments, retain the inboard suspension interface, and keep the shim stack in compression under pushrod loading. My general target across racing projects was a factor of safety of 2 against maximum design loads.</p>
+<p>Change pushrod length in discrete increments, retain the inboard suspension interface, and keep the shim stack in compression under pushrod loading.</p>
 </li>
 <li class="outline-narrow">
 <p class="process-label">03</p>
@@ -853,10 +902,6 @@
 <li>
 <h4>Define the adjustment mechanism</h4>
 <p>Adding or removing shims changes pushrod length; retightening the fasteners secures the setting. I kept the shim pockets concentric with the retaining bolts.</p>
-</li>
-<li>
-<h4>Check the attachment</h4>
-<p>I checked the attachment under pushrod loading in SolidWorks FEA.</p>
 </li>
 </ol>
 </li>
