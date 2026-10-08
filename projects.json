@@ -7,42 +7,63 @@
       "when": "May – August 2026",
       "featured": true,
       "card": "images/spacex-starbase.jpg",
-      "summary": "I redesigned Super Heavy’s cryo-proof tooling to reduce leak paths and make installation repeatable. My work covered welded drain elbows, self-clocking blankoffs, a GOX seal interface, and assembly-level integration.",
+      "summary": "I redesigned Super Heavy’s cryo-proof tooling to reduce leak paths and make installation repeatable: welded drain elbows, a GOX seal interface, and standard attachment bolts, carried from load calculations into vehicle integration.",
       "tags": [
         "Welded interfaces",
         "GD&T",
         "Blodgett weld sizing",
         "Ansys FEA",
-        "Seal gland design"
+        "Seal gland design",
+        "Bolt preload & fatigue"
       ],
       "points": [
         {
-          "lead": "Identify weak interfaces",
-          "text": "I reviewed the tooling sealing 33 engine feedlines for unnecessary leak joints and difficult installation steps. I replaced bolted interfaces with welded connections where practical, rerouted drain tubes for work access, and revised remaining bolted connections to use standard hardware."
+          "lead": "Find the weak interfaces",
+          "text": "I reviewed the tooling sealing 33 feedlines for leak paths, difficult work access, and assembly errors. That review led to three component redesigns, alongside drain rerouting and mistake-proofing."
         },
         {
-          "lead": "Drain elbow: fewer leak paths",
-          "text": "The drain-to-blankoff interface had a bolted stackup with several potential leak paths. I replaced it with a 90° elbow welded to the blankoff, leaving one B-nut joint to the flared drain tube through an AN connection with a copper seal. I chose 304 stainless steel to match the blankoff’s weld material."
+          "lead": "Replace the leak-prone stackup",
+          "text": "I replaced several bolted leak interfaces with a 90° elbow welded to the blankoff. One B-nut joint remained at the flared drain tube’s AN connection, with a copper seal. I chose 304 stainless steel to match the blankoff’s weld material."
         },
         {
-          "lead": "Weld fit-up: locate and clock",
-          "text": "Outlet orientation had to repeat across different blankoffs. I added a radial key and mating cutout to clock the elbow, plus a diameter step to locate its height for welding. I toleranced the fit to keep the TIG weld root gap within the specified 0.5 mm maximum."
+          "lead": "Size the weld, then control fit-up",
+          "text": "I used the maximum outlet moment from pressure blow-off loads and Blodgett’s method to size the weld. A radial key clocked the outlet; a diameter step located weld height. I toleranced the fit to keep the TIG root gap within 0.5 mm."
         },
         {
-          "lead": "Loads: size the weld and recheck the part",
-          "text": "I sized the elbow weld using Blodgett’s method and the maximum outlet moment from tank-pressure blow-off loads. The clocking cutout changed the blankoff geometry enough to require new analysis, so I checked each revised blankoff in Ansys under internal pressure."
+          "lead": "Recheck the revised blankoffs",
+          "text": "The mating clocking cutouts changed the blankoff geometries, so I reran Ansys with internal pressure applied to each revised design."
         },
         {
-          "lead": "GOX port: weld and seal geometry",
-          "text": "I eliminated another bolted leak interface by designing a Monel bung welded to a stainless blankoff. I toleranced the interface to minimize gaseous-oxygen (GOX) impingement risk and sized the dissimilar-metal weld using Blodgett’s method. The bung formed the inner lip of the upper seal gland, which I sized for the required O-ring compression using the Parker O-Ring Handbook."
+          "lead": "Remove the bolted interface",
+          "text": "I designed a Monel bung welded to a stainless blankoff to remove another leak joint. I controlled the interface geometry to minimize gaseous-oxygen (GOX) impingement risk and sized the dissimilar-metal weld using Blodgett’s method."
         },
         {
-          "lead": "Repeatability: testing and mistake-proofing",
-          "text": "Empirical testing showed the Teflon O-ring was more consistent and reliable than the spring-energized alternative under evaluation. Elsewhere in the assembly, I redesigned a subtly asymmetric welded subassembly so it could not be installed incorrectly."
+          "lead": "Design the seal gland",
+          "text": "The bung formed the inner lip of the upper seal gland. I used the Parker O-Ring Handbook to size the gland for the required O-ring compression."
         },
         {
-          "lead": "Carry the design into use",
-          "text": "I evaluated manufacturing deviations against critical sealing requirements and oversaw welded-subassembly fabrication and vehicle integration. I maintained the 13,000-component CAD assembly across three vehicles at different release states, and designed lineside storage and material flow to support two vehicles using the tooling simultaneously."
+          "lead": "Compare seal performance",
+          "text": "Empirical testing showed the Teflon O-ring was more consistent and reliable than the spring-energized alternative we were evaluating."
+        },
+        {
+          "lead": "Define the repeated load case",
+          "text": "I evaluated replacing the existing A280 mil-spec bolts with Grade 5 hardware stocked in the factory. I based the sizing on maximum feedline blow-off loads during cryo-proof testing."
+        },
+        {
+          "lead": "Calculate preload & torque",
+          "text": "From the blow-off force, I calculated the required bolt preload and tightening torque using T = KDF, with K as the torque coefficient, D as bolt diameter, and F as preload."
+        },
+        {
+          "lead": "Check gapping & fatigue",
+          "text": "I checked joint gapping and bolt fatigue under repeated loading. All checks passed, allowing us to replace the specialized bolts with standard Grade 5 hardware."
+        },
+        {
+          "lead": "Release, manufacture & inspect",
+          "text": "I released the revised parts and evaluated manufacturing deviations against critical sealing requirements. I then oversaw fabrication of the welded subassemblies."
+        },
+        {
+          "lead": "Integrate & support repeat use",
+          "text": "I oversaw vehicle integration, rerouted drain tubes for work access, and mistake-proofed an asymmetric subassembly. I maintained the 13,000-component CAD assembly across three vehicles at different release states and designed lineside storage to support two vehicles using the tools simultaneously."
         }
       ],
       "gallery": [],
@@ -64,34 +85,123 @@
       "showResult": false,
       "sections": [
         {
-          "title": "Identify weak interfaces",
-          "text": "I reviewed the tooling sealing 33 engine feedlines for unnecessary leak joints and difficult installation steps. I replaced bolted interfaces with welded connections where practical, rerouted drain tubes for work access, and revised remaining bolted connections to use standard hardware."
+          "title": "Find the weak interfaces",
+          "text": "I reviewed the tooling sealing 33 feedlines for leak paths, difficult work access, and assembly errors. That review led to three component redesigns, alongside drain rerouting and mistake-proofing."
         },
         {
-          "title": "Drain elbow: fewer leak paths",
-          "text": "The drain-to-blankoff interface had a bolted stackup with several potential leak paths. I replaced it with a 90° elbow welded to the blankoff, leaving one B-nut joint to the flared drain tube through an AN connection with a copper seal. I chose 304 stainless steel to match the blankoff’s weld material."
+          "title": "Replace the leak-prone stackup",
+          "text": "I replaced several bolted leak interfaces with a 90° elbow welded to the blankoff. One B-nut joint remained at the flared drain tube’s AN connection, with a copper seal. I chose 304 stainless steel to match the blankoff’s weld material."
         },
         {
-          "title": "Weld fit-up: locate and clock",
-          "text": "Outlet orientation had to repeat across different blankoffs. I added a radial key and mating cutout to clock the elbow, plus a diameter step to locate its height for welding. I toleranced the fit to keep the TIG weld root gap within the specified 0.5 mm maximum."
+          "title": "Size the weld, then control fit-up",
+          "text": "I used the maximum outlet moment from pressure blow-off loads and Blodgett’s method to size the weld. A radial key clocked the outlet; a diameter step located weld height. I toleranced the fit to keep the TIG root gap within 0.5 mm."
         },
         {
-          "title": "Loads: size the weld and recheck the part",
-          "text": "I sized the elbow weld using Blodgett’s method and the maximum outlet moment from tank-pressure blow-off loads. The clocking cutout changed the blankoff geometry enough to require new analysis, so I checked each revised blankoff in Ansys under internal pressure."
+          "title": "Recheck the revised blankoffs",
+          "text": "The mating clocking cutouts changed the blankoff geometries, so I reran Ansys with internal pressure applied to each revised design."
         },
         {
-          "title": "GOX port: weld and seal geometry",
-          "text": "I eliminated another bolted leak interface by designing a Monel bung welded to a stainless blankoff. I toleranced the interface to minimize gaseous-oxygen (GOX) impingement risk and sized the dissimilar-metal weld using Blodgett’s method. The bung formed the inner lip of the upper seal gland, which I sized for the required O-ring compression using the Parker O-Ring Handbook."
+          "title": "Remove the bolted interface",
+          "text": "I designed a Monel bung welded to a stainless blankoff to remove another leak joint. I controlled the interface geometry to minimize gaseous-oxygen (GOX) impingement risk and sized the dissimilar-metal weld using Blodgett’s method."
         },
         {
-          "title": "Repeatability: testing and mistake-proofing",
-          "text": "Empirical testing showed the Teflon O-ring was more consistent and reliable than the spring-energized alternative under evaluation. Elsewhere in the assembly, I redesigned a subtly asymmetric welded subassembly so it could not be installed incorrectly."
+          "title": "Design the seal gland",
+          "text": "The bung formed the inner lip of the upper seal gland. I used the Parker O-Ring Handbook to size the gland for the required O-ring compression."
         },
         {
-          "title": "Carry the design into use",
-          "text": "I evaluated manufacturing deviations against critical sealing requirements and oversaw welded-subassembly fabrication and vehicle integration. I maintained the 13,000-component CAD assembly across three vehicles at different release states, and designed lineside storage and material flow to support two vehicles using the tooling simultaneously."
+          "title": "Compare seal performance",
+          "text": "Empirical testing showed the Teflon O-ring was more consistent and reliable than the spring-energized alternative we were evaluating."
+        },
+        {
+          "title": "Define the repeated load case",
+          "text": "I evaluated replacing the existing A280 mil-spec bolts with Grade 5 hardware stocked in the factory. I based the sizing on maximum feedline blow-off loads during cryo-proof testing."
+        },
+        {
+          "title": "Calculate preload & torque",
+          "text": "From the blow-off force, I calculated the required bolt preload and tightening torque using T = KDF, with K as the torque coefficient, D as bolt diameter, and F as preload."
+        },
+        {
+          "title": "Check gapping & fatigue",
+          "text": "I checked joint gapping and bolt fatigue under repeated loading. All checks passed, allowing us to replace the specialized bolts with standard Grade 5 hardware."
+        },
+        {
+          "title": "Release, manufacture & inspect",
+          "text": "I released the revised parts and evaluated manufacturing deviations against critical sealing requirements. I then oversaw fabrication of the welded subassemblies."
+        },
+        {
+          "title": "Integrate & support repeat use",
+          "text": "I oversaw vehicle integration, rerouted drain tubes for work access, and mistake-proofed an asymmetric subassembly. I maintained the 13,000-component CAD assembly across three vehicles at different release states and designed lineside storage to support two vehicles using the tools simultaneously."
         }
       ],
+      "process": {
+        "start": {
+          "title": "Find the weak interfaces",
+          "text": "I reviewed the tooling sealing 33 feedlines for leak paths, difficult work access, and assembly errors. That review led to three component redesigns, alongside drain rerouting and mistake-proofing."
+        },
+        "tracks": [
+          {
+            "title": "Drain elbow & blankoffs",
+            "steps": [
+              {
+                "title": "Replace the leak-prone stackup",
+                "text": "I replaced several bolted leak interfaces with a 90° elbow welded to the blankoff. One B-nut joint remained at the flared drain tube’s AN connection, with a copper seal. I chose 304 stainless steel to match the blankoff’s weld material."
+              },
+              {
+                "title": "Size the weld, then control fit-up",
+                "text": "I used the maximum outlet moment from pressure blow-off loads and Blodgett’s method to size the weld. A radial key clocked the outlet; a diameter step located weld height. I toleranced the fit to keep the TIG root gap within 0.5 mm."
+              },
+              {
+                "title": "Recheck the revised blankoffs",
+                "text": "The mating clocking cutouts changed the blankoff geometries, so I reran Ansys with internal pressure applied to each revised design."
+              }
+            ]
+          },
+          {
+            "title": "GOX port & seal",
+            "steps": [
+              {
+                "title": "Remove the bolted interface",
+                "text": "I designed a Monel bung welded to a stainless blankoff to remove another leak joint. I controlled the interface geometry to minimize gaseous-oxygen (GOX) impingement risk and sized the dissimilar-metal weld using Blodgett’s method."
+              },
+              {
+                "title": "Design the seal gland",
+                "text": "The bung formed the inner lip of the upper seal gland. I used the Parker O-Ring Handbook to size the gland for the required O-ring compression."
+              },
+              {
+                "title": "Compare seal performance",
+                "text": "Empirical testing showed the Teflon O-ring was more consistent and reliable than the spring-energized alternative we were evaluating."
+              }
+            ]
+          },
+          {
+            "title": "Blankoff attachment bolts",
+            "steps": [
+              {
+                "title": "Define the repeated load case",
+                "text": "I evaluated replacing the existing A280 mil-spec bolts with Grade 5 hardware stocked in the factory. I based the sizing on maximum feedline blow-off loads during cryo-proof testing."
+              },
+              {
+                "title": "Calculate preload & torque",
+                "text": "From the blow-off force, I calculated the required bolt preload and tightening torque using T = KDF, with K as the torque coefficient, D as bolt diameter, and F as preload."
+              },
+              {
+                "title": "Check gapping & fatigue",
+                "text": "I checked joint gapping and bolt fatigue under repeated loading. All checks passed, allowing us to replace the specialized bolts with standard Grade 5 hardware."
+              }
+            ]
+          }
+        ],
+        "finish": [
+          {
+            "title": "Release, manufacture & inspect",
+            "text": "I released the revised parts and evaluated manufacturing deviations against critical sealing requirements. I then oversaw fabrication of the welded subassemblies."
+          },
+          {
+            "title": "Integrate & support repeat use",
+            "text": "I oversaw vehicle integration, rerouted drain tubes for work access, and mistake-proofed an asymmetric subassembly. I maintained the 13,000-component CAD assembly across three vehicles at different release states and designed lineside storage to support two vehicles using the tools simultaneously."
+          }
+        ]
+      },
       "cardAlt": "Carson at Starbase with Starship and the launch tower",
       "mediaKind": "photo"
     },

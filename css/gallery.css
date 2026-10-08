@@ -86,3 +86,20 @@ img[src$="hub-cad-render.jpg"],img[src$="ridehgt-assembly.jpg"]{clip-path:inset(
 
 /* Trim the captured window edge around the hose-carrier CAD, including the enlarged view. */
 img[src$="hose-assembly.jpg"]{clip-path:inset(2%)}
+
+.project-process{margin-bottom:45px}
+.project-process .process-label{font-size:11px;font-weight:600;letter-spacing:.08em;color:var(--accent);margin:0 0 18px}
+.project-process h3{font:400 34px/1.15 var(--display);margin:0 0 18px}
+.project-process h4{font:600 15px/1.5 var(--body);margin:0 0 10px}
+.project-process p{font-size:15px;line-height:1.85;color:var(--muted);margin:0}
+.process-start,.process-finish{max-width:850px;margin-inline:auto}
+.process-arrow{font-size:32px;line-height:1;color:var(--accent);text-align:center;margin:28px 0}
+.process-design>.process-label,.process-guide{text-align:center}
+.project-process .process-guide{margin-bottom:30px;font-size:13px}
+.design-tracks{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:38px}
+.design-track{border-top:1px solid var(--line);padding-top:22px}
+.process-steps{list-style:none;padding:0;margin:0}
+.process-steps>li+li:before{content:'↓';display:block;color:var(--accent);font-size:26px;line-height:1;margin:22px 0}
+.process-finish{border-top:1px solid var(--line);padding-top:25px}
+@media(max-width:1000px){.design-tracks{grid-template-columns:1fr;gap:35px}.design-track{max-width:850px;width:100%;margin-inline:auto}}
+@media(max-width:760px){.project-process h3{font-size:29px}.project-process p{font-size:14px}.project-process .process-label{font-size:10px}.process-arrow{margin:22px 0}.design-track{padding-top:18px}}
