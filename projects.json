@@ -191,8 +191,12 @@
           "text": "Locate and clock critical tube endpoints using Siegmund table holes while clearing the Orbitalum welder. Support a 1,100 lb lift with a 2× WLL proof test, and size the torque-frame stand for maximum technician-applied integration loads."
         },
         {
+          "lead": "Material selection",
+          "text": "I used PLA for printed fixture prototypes, then primarily aluminum for the machined fixtures to keep them light under modest loads. The lift tool and torque-frame stand used carbon steel with corrosion-resistant paint to prevent corrosion from spreading to flight hardware."
+        },
+        {
           "lead": "Design & validation",
-          "text": "I used the Siegmund table holes to locate the fixtures and kept them clear of the Orbitalum orbital tube welder. The flanged endpoints needed precise position and clocking because they formed critical vehicle passthroughs. I applied 3-2-1 locating, GD&T, and selected dowel-pin fits to control the endpoints. I also sized tooling seal glands using the Parker O-Ring Handbook. I quickly 3D-printed fixture components for the first article build, revised the designs from those fit-up lessons, and had the tools machined for subsequent builds. I oversaw the cell’s setup and integration. I worked with the assembly’s Responsible Engineer to establish rigging points on its brackets, then designed a three-point lift and rigging plan to fly the welded manifold into the vehicle. I used bending and deflection calculations to size the 1,100 lb WLL tool. I calculated bracket centers of gravity and placed welded lifting lugs directly above them to prevent tilt. I sized the lug welds so two lugs could carry the entire assembly. I proof-tested the tool at 2,200 lb, twice its working load limit, and wrote the integration plan for welding the subassembly on the vehicle. I designed a stand to improve work access during aft flap torque-frame integration. I based its load cases on the maximum forces technicians could apply during assembly. I solved for two-plane bending and maximum torsion, then used those loads to size the integration stand and its welds. I took precise measurements of existing assemblies and created as-built CAD models of the off-nominal conditions. I used those models to design five flight-part retrofits for manufacture and installation on the existing assemblies."
+          "text": "I used the Siegmund table holes to locate the fixtures and kept them clear of the Orbitalum orbital tube welder. The flanged endpoints needed precise position and clocking because they formed critical vehicle passthroughs. I applied 3-2-1 locating, GD&T, and selected dowel-pin fits to control the endpoints. I also sized tooling seal glands using the Parker O-Ring Handbook. I quickly 3D-printed PLA fixture components for the first article build, revised the designs from those fit-up lessons, and had predominantly aluminum tools machined for subsequent builds. I oversaw the cell’s setup and integration. I worked with the assembly’s Responsible Engineer to establish rigging points on its brackets, then designed a three-point lift and rigging plan to fly the welded manifold into the vehicle. I used bending and deflection calculations to size the 1,100 lb WLL tool. I calculated bracket centers of gravity and placed welded lifting lugs directly above them to prevent tilt. I sized the lug welds so two lugs could carry the entire assembly. I proof-tested the tool at 2,200 lb, twice its working load limit, and wrote the integration plan for welding the subassembly on the vehicle. I designed a stand to improve work access during aft flap torque-frame integration. I based its load cases on the maximum forces technicians could apply during assembly. I solved for two-plane bending and maximum torsion, then used those loads to size the integration stand and its welds. I took precise measurements of existing assemblies and created as-built CAD models of the off-nominal conditions. I used those models to design five flight-part retrofits for manufacture and installation on the existing assemblies."
         },
         {
           "lead": "Manufacturing & integration",
@@ -230,8 +234,12 @@
           "text": "Locate and clock critical tube endpoints using Siegmund table holes while clearing the Orbitalum welder. Support a 1,100 lb lift with a 2× WLL proof test, and size the torque-frame stand for maximum technician-applied integration loads."
         },
         {
+          "title": "Material selection",
+          "text": "I used PLA for printed fixture prototypes, then primarily aluminum for the machined fixtures to keep them light under modest loads. The lift tool and torque-frame stand used carbon steel with corrosion-resistant paint to prevent corrosion from spreading to flight hardware."
+        },
+        {
           "title": "Design & validation",
-          "text": "I used the Siegmund table holes to locate the fixtures and kept them clear of the Orbitalum orbital tube welder. The flanged endpoints needed precise position and clocking because they formed critical vehicle passthroughs. I applied 3-2-1 locating, GD&T, and selected dowel-pin fits to control the endpoints. I also sized tooling seal glands using the Parker O-Ring Handbook. I quickly 3D-printed fixture components for the first article build, revised the designs from those fit-up lessons, and had the tools machined for subsequent builds. I oversaw the cell’s setup and integration. I worked with the assembly’s Responsible Engineer to establish rigging points on its brackets, then designed a three-point lift and rigging plan to fly the welded manifold into the vehicle. I used bending and deflection calculations to size the 1,100 lb WLL tool. I calculated bracket centers of gravity and placed welded lifting lugs directly above them to prevent tilt. I sized the lug welds so two lugs could carry the entire assembly. I proof-tested the tool at 2,200 lb, twice its working load limit, and wrote the integration plan for welding the subassembly on the vehicle. I designed a stand to improve work access during aft flap torque-frame integration. I based its load cases on the maximum forces technicians could apply during assembly. I solved for two-plane bending and maximum torsion, then used those loads to size the integration stand and its welds. I took precise measurements of existing assemblies and created as-built CAD models of the off-nominal conditions. I used those models to design five flight-part retrofits for manufacture and installation on the existing assemblies."
+          "text": "I used the Siegmund table holes to locate the fixtures and kept them clear of the Orbitalum orbital tube welder. The flanged endpoints needed precise position and clocking because they formed critical vehicle passthroughs. I applied 3-2-1 locating, GD&T, and selected dowel-pin fits to control the endpoints. I also sized tooling seal glands using the Parker O-Ring Handbook. I quickly 3D-printed PLA fixture components for the first article build, revised the designs from those fit-up lessons, and had predominantly aluminum tools machined for subsequent builds. I oversaw the cell’s setup and integration. I worked with the assembly’s Responsible Engineer to establish rigging points on its brackets, then designed a three-point lift and rigging plan to fly the welded manifold into the vehicle. I used bending and deflection calculations to size the 1,100 lb WLL tool. I calculated bracket centers of gravity and placed welded lifting lugs directly above them to prevent tilt. I sized the lug welds so two lugs could carry the entire assembly. I proof-tested the tool at 2,200 lb, twice its working load limit, and wrote the integration plan for welding the subassembly on the vehicle. I designed a stand to improve work access during aft flap torque-frame integration. I based its load cases on the maximum forces technicians could apply during assembly. I solved for two-plane bending and maximum torsion, then used those loads to size the integration stand and its welds. I took precise measurements of existing assemblies and created as-built CAD models of the off-nominal conditions. I used those models to design five flight-part retrofits for manufacture and installation on the existing assemblies."
         },
         {
           "title": "Manufacturing & integration",
@@ -255,6 +263,10 @@
             "text": "Locate and clock critical tube endpoints using Siegmund table holes while clearing the Orbitalum welder. Support a 1,100 lb lift with a 2× WLL proof test, and size the torque-frame stand for maximum technician-applied integration loads."
           },
           {
+            "title": "Material selection",
+            "text": "I used PLA for printed fixture prototypes, then primarily aluminum for the machined fixtures to keep them light under modest loads. The lift tool and torque-frame stand used carbon steel with corrosion-resistant paint to prevent corrosion from spreading to flight hardware."
+          },
+          {
             "title": "Design & validation",
             "tracks": [
               {
@@ -270,7 +282,7 @@
                   },
                   {
                     "title": "Prototype, learn, then machine",
-                    "text": "I quickly 3D-printed fixture components for the first article build, revised the designs from those fit-up lessons, and had the tools machined for subsequent builds. I oversaw the cell’s setup and integration."
+                    "text": "I quickly 3D-printed PLA fixture components for the first article build, revised the designs from those fit-up lessons, and had predominantly aluminum tools machined for subsequent builds. I oversaw the cell’s setup and integration."
                   }
                 ]
               },
@@ -355,7 +367,7 @@
         },
         {
           "lead": "Design requirements",
-          "text": "Package the mount at the differential bolts, accommodate braking loads, and size the rotor for a 500°C temperature requirement with a safety margin."
+          "text": "Package the mount at the differential bolts, accommodate braking loads, and size the rotor for a 500°C temperature requirement with a safety margin. My general target across racing projects was a factor of safety of 2 against maximum design loads."
         },
         {
           "lead": "Material selection",
@@ -426,7 +438,7 @@
         },
         {
           "title": "Design requirements",
-          "text": "Package the mount at the differential bolts, accommodate braking loads, and size the rotor for a 500°C temperature requirement with a safety margin."
+          "text": "Package the mount at the differential bolts, accommodate braking loads, and size the rotor for a 500°C temperature requirement with a safety margin. My general target across racing projects was a factor of safety of 2 against maximum design loads."
         },
         {
           "title": "Material selection",
@@ -454,7 +466,7 @@
           },
           {
             "title": "Design requirements",
-            "text": "Package the mount at the differential bolts, accommodate braking loads, and size the rotor for a 500°C temperature requirement with a safety margin."
+            "text": "Package the mount at the differential bolts, accommodate braking loads, and size the rotor for a 500°C temperature requirement with a safety margin. My general target across racing projects was a factor of safety of 2 against maximum design loads."
           },
           {
             "title": "Material selection",
@@ -514,7 +526,7 @@
         },
         {
           "lead": "Design requirements",
-          "text": "Accommodate the tripod bearing and Hall sensors, carry wheel and drivetrain loads, and package the bearing within an 80–85 mm bore and 110–120 mm outer-diameter envelope."
+          "text": "Accommodate the tripod bearing and Hall sensors, carry wheel and drivetrain loads, and package the bearing within an 80–85 mm bore and 110–120 mm outer-diameter envelope. My general target across racing projects was a factor of safety of 2 against maximum design loads."
         },
         {
           "lead": "Material selection",
@@ -602,7 +614,7 @@
         },
         {
           "title": "Design requirements",
-          "text": "Accommodate the tripod bearing and Hall sensors, carry wheel and drivetrain loads, and package the bearing within an 80–85 mm bore and 110–120 mm outer-diameter envelope."
+          "text": "Accommodate the tripod bearing and Hall sensors, carry wheel and drivetrain loads, and package the bearing within an 80–85 mm bore and 110–120 mm outer-diameter envelope. My general target across racing projects was a factor of safety of 2 against maximum design loads."
         },
         {
           "title": "Material selection",
@@ -630,7 +642,7 @@
           },
           {
             "title": "Design requirements",
-            "text": "Accommodate the tripod bearing and Hall sensors, carry wheel and drivetrain loads, and package the bearing within an 80–85 mm bore and 110–120 mm outer-diameter envelope."
+            "text": "Accommodate the tripod bearing and Hall sensors, carry wheel and drivetrain loads, and package the bearing within an 80–85 mm bore and 110–120 mm outer-diameter envelope. My general target across racing projects was a factor of safety of 2 against maximum design loads."
           },
           {
             "title": "Material selection",
@@ -688,7 +700,7 @@
         },
         {
           "lead": "Design requirements",
-          "text": "Connect the upright, chassis tabs, and pushrods; carry tension and compression loads; control the bonded end-plug fit; and maintain clearance through maximum steer."
+          "text": "Connect the upright, chassis tabs, and pushrods; carry tension and compression loads; control the bonded end-plug fit; and maintain clearance through maximum steer. My general target across racing projects was a factor of safety of 2 against maximum design loads."
         },
         {
           "lead": "Material selection",
@@ -755,7 +767,7 @@
         },
         {
           "title": "Design requirements",
-          "text": "Connect the upright, chassis tabs, and pushrods; carry tension and compression loads; control the bonded end-plug fit; and maintain clearance through maximum steer."
+          "text": "Connect the upright, chassis tabs, and pushrods; carry tension and compression loads; control the bonded end-plug fit; and maintain clearance through maximum steer. My general target across racing projects was a factor of safety of 2 against maximum design loads."
         },
         {
           "title": "Material selection",
@@ -783,7 +795,7 @@
           },
           {
             "title": "Design requirements",
-            "text": "Connect the upright, chassis tabs, and pushrods; carry tension and compression loads; control the bonded end-plug fit; and maintain clearance through maximum steer."
+            "text": "Connect the upright, chassis tabs, and pushrods; carry tension and compression loads; control the bonded end-plug fit; and maintain clearance through maximum steer. My general target across racing projects was a factor of safety of 2 against maximum design loads."
           },
           {
             "title": "Material selection",
@@ -836,7 +848,7 @@
         },
         {
           "lead": "Design requirements",
-          "text": "Change pushrod length in discrete increments, retain the inboard suspension interface, and keep the shim stack in compression under pushrod loading."
+          "text": "Change pushrod length in discrete increments, retain the inboard suspension interface, and keep the shim stack in compression under pushrod loading. My general target across racing projects was a factor of safety of 2 against maximum design loads."
         },
         {
           "lead": "Material selection",
@@ -891,7 +903,7 @@
         },
         {
           "title": "Design requirements",
-          "text": "Change pushrod length in discrete increments, retain the inboard suspension interface, and keep the shim stack in compression under pushrod loading."
+          "text": "Change pushrod length in discrete increments, retain the inboard suspension interface, and keep the shim stack in compression under pushrod loading. My general target across racing projects was a factor of safety of 2 against maximum design loads."
         },
         {
           "title": "Material selection",
@@ -919,7 +931,7 @@
           },
           {
             "title": "Design requirements",
-            "text": "Change pushrod length in discrete increments, retain the inboard suspension interface, and keep the shim stack in compression under pushrod loading."
+            "text": "Change pushrod length in discrete increments, retain the inboard suspension interface, and keep the shim stack in compression under pushrod loading. My general target across racing projects was a factor of safety of 2 against maximum design loads."
           },
           {
             "title": "Material selection",
