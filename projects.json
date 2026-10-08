@@ -366,10 +366,6 @@
           "text": "For the 500°C requirement, I first sized thickness assuming maximum braking energy became heat with no heat escaping. I refined that conservative estimate with transient conduction, forced convection, and radiation analysis. I added curved face slots for debris removal, de-gassing, and water clearance, accepting additional pad wear. In Ansys, I supported the pad contact regions and applied braking moment through the mount connections to check stress."
         },
         {
-          "lead": "Manufacturing & integration",
-          "text": "The rotors were manufactured through outsourced three-axis CNC machining. I used temperature crayons to assess their operating temperatures."
-        },
-        {
           "lead": "Additional considerations",
           "text": "The face slots improved debris, gas, and water clearance at the cost of additional pad wear. Sponsorship availability drove the Brembo P2.34 caliper choice; the supporting matrix records the technical tradeoffs."
         }
@@ -437,10 +433,6 @@
           "text": "For the 500°C requirement, I first sized thickness assuming maximum braking energy became heat with no heat escaping. I refined that conservative estimate with transient conduction, forced convection, and radiation analysis. I added curved face slots for debris removal, de-gassing, and water clearance, accepting additional pad wear. In Ansys, I supported the pad contact regions and applied braking moment through the mount connections to check stress."
         },
         {
-          "title": "Manufacturing & integration",
-          "text": "The rotors were manufactured through outsourced three-axis CNC machining. I used temperature crayons to assess their operating temperatures."
-        },
-        {
           "title": "Additional considerations",
           "text": "The face slots improved debris, gas, and water clearance at the cost of additional pad wear. Sponsorship availability drove the Brembo P2.34 caliper choice; the supporting matrix records the technical tradeoffs."
         }
@@ -472,10 +464,6 @@
                 "text": "I added curved face slots for debris removal, de-gassing, and water clearance, accepting additional pad wear. In Ansys, I supported the pad contact regions and applied braking moment through the mount connections to check stress."
               }
             ]
-          },
-          {
-            "title": "Manufacturing & integration",
-            "text": "The rotors were manufactured through outsourced three-axis CNC machining. I used temperature crayons to assess their operating temperatures."
           },
           {
             "title": "Additional considerations",
