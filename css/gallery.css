@@ -97,9 +97,12 @@ img[src$="hose-assembly.jpg"]{clip-path:inset(2%)}
 .process-design>.process-label,.process-guide{text-align:center}
 .project-process .process-guide{margin-bottom:30px;font-size:13px}
 .design-tracks{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:38px}
+.design-tracks.tracks-4{grid-template-columns:repeat(2,minmax(0,1fr))}
+.process-sequential{max-width:850px;margin-inline:auto}
+.process-sequential .process-steps>li+li:before{text-align:center;margin:28px 0}
 .design-track{border-top:1px solid var(--line);padding-top:22px}
 .process-steps{list-style:none;padding:0;margin:0}
 .process-steps>li+li:before{content:'↓';display:block;color:var(--accent);font-size:26px;line-height:1;margin:22px 0}
 .process-finish{border-top:1px solid var(--line);padding-top:25px}
-@media(max-width:1000px){.design-tracks{grid-template-columns:1fr;gap:35px}.design-track{max-width:850px;width:100%;margin-inline:auto}}
+@media(max-width:1000px){.design-tracks,.design-tracks.tracks-4{grid-template-columns:1fr;gap:35px}.design-track{max-width:850px;width:100%;margin-inline:auto}}
 @media(max-width:760px){.project-process h3{font-size:29px}.project-process p{font-size:14px}.project-process .process-label{font-size:10px}.process-arrow{margin:22px 0}.design-track{padding-top:18px}}
