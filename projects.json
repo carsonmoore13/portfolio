@@ -23,15 +23,15 @@
         },
         {
           "lead": "Replace the leak-prone stackup",
-          "text": "I replaced several bolted leak interfaces with a 90° elbow welded to the blankoff. One B-nut joint remained at the flared drain tube’s AN connection, with a copper seal. I chose 304 stainless steel to match the blankoff’s weld material."
+          "text": "I replaced a leak-prone bolted joint stackup with a welded 90° elbow connecting the blankoff to the cryogenic drain tube. The elbow welded directly to the blankoff, leaving one B-nut joint at the flared tube’s AN connection with a copper seal. I chose 304 stainless steel to match the blankoff’s weld material."
         },
         {
-          "lead": "Size the weld, then control fit-up",
-          "text": "I used the maximum outlet moment from pressure blow-off loads and Blodgett’s method to size the weld. A radial key clocked the outlet; a diameter step located weld height. I toleranced the fit to keep the TIG root gap within 0.5 mm."
+          "lead": "Size the vehicle-side weld, then control fit-up",
+          "text": "I used the maximum elbow outlet moment and loads from the cryo-proof feedline blow-off cases to size the elbow’s vehicle-side weld to the blankoff using Blodgett’s method. A radial key clocked the outlet; a diameter step located weld height. I toleranced the fit to keep the TIG root gap within 0.5 mm."
         },
         {
           "lead": "Recheck the revised blankoffs",
-          "text": "The clocking cutouts changed the blankoff geometries, so I reran Ansys with pressure on the internal faces from the maximum feedline blow-off load cases in the cryo-proof test. I supported each design at the pinned bolted interfaces appropriate to its use case."
+          "text": "I ran Ansys simulations on the revised blankoff geometries, including the new clocking cutouts. I applied pressure to their internal faces based on the maximum feedline blow-off load cases in the cryo-proof test."
         },
         {
           "lead": "Remove the bolted interface",
@@ -90,15 +90,15 @@
         },
         {
           "title": "Replace the leak-prone stackup",
-          "text": "I replaced several bolted leak interfaces with a 90° elbow welded to the blankoff. One B-nut joint remained at the flared drain tube’s AN connection, with a copper seal. I chose 304 stainless steel to match the blankoff’s weld material."
+          "text": "I replaced a leak-prone bolted joint stackup with a welded 90° elbow connecting the blankoff to the cryogenic drain tube. The elbow welded directly to the blankoff, leaving one B-nut joint at the flared tube’s AN connection with a copper seal. I chose 304 stainless steel to match the blankoff’s weld material."
         },
         {
-          "title": "Size the weld, then control fit-up",
-          "text": "I used the maximum outlet moment from pressure blow-off loads and Blodgett’s method to size the weld. A radial key clocked the outlet; a diameter step located weld height. I toleranced the fit to keep the TIG root gap within 0.5 mm."
+          "title": "Size the vehicle-side weld, then control fit-up",
+          "text": "I used the maximum elbow outlet moment and loads from the cryo-proof feedline blow-off cases to size the elbow’s vehicle-side weld to the blankoff using Blodgett’s method. A radial key clocked the outlet; a diameter step located weld height. I toleranced the fit to keep the TIG root gap within 0.5 mm."
         },
         {
           "title": "Recheck the revised blankoffs",
-          "text": "The clocking cutouts changed the blankoff geometries, so I reran Ansys with pressure on the internal faces from the maximum feedline blow-off load cases in the cryo-proof test. I supported each design at the pinned bolted interfaces appropriate to its use case."
+          "text": "I ran Ansys simulations on the revised blankoff geometries, including the new clocking cutouts. I applied pressure to their internal faces based on the maximum feedline blow-off load cases in the cryo-proof test."
         },
         {
           "title": "Remove the bolted interface",
@@ -144,15 +144,15 @@
             "steps": [
               {
                 "title": "Replace the leak-prone stackup",
-                "text": "I replaced several bolted leak interfaces with a 90° elbow welded to the blankoff. One B-nut joint remained at the flared drain tube’s AN connection, with a copper seal. I chose 304 stainless steel to match the blankoff’s weld material."
+                "text": "I replaced a leak-prone bolted joint stackup with a welded 90° elbow connecting the blankoff to the cryogenic drain tube. The elbow welded directly to the blankoff, leaving one B-nut joint at the flared tube’s AN connection with a copper seal. I chose 304 stainless steel to match the blankoff’s weld material."
               },
               {
-                "title": "Size the weld, then control fit-up",
-                "text": "I used the maximum outlet moment from pressure blow-off loads and Blodgett’s method to size the weld. A radial key clocked the outlet; a diameter step located weld height. I toleranced the fit to keep the TIG root gap within 0.5 mm."
+                "title": "Size the vehicle-side weld, then control fit-up",
+                "text": "I used the maximum elbow outlet moment and loads from the cryo-proof feedline blow-off cases to size the elbow’s vehicle-side weld to the blankoff using Blodgett’s method. A radial key clocked the outlet; a diameter step located weld height. I toleranced the fit to keep the TIG root gap within 0.5 mm."
               },
               {
                 "title": "Recheck the revised blankoffs",
-                "text": "The clocking cutouts changed the blankoff geometries, so I reran Ansys with pressure on the internal faces from the maximum feedline blow-off load cases in the cryo-proof test. I supported each design at the pinned bolted interfaces appropriate to its use case."
+                "text": "I ran Ansys simulations on the revised blankoff geometries, including the new clocking cutouts. I applied pressure to their internal faces based on the maximum feedline blow-off load cases in the cryo-proof test."
               }
             ]
           },
