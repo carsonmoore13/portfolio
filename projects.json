@@ -203,16 +203,18 @@
         ]
       },
       "cardAlt": "Carson at Starbase with Starship and the launch tower",
-      "mediaKind": "photo"
+      "mediaKind": "photo",
+      "role": "Booster Integration Engineering Intern",
+      "organization": "SpaceX"
     },
     {
       "id": "ship-structures",
       "org": "SpaceX: Structures Build Engineering",
-      "title": "Starship Production Tooling",
+      "title": "V3 Starfactory Weld Cell & Integration Tooling",
       "when": "January – August 2025",
       "featured": true,
       "card": "images/spacex-team.jpg",
-      "summary": "On SpaceX’s Structures Build Engineering team, I helped design and build a new weld-focused subassembly cell for a high-pressure propulsion manifold for Starship V3. My work included flange fit-up fixtures, lift and access tooling, flight-part retrofits, and production improvements.",
+      "summary": "I owned the CONOPS, layout, and tooling design for a V3 Starfactory cell building a ring manifold for oxygen, methane, environmental-control gases, and helium. I carried the work from fixture prototypes through machined tooling, lift planning, and vehicle integration.",
       "tags": [
         "Weld fixtures",
         "GD&T",
@@ -222,32 +224,40 @@
       ],
       "points": [
         {
-          "lead": "Define the build and integration needs",
-          "text": "I helped develop a weld-focused cell for a Starship V3 propulsion manifold. Alongside the cell, I designed tools for handling and access, and retrofits for off-nominal flight hardware."
+          "lead": "Plan how the cell would build the manifold",
+          "text": "I defined the concept of operations (CONOPS) and arranged the cell in a semicircle, laying out the slat wall, Siegmund weld tables, and cantilevered racks around the ring-manifold build."
         },
         {
-          "lead": "Control flange fit-up",
-          "text": "I designed self-clocking endpoint-flange fixtures, using locating features and GD&T to control position and orientation for welding."
+          "lead": "Define the locating constraints",
+          "text": "I used the Siegmund table holes to locate the fixtures and kept them clear of the Orbitalum orbital tube welder. The flanged endpoints needed precise position and clocking because they formed critical vehicle passthroughs."
         },
         {
-          "lead": "Set up the build cell",
-          "text": "I helped design and build the manifold subassembly cell, then oversaw its integration on the production floor."
+          "lead": "Turn constraints into fixture geometry",
+          "text": "I applied 3-2-1 locating, GD&T, and selected dowel-pin fits to control the endpoints. I also sized tooling seal glands using the Parker O-Ring Handbook."
         },
         {
-          "lead": "Size the load path",
-          "text": "I designed the tool for a 1,100 lb working load limit, using bending and weld calculations to size the structure."
+          "lead": "Prototype, learn, then machine",
+          "text": "I quickly 3D-printed fixture components for the first article build, revised the designs from those fit-up lessons, and had the tools machined for subsequent builds. I oversaw the cell’s setup and integration."
         },
         {
-          "lead": "Proof-test the tool",
-          "text": "The tool was proof-tested at 2,200 lb, twice its working load limit."
+          "lead": "Establish a three-point lift",
+          "text": "I worked with the assembly’s Responsible Engineer to establish rigging points on its brackets, then designed a three-point lift and rigging plan to fly the welded manifold into the vehicle."
         },
         {
-          "lead": "Plan access and assembly",
-          "text": "I developed the assembly sequence and designed an integration jig to improve technician access around the aft flap torque frames."
+          "lead": "Size the structure and locate the lugs",
+          "text": "I used bending and deflection calculations to size the 1,100 lb WLL tool. I calculated bracket centers of gravity and placed welded lifting lugs directly above them to prevent tilt. I sized the lug welds so two lugs could carry the entire assembly."
         },
         {
-          "lead": "Size the jig",
-          "text": "I used integration loads in bending and torsion to size the base, plates, and welds."
+          "lead": "Prove the lift and plan installation",
+          "text": "I proof-tested the tool at 2,200 lb, twice its working load limit, and wrote the integration plan for welding the subassembly on the vehicle."
+        },
+        {
+          "lead": "Define technician-applied loads",
+          "text": "I designed a stand to improve work access during aft flap torque-frame integration. I based its load cases on the maximum forces technicians could apply during assembly."
+        },
+        {
+          "lead": "Calculate bending, torsion, and weld loads",
+          "text": "I solved for two-plane bending and maximum torsion, then used those loads to size the integration stand and its welds."
         },
         {
           "lead": "Measure the as-built hardware",
@@ -258,8 +268,8 @@
           "text": "I used those models to design five flight-part retrofits for manufacture and installation on the existing assemblies."
         },
         {
-          "lead": "Improve the production process",
-          "text": "Alongside these projects, I designed 3D-printed parts and parts manufactured through Protolabs to improve the build process."
+          "lead": "Support production and integration",
+          "text": "I designed additional tools, including 3D-printed and Protolabs parts, to support cell integration and improve the production process."
         }
       ],
       "gallery": [],
@@ -270,7 +280,7 @@
       ],
       "category": "spacex",
       "short": "Starship production tooling",
-      "headline": "Starship Production Tooling",
+      "headline": "V3 Starfactory Weld Cell & Integration Tooling",
       "result": "",
       "unit": "",
       "challenge": "Control manifold flange fit-up and improve access and handling during Starship assembly.",
@@ -281,32 +291,40 @@
       "showResult": false,
       "sections": [
         {
-          "title": "Define the build and integration needs",
-          "text": "I helped develop a weld-focused cell for a Starship V3 propulsion manifold. Alongside the cell, I designed tools for handling and access, and retrofits for off-nominal flight hardware."
+          "title": "Plan how the cell would build the manifold",
+          "text": "I defined the concept of operations (CONOPS) and arranged the cell in a semicircle, laying out the slat wall, Siegmund weld tables, and cantilevered racks around the ring-manifold build."
         },
         {
-          "title": "Control flange fit-up",
-          "text": "I designed self-clocking endpoint-flange fixtures, using locating features and GD&T to control position and orientation for welding."
+          "title": "Define the locating constraints",
+          "text": "I used the Siegmund table holes to locate the fixtures and kept them clear of the Orbitalum orbital tube welder. The flanged endpoints needed precise position and clocking because they formed critical vehicle passthroughs."
         },
         {
-          "title": "Set up the build cell",
-          "text": "I helped design and build the manifold subassembly cell, then oversaw its integration on the production floor."
+          "title": "Turn constraints into fixture geometry",
+          "text": "I applied 3-2-1 locating, GD&T, and selected dowel-pin fits to control the endpoints. I also sized tooling seal glands using the Parker O-Ring Handbook."
         },
         {
-          "title": "Size the load path",
-          "text": "I designed the tool for a 1,100 lb working load limit, using bending and weld calculations to size the structure."
+          "title": "Prototype, learn, then machine",
+          "text": "I quickly 3D-printed fixture components for the first article build, revised the designs from those fit-up lessons, and had the tools machined for subsequent builds. I oversaw the cell’s setup and integration."
         },
         {
-          "title": "Proof-test the tool",
-          "text": "The tool was proof-tested at 2,200 lb, twice its working load limit."
+          "title": "Establish a three-point lift",
+          "text": "I worked with the assembly’s Responsible Engineer to establish rigging points on its brackets, then designed a three-point lift and rigging plan to fly the welded manifold into the vehicle."
         },
         {
-          "title": "Plan access and assembly",
-          "text": "I developed the assembly sequence and designed an integration jig to improve technician access around the aft flap torque frames."
+          "title": "Size the structure and locate the lugs",
+          "text": "I used bending and deflection calculations to size the 1,100 lb WLL tool. I calculated bracket centers of gravity and placed welded lifting lugs directly above them to prevent tilt. I sized the lug welds so two lugs could carry the entire assembly."
         },
         {
-          "title": "Size the jig",
-          "text": "I used integration loads in bending and torsion to size the base, plates, and welds."
+          "title": "Prove the lift and plan installation",
+          "text": "I proof-tested the tool at 2,200 lb, twice its working load limit, and wrote the integration plan for welding the subassembly on the vehicle."
+        },
+        {
+          "title": "Define technician-applied loads",
+          "text": "I designed a stand to improve work access during aft flap torque-frame integration. I based its load cases on the maximum forces technicians could apply during assembly."
+        },
+        {
+          "title": "Calculate bending, torsion, and weld loads",
+          "text": "I solved for two-plane bending and maximum torsion, then used those loads to size the integration stand and its welds."
         },
         {
           "title": "Measure the as-built hardware",
@@ -317,28 +335,32 @@
           "text": "I used those models to design five flight-part retrofits for manufacture and installation on the existing assemblies."
         },
         {
-          "title": "Improve the production process",
-          "text": "Alongside these projects, I designed 3D-printed parts and parts manufactured through Protolabs to improve the build process."
+          "title": "Support production and integration",
+          "text": "I designed additional tools, including 3D-printed and Protolabs parts, to support cell integration and improve the production process."
         }
       ],
       "mediaKind": "photo",
       "cardAlt": "Carson at SpaceX",
       "process": {
         "start": {
-          "title": "Define the build and integration needs",
-          "text": "I helped develop a weld-focused cell for a Starship V3 propulsion manifold. Alongside the cell, I designed tools for handling and access, and retrofits for off-nominal flight hardware."
+          "title": "Plan how the cell would build the manifold",
+          "text": "I defined the concept of operations (CONOPS) and arranged the cell in a semicircle, laying out the slat wall, Siegmund weld tables, and cantilevered racks around the ring-manifold build."
         },
         "tracks": [
           {
             "title": "Weld cell & fixtures",
             "steps": [
               {
-                "title": "Control flange fit-up",
-                "text": "I designed self-clocking endpoint-flange fixtures, using locating features and GD&T to control position and orientation for welding."
+                "title": "Define the locating constraints",
+                "text": "I used the Siegmund table holes to locate the fixtures and kept them clear of the Orbitalum orbital tube welder. The flanged endpoints needed precise position and clocking because they formed critical vehicle passthroughs."
               },
               {
-                "title": "Set up the build cell",
-                "text": "I helped design and build the manifold subassembly cell, then oversaw its integration on the production floor."
+                "title": "Turn constraints into fixture geometry",
+                "text": "I applied 3-2-1 locating, GD&T, and selected dowel-pin fits to control the endpoints. I also sized tooling seal glands using the Parker O-Ring Handbook."
+              },
+              {
+                "title": "Prototype, learn, then machine",
+                "text": "I quickly 3D-printed fixture components for the first article build, revised the designs from those fit-up lessons, and had the tools machined for subsequent builds. I oversaw the cell’s setup and integration."
               }
             ]
           },
@@ -346,12 +368,16 @@
             "title": "Manifold lift tool",
             "steps": [
               {
-                "title": "Size the load path",
-                "text": "I designed the tool for a 1,100 lb working load limit, using bending and weld calculations to size the structure."
+                "title": "Establish a three-point lift",
+                "text": "I worked with the assembly’s Responsible Engineer to establish rigging points on its brackets, then designed a three-point lift and rigging plan to fly the welded manifold into the vehicle."
               },
               {
-                "title": "Proof-test the tool",
-                "text": "The tool was proof-tested at 2,200 lb, twice its working load limit."
+                "title": "Size the structure and locate the lugs",
+                "text": "I used bending and deflection calculations to size the 1,100 lb WLL tool. I calculated bracket centers of gravity and placed welded lifting lugs directly above them to prevent tilt. I sized the lug welds so two lugs could carry the entire assembly."
+              },
+              {
+                "title": "Prove the lift and plan installation",
+                "text": "I proof-tested the tool at 2,200 lb, twice its working load limit, and wrote the integration plan for welding the subassembly on the vehicle."
               }
             ]
           },
@@ -359,12 +385,12 @@
             "title": "Torque-frame access",
             "steps": [
               {
-                "title": "Plan access and assembly",
-                "text": "I developed the assembly sequence and designed an integration jig to improve technician access around the aft flap torque frames."
+                "title": "Define technician-applied loads",
+                "text": "I designed a stand to improve work access during aft flap torque-frame integration. I based its load cases on the maximum forces technicians could apply during assembly."
               },
               {
-                "title": "Size the jig",
-                "text": "I used integration loads in bending and torsion to size the base, plates, and welds."
+                "title": "Calculate bending, torsion, and weld loads",
+                "text": "I solved for two-plane bending and maximum torsion, then used those loads to size the integration stand and its welds."
               }
             ]
           },
@@ -384,13 +410,15 @@
         ],
         "finish": [
           {
-            "title": "Improve the production process",
-            "text": "Alongside these projects, I designed 3D-printed parts and parts manufactured through Protolabs to improve the build process."
+            "title": "Support production and integration",
+            "text": "I designed additional tools, including 3D-printed and Protolabs parts, to support cell integration and improve the production process."
           }
         ],
         "startLabel": "01 / DEFINE THE WORK",
         "finishLabel": "03 / PRODUCTION SUPPORT"
-      }
+      },
+      "role": "Ship Structures Build Engineering Intern",
+      "organization": "SpaceX"
     },
     {
       "id": "brake-rotors",
@@ -509,7 +537,9 @@
             "text": "The rotors were manufactured through outsourced three-axis CNC machining. I used temperature crayons to assess their operating temperatures."
           }
         ]
-      }
+      },
+      "role": "Dynamics Engineer",
+      "organization": "Longhorn Racing Electric"
     },
     {
       "id": "wheel-hub",
@@ -662,7 +692,9 @@
             "text": "Rotational features were turned first; CNC milling then produced the tripod cutout, pin and button holes, and flange pockets."
           }
         ]
-      }
+      },
+      "role": "Dynamics Engineer",
+      "organization": "Longhorn Racing Electric"
     },
     {
       "id": "control-arms",
@@ -776,7 +808,9 @@
             "text": "During freshman-year integration, a missed tolerance stackup caused the apex to interfere at maximum steer. We checked the required material removal in Ansys and ground the existing apex to recover clearance. The combined suspension redesign saved 4.6 lb."
           }
         ]
-      }
+      },
+      "role": "Dynamics Engineer",
+      "organization": "Longhorn Racing Electric"
     },
     {
       "id": "ride-height",
@@ -865,7 +899,9 @@
             "text": "I checked the attachment under pushrod loading in SolidWorks FEA. The shims were laser-cut and the attachment pieces machined; another team member CNC-machined the upper component. The mechanism added 0.7 lb across the car in exchange for repeatable adjustment."
           }
         ]
-      }
+      },
+      "role": "Dynamics Engineer",
+      "organization": "Longhorn Racing Electric"
     }
   ],
   "code": [
