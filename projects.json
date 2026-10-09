@@ -167,6 +167,148 @@
       "organization": "SpaceX"
     },
     {
+      "id": "brake-rotors",
+      "org": "Longhorn Racing Electric: Brakes",
+      "title": "Brake Rotors & Mounts",
+      "when": "2025 – 2026",
+      "featured": true,
+      "card": "images/rotor-slotted-cad.jpg",
+      "summary": "I designed the rotor and mount for reliable braking within the drivetrain package, combining material tradeoffs, thermal analysis, structural FEA, and temperature testing.",
+      "tags": [
+        "4140 steel",
+        "Titanium buttons",
+        "7075 mount",
+        "Transient heat transfer",
+        "Ansys FEA",
+        "Temperature testing"
+      ],
+      "points": [
+        {
+          "lead": "Problem statement",
+          "text": "I needed a reliable brake rotor and mount that fit the rear drivetrain package while limiting heat transfer into the mount."
+        },
+        {
+          "lead": "Design requirements",
+          "text": "Package the mount at the differential bolts, accommodate braking loads, and size the rotor for a 500°C temperature requirement with a safety margin."
+        },
+        {
+          "lead": "Material selection",
+          "text": "I compared cast iron and 4140 steel and selected steel for its endurance-limit advantage. Titanium buttons limited heat transfer into the 7075 aluminum mount, which I packaged at the differential bolts."
+        },
+        {
+          "lead": "Design & validation",
+          "text": "For the 500°C requirement, I first sized thickness assuming maximum braking energy became heat with no heat escaping. I refined that conservative estimate with transient conduction, forced convection, and radiation analysis. I added curved face slots for debris removal, de-gassing, and water clearance, accepting additional pad wear. In Ansys, I supported the pad contact regions and applied braking moment through the mount connections to check stress."
+        },
+        {
+          "lead": "Additional considerations",
+          "text": "The face slots improved debris, gas, and water clearance at the cost of additional pad wear. Sponsorship availability drove the Brembo P2.34 caliper choice; the supporting matrix records the technical tradeoffs."
+        }
+      ],
+      "gallery": [
+        {
+          "src": "images/rotor-slotted-cad.jpg",
+          "cap": "Slotted rotor: CAD",
+          "w": 556,
+          "h": 597
+        },
+        {
+          "src": "images/rotor-fea.jpg",
+          "cap": "FEA of rotor and mount",
+          "w": 951,
+          "h": 817
+        },
+        {
+          "src": "images/rotor-vehicle-cad.jpg",
+          "cap": "Rear rotor assembly in vehicle",
+          "w": 1306,
+          "h": 497
+        },
+        {
+          "src": "images/lhre-parts-bench.jpg",
+          "cap": "Machined dynamics hardware",
+          "w": 1675,
+          "h": 853
+        }
+      ],
+      "cardSize": [
+        556,
+        597
+      ],
+      "category": "racing",
+      "short": "Brake rotors & mounts",
+      "headline": "Brake Rotors & Mounts",
+      "result": "",
+      "unit": "",
+      "challenge": "Coordinate the rotor packaging with the powertrain team and design for long-term reliability, with a 500°C temperature requirement and a safety margin.",
+      "decision": "Compare cast iron with 4140 steel, use titanium buttons to limit heat flow into an aluminum mount, and refine rotor thickness through transient thermal analysis.",
+      "proof": "Checked the rotor in Ansys with supports at the pad contact regions and braking moment applied through the mount bolt locations. Used temperature crayons to assess operating temperatures and outsourced manufacturing to a three-axis CNC supplier.",
+      "takeaway": "Long-term reliability guided the material choices, thermal sizing, and structural checks.",
+      "discipline": "Thermal analysis / Mechanical design",
+      "showResult": false,
+      "caliperSelection": {
+        "selected": "Brembo P2.34",
+        "rationale": "Sponsorship availability was the deciding factor. The Brembo had the largest listed pad area, tied the ISR for the largest listed piston area, and weighed less than the ISR. The AP Racing option was lighter and the Wilwood was less expensive; the comparison did not identify a clear winner across all criteria."
+      },
+      "sections": [
+        {
+          "title": "Problem statement",
+          "text": "I needed a reliable brake rotor and mount that fit the rear drivetrain package while limiting heat transfer into the mount."
+        },
+        {
+          "title": "Design requirements",
+          "text": "Package the mount at the differential bolts, accommodate braking loads, and size the rotor for a 500°C temperature requirement with a safety margin."
+        },
+        {
+          "title": "Material selection",
+          "text": "I compared cast iron and 4140 steel and selected steel for its endurance-limit advantage. Titanium buttons limited heat transfer into the 7075 aluminum mount, which I packaged at the differential bolts."
+        },
+        {
+          "title": "Design & validation",
+          "text": "For the 500°C requirement, I first sized thickness assuming maximum braking energy became heat with no heat escaping. I refined that conservative estimate with transient conduction, forced convection, and radiation analysis. I added curved face slots for debris removal, de-gassing, and water clearance, accepting additional pad wear. In Ansys, I supported the pad contact regions and applied braking moment through the mount connections to check stress."
+        },
+        {
+          "title": "Additional considerations",
+          "text": "The face slots improved debris, gas, and water clearance at the cost of additional pad wear. Sponsorship availability drove the Brembo P2.34 caliper choice; the supporting matrix records the technical tradeoffs."
+        }
+      ],
+      "cardAlt": "Slotted steel rotor and mounting geometry",
+      "process": {
+        "outline": [
+          {
+            "title": "Problem statement",
+            "text": "I needed a reliable brake rotor and mount that fit the rear drivetrain package while limiting heat transfer into the mount."
+          },
+          {
+            "title": "Design requirements",
+            "text": "Package the mount at the differential bolts, accommodate braking loads, and size the rotor for a 500°C temperature requirement with a safety margin."
+          },
+          {
+            "title": "Material selection",
+            "text": "I compared cast iron and 4140 steel and selected steel for its endurance-limit advantage. Titanium buttons limited heat transfer into the 7075 aluminum mount, which I packaged at the differential bolts."
+          },
+          {
+            "title": "Design & validation",
+            "steps": [
+              {
+                "title": "Thickness: bound and refine the heat load",
+                "text": "For the 500°C requirement, I first sized thickness assuming maximum braking energy became heat with no heat escaping. I refined that conservative estimate with transient conduction, forced convection, and radiation analysis."
+              },
+              {
+                "title": "Geometry: manage debris and check stress",
+                "text": "I added curved face slots for debris removal, de-gassing, and water clearance, accepting additional pad wear. In Ansys, I supported the pad contact regions and applied braking moment through the mount connections to check stress."
+              }
+            ]
+          },
+          {
+            "title": "Additional considerations",
+            "text": "The face slots improved debris, gas, and water clearance at the cost of additional pad wear. Sponsorship availability drove the Brembo P2.34 caliper choice; the supporting matrix records the technical tradeoffs."
+          }
+        ]
+      },
+      "role": "Dynamics Engineer",
+      "organization": "Longhorn Racing Electric"
+    },
+    {
       "id": "ship-structures",
       "org": "SpaceX: Structures Build Engineering",
       "title": "V3 Starfactory Weld Cell & Integration Tooling",
@@ -331,148 +473,6 @@
       },
       "role": "Ship Structures Build Engineering Intern",
       "organization": "SpaceX"
-    },
-    {
-      "id": "brake-rotors",
-      "org": "Longhorn Racing Electric: Brakes",
-      "title": "Brake Rotors & Mounts",
-      "when": "2025 – 2026",
-      "featured": true,
-      "card": "images/rotor-slotted-cad.jpg",
-      "summary": "I designed the rotor and mount for reliable braking within the drivetrain package, combining material tradeoffs, thermal analysis, structural FEA, and temperature testing.",
-      "tags": [
-        "4140 steel",
-        "Titanium buttons",
-        "7075 mount",
-        "Transient heat transfer",
-        "Ansys FEA",
-        "Temperature testing"
-      ],
-      "points": [
-        {
-          "lead": "Problem statement",
-          "text": "I needed a reliable brake rotor and mount that fit the rear drivetrain package while limiting heat transfer into the mount."
-        },
-        {
-          "lead": "Design requirements",
-          "text": "Package the mount at the differential bolts, accommodate braking loads, and size the rotor for a 500°C temperature requirement with a safety margin."
-        },
-        {
-          "lead": "Material selection",
-          "text": "I compared cast iron and 4140 steel and selected steel for its endurance-limit advantage. Titanium buttons limited heat transfer into the 7075 aluminum mount, which I packaged at the differential bolts."
-        },
-        {
-          "lead": "Design & validation",
-          "text": "For the 500°C requirement, I first sized thickness assuming maximum braking energy became heat with no heat escaping. I refined that conservative estimate with transient conduction, forced convection, and radiation analysis. I added curved face slots for debris removal, de-gassing, and water clearance, accepting additional pad wear. In Ansys, I supported the pad contact regions and applied braking moment through the mount connections to check stress."
-        },
-        {
-          "lead": "Additional considerations",
-          "text": "The face slots improved debris, gas, and water clearance at the cost of additional pad wear. Sponsorship availability drove the Brembo P2.34 caliper choice; the supporting matrix records the technical tradeoffs."
-        }
-      ],
-      "gallery": [
-        {
-          "src": "images/rotor-slotted-cad.jpg",
-          "cap": "Slotted rotor: CAD",
-          "w": 556,
-          "h": 597
-        },
-        {
-          "src": "images/rotor-fea.jpg",
-          "cap": "FEA of rotor and mount",
-          "w": 951,
-          "h": 817
-        },
-        {
-          "src": "images/rotor-vehicle-cad.jpg",
-          "cap": "Rear rotor assembly in vehicle",
-          "w": 1306,
-          "h": 497
-        },
-        {
-          "src": "images/lhre-parts-bench.jpg",
-          "cap": "Machined dynamics hardware",
-          "w": 1675,
-          "h": 853
-        }
-      ],
-      "cardSize": [
-        556,
-        597
-      ],
-      "category": "racing",
-      "short": "Brake rotors & mounts",
-      "headline": "Brake Rotors & Mounts",
-      "result": "",
-      "unit": "",
-      "challenge": "Coordinate the rotor packaging with the powertrain team and design for long-term reliability, with a 500°C temperature requirement and a safety margin.",
-      "decision": "Compare cast iron with 4140 steel, use titanium buttons to limit heat flow into an aluminum mount, and refine rotor thickness through transient thermal analysis.",
-      "proof": "Checked the rotor in Ansys with supports at the pad contact regions and braking moment applied through the mount bolt locations. Used temperature crayons to assess operating temperatures and outsourced manufacturing to a three-axis CNC supplier.",
-      "takeaway": "Long-term reliability guided the material choices, thermal sizing, and structural checks.",
-      "discipline": "Thermal analysis / Mechanical design",
-      "showResult": false,
-      "caliperSelection": {
-        "selected": "Brembo P2.34",
-        "rationale": "Sponsorship availability was the deciding factor. The Brembo had the largest listed pad area, tied the ISR for the largest listed piston area, and weighed less than the ISR. The AP Racing option was lighter and the Wilwood was less expensive; the comparison did not identify a clear winner across all criteria."
-      },
-      "sections": [
-        {
-          "title": "Problem statement",
-          "text": "I needed a reliable brake rotor and mount that fit the rear drivetrain package while limiting heat transfer into the mount."
-        },
-        {
-          "title": "Design requirements",
-          "text": "Package the mount at the differential bolts, accommodate braking loads, and size the rotor for a 500°C temperature requirement with a safety margin."
-        },
-        {
-          "title": "Material selection",
-          "text": "I compared cast iron and 4140 steel and selected steel for its endurance-limit advantage. Titanium buttons limited heat transfer into the 7075 aluminum mount, which I packaged at the differential bolts."
-        },
-        {
-          "title": "Design & validation",
-          "text": "For the 500°C requirement, I first sized thickness assuming maximum braking energy became heat with no heat escaping. I refined that conservative estimate with transient conduction, forced convection, and radiation analysis. I added curved face slots for debris removal, de-gassing, and water clearance, accepting additional pad wear. In Ansys, I supported the pad contact regions and applied braking moment through the mount connections to check stress."
-        },
-        {
-          "title": "Additional considerations",
-          "text": "The face slots improved debris, gas, and water clearance at the cost of additional pad wear. Sponsorship availability drove the Brembo P2.34 caliper choice; the supporting matrix records the technical tradeoffs."
-        }
-      ],
-      "cardAlt": "Slotted steel rotor and mounting geometry",
-      "process": {
-        "outline": [
-          {
-            "title": "Problem statement",
-            "text": "I needed a reliable brake rotor and mount that fit the rear drivetrain package while limiting heat transfer into the mount."
-          },
-          {
-            "title": "Design requirements",
-            "text": "Package the mount at the differential bolts, accommodate braking loads, and size the rotor for a 500°C temperature requirement with a safety margin."
-          },
-          {
-            "title": "Material selection",
-            "text": "I compared cast iron and 4140 steel and selected steel for its endurance-limit advantage. Titanium buttons limited heat transfer into the 7075 aluminum mount, which I packaged at the differential bolts."
-          },
-          {
-            "title": "Design & validation",
-            "steps": [
-              {
-                "title": "Thickness: bound and refine the heat load",
-                "text": "For the 500°C requirement, I first sized thickness assuming maximum braking energy became heat with no heat escaping. I refined that conservative estimate with transient conduction, forced convection, and radiation analysis."
-              },
-              {
-                "title": "Geometry: manage debris and check stress",
-                "text": "I added curved face slots for debris removal, de-gassing, and water clearance, accepting additional pad wear. In Ansys, I supported the pad contact regions and applied braking moment through the mount connections to check stress."
-              }
-            ]
-          },
-          {
-            "title": "Additional considerations",
-            "text": "The face slots improved debris, gas, and water clearance at the cost of additional pad wear. Sponsorship availability drove the Brembo P2.34 caliper choice; the supporting matrix records the technical tradeoffs."
-          }
-        ]
-      },
-      "role": "Dynamics Engineer",
-      "organization": "Longhorn Racing Electric"
     },
     {
       "id": "wheel-hub",
