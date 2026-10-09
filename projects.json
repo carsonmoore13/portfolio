@@ -23,11 +23,7 @@
         },
         {
           "lead": "Design requirements",
-          "text": "Withstand maximum feedline blow-off loads, control elbow orientation and weld fit-up, improve GOX sealing, and maintain bolt preload under repeated loading."
-        },
-        {
-          "lead": "Material selection",
-          "text": "I chose 304 stainless steel for the elbow to match the blankoff’s weld material. The GOX redesign used a Monel bung and stainless blankoff; load, gapping, and fatigue checks supported switching the attachment bolts to stocked Grade 5 hardware."
+          "text": "Reduce leak-prone interfaces in the test assembly to improve cryo-proof data collection. Redesign components to shorten integration time and move assembly work upstream, off the critical path of on-vehicle production."
         },
         {
           "lead": "Design & validation",
@@ -66,11 +62,7 @@
         },
         {
           "title": "Design requirements",
-          "text": "Withstand maximum feedline blow-off loads, control elbow orientation and weld fit-up, improve GOX sealing, and maintain bolt preload under repeated loading."
-        },
-        {
-          "title": "Material selection",
-          "text": "I chose 304 stainless steel for the elbow to match the blankoff’s weld material. The GOX redesign used a Monel bung and stainless blankoff; load, gapping, and fatigue checks supported switching the attachment bolts to stocked Grade 5 hardware."
+          "text": "Reduce leak-prone interfaces in the test assembly to improve cryo-proof data collection. Redesign components to shorten integration time and move assembly work upstream, off the critical path of on-vehicle production."
         },
         {
           "title": "Design & validation",
@@ -93,11 +85,7 @@
           },
           {
             "title": "Design requirements",
-            "text": "Withstand maximum feedline blow-off loads, control elbow orientation and weld fit-up, improve GOX sealing, and maintain bolt preload under repeated loading."
-          },
-          {
-            "title": "Material selection",
-            "text": "I chose 304 stainless steel for the elbow to match the blankoff’s weld material. The GOX redesign used a Monel bung and stainless blankoff; load, gapping, and fatigue checks supported switching the attachment bolts to stocked Grade 5 hardware."
+            "text": "Reduce leak-prone interfaces in the test assembly to improve cryo-proof data collection. Redesign components to shorten integration time and move assembly work upstream, off the critical path of on-vehicle production."
           },
           {
             "title": "Design & validation",
