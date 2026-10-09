@@ -87,6 +87,9 @@ img[src$="hub-cad-render.jpg"],img[src$="ridehgt-assembly.jpg"]{clip-path:inset(
 /* Trim the captured window edge around the hose-carrier CAD, including the enlarged view. */
 img[src$="hose-assembly.jpg"]{clip-path:inset(2%)}
 
+.home .hero-portrait{flex:0 0 auto;width:clamp(280px,31vw,440px);aspect-ratio:1;margin:0 0 0 auto;border-radius:50%;overflow:hidden;border:4px solid #ffffffb3;box-shadow:0 20px 65px #071b3159}
+.home .hero-portrait img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 32%}
+@media(max-width:900px){.home .alpine-hero{flex-direction:column;align-items:flex-start;gap:40px}.home .hero-portrait{width:min(64vw,320px);margin:0 auto}.home .alpine-intro{max-width:100%}}
 .project-process{margin-bottom:45px}
 .calculation-flow{max-width:850px;margin:30px auto}
 .calculation-flow h4{font:600 17px/1.5 var(--body);margin:0 0 12px}
