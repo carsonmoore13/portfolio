@@ -510,7 +510,7 @@
         },
         {
           "lead": "Design & validation",
-          "text": "I screened bearings in SKF SimPro Quick for load capacity, fatigue life, and power loss. The selected bearing set the hub’s packaging and thickness requirements. I built the initial hub geometry around the given packaging constraints and interface requirements from the drivetrain, wheel, bearing, and electronics systems. I sized hub-nut engagement using bolt tensile and nut thread-shear areas. In Ansys, I applied wheel loads from the team’s truss solver to the wheel flange, modeled the tensile load from the center-lock nut, and included bearing forces and drivetrain torque at the tripod interface. I used the FEA results to identify where I could remove material, then iterated on the pockets and rechecked the revised hub in Ansys."
+          "text": "I screened bearings in SKF SimPro Quick for load capacity, fatigue life, and power loss. Our initial choice, the SKF 71817 ACDGB/VQ253 angular-contact bearing, exceeded our budget, so we selected the SKF 61916-2RZ deep-groove ball bearing as the most practical option. Its dimensions set the hub’s packaging and thickness requirements. I built the initial hub geometry around the given packaging constraints and interface requirements from the drivetrain, wheel, bearing, and electronics systems. I sized hub-nut engagement using bolt tensile and nut thread-shear areas. In Ansys, I applied wheel loads from the team’s truss solver to the wheel flange, modeled the tensile load from the center-lock nut, and included bearing forces and drivetrain torque at the tripod interface. I used the FEA results to identify where I could remove material, then iterated on the pockets and rechecked the revised hub in Ansys."
         },
         {
           "lead": "Manufacturing & integration",
@@ -518,7 +518,7 @@
         },
         {
           "lead": "Additional considerations",
-          "text": "Bearing selection and machining access constrained where I could remove material. The selected SKF 71817 bearing is distinct from the 61916 pair documented in the supporting team-reference report."
+          "text": "Bearing selection and machining access constrained where I could remove material."
         }
       ],
       "gallery": [
@@ -575,10 +575,10 @@
       "discipline": "System integration / Bearing selection / Mechanical design",
       "showResult": false,
       "bearingSelection": {
-        "model": "SKF 71817 ACDGB/VQ253",
-        "weightSaved": "0.8 lb",
+        "model": "SKF 61916-2RZ DGBB",
+        "selectionStatus": "Selected",
         "method": "Build the assembly in SKF SimPro Quick and sweep the candidate bearings. Work with Powertrain to set the allowable inner diameter.",
-        "validation": "Selected the SKF 71817 ACDGB/VQ253 angular-contact bearing after reviewing fatigue life, load capacity, and power loss across wheel speeds."
+        "validation": "Selected the SKF 61916-2RZ deep-groove ball bearing after reviewing fatigue life, load capacity, and power loss across wheel speeds."
       },
       "legacyAnchors": [
         "wheel-bearings"
@@ -598,7 +598,7 @@
         },
         {
           "title": "Design & validation",
-          "text": "I screened bearings in SKF SimPro Quick for load capacity, fatigue life, and power loss. The selected bearing set the hub’s packaging and thickness requirements. I built the initial hub geometry around the given packaging constraints and interface requirements from the drivetrain, wheel, bearing, and electronics systems. I sized hub-nut engagement using bolt tensile and nut thread-shear areas. In Ansys, I applied wheel loads from the team’s truss solver to the wheel flange, modeled the tensile load from the center-lock nut, and included bearing forces and drivetrain torque at the tripod interface. I used the FEA results to identify where I could remove material, then iterated on the pockets and rechecked the revised hub in Ansys."
+          "text": "I screened bearings in SKF SimPro Quick for load capacity, fatigue life, and power loss. Our initial choice, the SKF 71817 ACDGB/VQ253 angular-contact bearing, exceeded our budget, so we selected the SKF 61916-2RZ deep-groove ball bearing as the most practical option. Its dimensions set the hub’s packaging and thickness requirements. I built the initial hub geometry around the given packaging constraints and interface requirements from the drivetrain, wheel, bearing, and electronics systems. I sized hub-nut engagement using bolt tensile and nut thread-shear areas. In Ansys, I applied wheel loads from the team’s truss solver to the wheel flange, modeled the tensile load from the center-lock nut, and included bearing forces and drivetrain torque at the tripod interface. I used the FEA results to identify where I could remove material, then iterated on the pockets and rechecked the revised hub in Ansys."
         },
         {
           "title": "Manufacturing & integration",
@@ -606,7 +606,7 @@
         },
         {
           "title": "Additional considerations",
-          "text": "Bearing selection and machining access constrained where I could remove material. The selected SKF 71817 bearing is distinct from the 61916 pair documented in the supporting team-reference report."
+          "text": "Bearing selection and machining access constrained where I could remove material."
         }
       ],
       "cardAlt": "Rear wheel hub and bearing assembly CAD model",
@@ -629,7 +629,7 @@
             "steps": [
               {
                 "title": "Select the bearing",
-                "text": "I screened bearings in SKF SimPro Quick for load capacity, fatigue life, and power loss. The selected bearing set the hub’s packaging and thickness requirements."
+                "text": "I screened bearings in SKF SimPro Quick for load capacity, fatigue life, and power loss. Our initial choice, the SKF 71817 ACDGB/VQ253 angular-contact bearing, exceeded our budget, so we selected the SKF 61916-2RZ deep-groove ball bearing as the most practical option. Its dimensions set the hub’s packaging and thickness requirements."
               },
               {
                 "title": "Model the constrained geometry",
@@ -651,7 +651,7 @@
           },
           {
             "title": "Additional considerations",
-            "text": "Bearing selection and machining access constrained where I could remove material. The selected SKF 71817 bearing is distinct from the 61916 pair documented in the supporting team-reference report."
+            "text": "Bearing selection and machining access constrained where I could remove material."
           }
         ]
       },
