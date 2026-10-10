@@ -683,8 +683,8 @@
           "text": "I cut the carbon tubes and turned their end plugs, controlling bonding-surface diameter within 0.0005 in. For the control arms, I cut steel tubing, turned and milled plugs, bored and reamed bearing seats, and welded and tapped rod-end interfaces."
         },
         {
-          "lead": "Additional considerations",
-          "text": "During freshman-year integration, a missed tolerance stackup caused the apex to interfere at maximum steer. We checked the required material removal in Ansys and ground the existing apex to recover clearance. The combined suspension redesign saved 4.6 lb."
+          "lead": "Challenges",
+          "text": "During freshman-year integration, a missed tolerance stackup caused the apex to interfere at maximum steer. We checked the required material removal in Ansys and ground the existing apex to recover clearance."
         }
       ],
       "gallery": [
@@ -750,8 +750,8 @@
           "text": "I cut the carbon tubes and turned their end plugs, controlling bonding-surface diameter within 0.0005 in. For the control arms, I cut steel tubing, turned and milled plugs, bored and reamed bearing seats, and welded and tapped rod-end interfaces."
         },
         {
-          "title": "Additional considerations",
-          "text": "During freshman-year integration, a missed tolerance stackup caused the apex to interfere at maximum steer. We checked the required material removal in Ansys and ground the existing apex to recover clearance. The combined suspension redesign saved 4.6 lb."
+          "title": "Challenges",
+          "text": "During freshman-year integration, a missed tolerance stackup caused the apex to interfere at maximum steer. We checked the required material removal in Ansys and ground the existing apex to recover clearance."
         }
       ],
       "cardAlt": "Control-arm and pushrod CAD assembly",
@@ -787,8 +787,8 @@
             "text": "I cut the carbon tubes and turned their end plugs, controlling bonding-surface diameter within 0.0005 in. For the control arms, I cut steel tubing, turned and milled plugs, bored and reamed bearing seats, and welded and tapped rod-end interfaces."
           },
           {
-            "title": "Additional considerations",
-            "text": "During freshman-year integration, a missed tolerance stackup caused the apex to interfere at maximum steer. We checked the required material removal in Ansys and ground the existing apex to recover clearance. The combined suspension redesign saved 4.6 lb."
+            "title": "Challenges",
+            "text": "During freshman-year integration, a missed tolerance stackup caused the apex to interfere at maximum steer. We checked the required material removal in Ansys and ground the existing apex to recover clearance."
           }
         ]
       },
@@ -802,7 +802,7 @@
       "when": "2023 – 2024",
       "featured": true,
       "card": "images/ridehgt-assembly.jpg",
-      "summary": "I designed a shim-based attachment to make ride-height changes more repeatable, replacing a process that relied on turning an opposite-thread pushrod.",
+      "summary": "I designed a shim-based attachment to make ride-height changes more repeatable, replacing a process that relied on turning a threaded rod-end.",
       "tags": [
         "Formula 1 inspired",
         "7075 aluminium",
@@ -812,7 +812,7 @@
       "points": [
         {
           "lead": "Problem statement",
-          "text": "Ride-height adjustment relied on turning an opposite-thread pushrod. I designed a shim-based attachment for more repeatable setup changes."
+          "text": "Ride-height adjustment relied on turning a threaded rod-end. I designed a shim-based attachment for more repeatable setup changes."
         },
         {
           "lead": "Design requirements",
@@ -867,7 +867,7 @@
       "sections": [
         {
           "title": "Problem statement",
-          "text": "Ride-height adjustment relied on turning an opposite-thread pushrod. I designed a shim-based attachment for more repeatable setup changes."
+          "text": "Ride-height adjustment relied on turning a threaded rod-end. I designed a shim-based attachment for more repeatable setup changes."
         },
         {
           "title": "Design requirements",
@@ -895,7 +895,7 @@
         "outline": [
           {
             "title": "Problem statement",
-            "text": "Ride-height adjustment relied on turning an opposite-thread pushrod. I designed a shim-based attachment for more repeatable setup changes."
+            "text": "Ride-height adjustment relied on turning a threaded rod-end. I designed a shim-based attachment for more repeatable setup changes."
           },
           {
             "title": "Design requirements",

@@ -292,27 +292,27 @@
 <summary>Calculations &amp; reference material <span aria-hidden="true">+</span>
 </summary>
 <section class="brake-sizing frozen-reference" aria-labelledby="brake-sizing-title">
-<p class="eyebrow mono">2026 FROZEN CALCULATIONS</p>
+<p class="eyebrow mono">BRAKE ROTOR CALCULATIONS</p>
 <h3 id="brake-sizing-title">From tire grip to rotor geometry</h3>
 <p class="sizing-intro">The rotor radius was part of a system-level balance: generate braking torque near each axle’s grip limit, then fit the pad and mounting buttons around that radius.</p>
 <ol class="process-steps calculation-flow">
 <li>
 <h4>01 / Establish the braking load case</h4>
-<p>The frozen model uses a 600 lbf vehicle-and-driver weight, 330 N of downforce, a 1,549.4 mm wheelbase and a 282.4 mm CG height. At 1.57 g, the recorded frontward load transfer is 763.9 N, leaving 2,263.3 N on the front axle and 735.6 N on the rear.</p>
+<p>The braking model uses a 600 lbf vehicle-and-driver weight, 330 N of downforce, a 1,549.4 mm wheelbase and a 282.4 mm CG height. At 1.57 g, the recorded frontward load transfer is 763.9 N, leaving 2,263.3 N on the front axle and 735.6 N on the rear.</p>
 <p class="calculation-result">Modeled longitudinal grip: 2,914.3 N front / 1,266.2 N rear.</p>
 </li>
 <li>
 <h4>02 / Match braking torque to available grip</h4>
 <p>With a 100 lbf pedal input, 3.5:1 pedal ratio and 56.2% front bias, the model pairs 72 mm front and 80 mm rear effective rotor radii with 34 mm caliper pistons and a 0.50 pad friction coefficient. The resulting tire forces are 2,891.2 N front and 1,251.8 N rear.</p>
-<p class="calculation-result">99.21% front / 98.87% rear of modeled locking force. Pedal-force gradient: 64.4 lbf/g, within the sheet’s 60–70 lbf/g target.</p>
+<p class="calculation-result">99.21% front / 98.87% rear of modeled locking force. Pedal-force gradient: 64.4 lbf/g, within the 60–70 lbf/g target.</p>
 <p>Using axle torque = tire force × 0.1999 m loaded tire radius gives approximately 578.0 N·m front and 250.2 N·m rear. These are axle totals at the stated pedal input, not per-rotor ultimate loads.</p>
 </li>
 <li>
 <h4>03 / Turn effective radius into a rotor envelope</h4>
-<p>The pad’s radial width establishes the swept band. Edge clearance sets the outer diameter; button size and button-to-pad clearance set the inner boundary. The frozen dimensions make those packaging allowances explicit.</p>
-<div class="matrix-scroll" role="region" aria-label="Frozen rotor dimensions" tabindex="0">
+<p>The pad’s radial width establishes the swept band. Edge clearance sets the outer diameter; button size and button-to-pad clearance set the inner boundary. These dimensions account for those packaging allowances.</p>
+<div class="matrix-scroll" role="region" aria-label="Rotor dimensions" tabindex="0">
 <table class="rotor-dimensions">
-<caption>Frozen geometry, all dimensions in mm</caption>
+<caption>Rotor geometry, all dimensions in mm</caption>
 <thead>
 <tr>
 <th scope="col">Dimension</th>
@@ -363,7 +363,7 @@
 </li>
 <li>
 <h4>04 / Carry the envelope into detailed design</h4>
-<p>This calculation establishes braking balance and radial packaging. Rotor thickness, heat transfer through the buttons, and rotor/carrier stresses require the separate thermal and structural checks described in the project. The frozen sheet does not establish those margins.</p>
+<p>This calculation establishes braking balance and radial packaging. Rotor thickness, heat transfer through the buttons, and rotor/carrier stresses require the separate thermal and structural checks described in the project.</p>
 </li>
 </ol>
 </section>
@@ -371,7 +371,7 @@
 <div class="caliper-heading">
 <div>
 <p class="eyebrow mono">COMPONENT SELECTION</p>
-<h3 id="caliper-title">Caliper decision matrix</h3>
+<h3 id="caliper-title">Brake caliper decision matrix</h3>
 </div>
 <span class="selection-tag mono">SELECTED / BREMBO P2.34</span>
 </div>
@@ -823,8 +823,8 @@
 </li>
 <li class="outline-narrow">
 <p class="process-label">06</p>
-<h3>Additional considerations</h3>
-<p>During freshman-year integration, a missed tolerance stackup caused the apex to interfere at maximum steer. We checked the required material removal in Ansys and ground the existing apex to recover clearance. The combined suspension redesign saved 4.6 lb.</p>
+<h3>Challenges</h3>
+<p>During freshman-year integration, a missed tolerance stackup caused the apex to interfere at maximum steer. We checked the required material removal in Ansys and ground the existing apex to recover clearance.</p>
 </li>
 </ol>
 </div>
@@ -866,7 +866,7 @@
 <img src="/images/ridehgt-assembly.jpg" alt="Shim-based ride-height adjustment assembly" width="1107" height="1193" loading="lazy">
 </a>
 </figure>
-<p class="project-summary">I designed a shim-based attachment to make ride-height changes more repeatable, replacing a process that relied on turning an opposite-thread pushrod.</p>
+<p class="project-summary">I designed a shim-based attachment to make ride-height changes more repeatable, replacing a process that relied on turning a threaded rod-end.</p>
 <details class="case-details">
 <summary>
 <span>Explore this project<span class="sr-only">: Discrete ride-height adjustment</span>
@@ -879,7 +879,7 @@
 <li class="outline-narrow">
 <p class="process-label">01</p>
 <h3>Problem statement</h3>
-<p>Ride-height adjustment relied on turning an opposite-thread pushrod. I designed a shim-based attachment for more repeatable setup changes.</p>
+<p>Ride-height adjustment relied on turning a threaded rod-end. I designed a shim-based attachment for more repeatable setup changes.</p>
 </li>
 <li class="outline-narrow">
 <p class="process-label">02</p>
